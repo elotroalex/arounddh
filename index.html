@@ -7,16 +7,14 @@ layout: default
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 603 291" enable-background="new 0 0 603 291" xml:space="preserve">
 	 {% include map.svg %}
-
+<circle fill="#A00000" stroke="#FFFDFD" stroke-miterlimit="10" cx="278.1" cy="40.6" r="3"/>
 </svg>
-
-  <h1>Posts</h1>
 
   <ul class="posts">
     {% for post in site.posts %}
       <li>
-        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
         <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
         {{ post.content }}
       </li>
     {% endfor %}
