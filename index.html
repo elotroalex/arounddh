@@ -13,17 +13,28 @@ layout: default
   {% endfor %}	 
 </svg>
 
-
+ 
+	     
   <ul class="posts">
+    {% assign i=0 %}
     {% for post in site.posts %}
+
       <li>
         <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
         {{ post.content }}
+        {% for project in site.data.projects limit:1 offset:i %}
+	    <p>Today's project: {{ project.name }}</p>
+  	    {% endfor %}
+  	    {% assign i= i | plus:1 %}
       </li>
+		
     {% endfor %}
+    
   </ul>
-  
+
+
+
 
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 

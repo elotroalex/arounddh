@@ -12,5 +12,5 @@ permalink: pretty
 # Paginator
 paginate: 81
 
-# Stop posts from publishing
+# Stop future posts from publishing
 future: false
