@@ -6,8 +6,11 @@ layout: default
 
 <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="360" viewBox="0 0 201 97">
 	 {% include map.svg %}
-
+	 {% for project in site.data.projects limit:1 offset:0 %}
+	 {{ project.point_html }}
+  {% endfor %}	 
 </svg>
+
 
   <ul class="posts">
     {% for post in site.posts %}
@@ -18,6 +21,7 @@ layout: default
       </li>
     {% endfor %}
   </ul>
+  
 
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
