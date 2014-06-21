@@ -148,10 +148,15 @@ a:visited { color: #205caa; }
 
 .posts { list-style-type: none; }
 
-.posts li { margin-bottom: 30px; }
+.posts li { 
+  margin-bottom: 30px;
+  margin-top: 30px;
+  text-align: center; 
+
+}
 
 .posts .post-link {
-  font-size: 24px;
+  font-size: 32px;
   letter-spacing: -1px;
   line-height: 1;
 }
