@@ -16,7 +16,7 @@ layout: default
  
 	     
   <ul class="posts">
-    {% assign i=0 %}
+    {% assign i=day %}
     {% for post in site.posts %}
 
       <li>
@@ -25,8 +25,9 @@ layout: default
         {{ post.content }}
         {% for project in site.data.projects limit:1 offset:i %}
 	    <p>Today's project: {{ project.name }}</p>
+	    <p>Edited by: {{ project.editor }}</p>
   	    {% endfor %}
-  	    {% assign i= i | plus:1 %}
+  	    {% assign i= i | minus:1 %}
       </li>
 		
     {% endfor %}
