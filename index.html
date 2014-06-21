@@ -6,12 +6,14 @@ layout: default
 
 <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="360" viewBox="0 0 201 97">
 	 {% include map.svg %}
-	 {% for project in site.data.projects limit:1 offset:0 %}
+	 {% assign totalposts = site.posts | size %}
+	 {% assign day = totalposts | minus:1 %}
+	 {% for project in site.data.projects limit:1 offset:day %}
 	 {{ project.point_html }}
   {% endfor %}	 
 </svg>
 
-
+<p> The total number of posts is {{ site.posts | size }} </p>
   <ul class="posts">
     {% for post in site.posts %}
       <li>

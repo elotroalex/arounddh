@@ -8,3 +8,6 @@ url: "http://www.elotroalex.com"
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+# Paginator
+paginate: 81
