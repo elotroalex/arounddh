@@ -14,3 +14,7 @@ paginate: 81
 
 # Stop future posts from publishing
 future: false
+
+limit_posts: 1
+
+timezone: America/New_York
