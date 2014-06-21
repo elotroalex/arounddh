@@ -16,18 +16,13 @@ layout: default
  
 	     
   <ul class="posts">
-    {% assign i=day %}
+
     {% for post in site.posts %}
 
       <li>
         <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-        {{ post.content }}
-        {% for project in site.data.projects limit:1 offset:i %}
-	    <p>Link: <a href="{{ project.link }}">{{ project.link }}</a></p>
-	    <p>Edited by: {{ project.editor }}</p>
-  	    {% endfor %}
-  	    {% assign i= i | minus:1 %}
+
       </li>
 		
     {% endfor %}
