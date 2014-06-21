@@ -24,7 +24,7 @@ layout: default
         <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
         {{ post.content }}
         {% for project in site.data.projects limit:1 offset:i %}
-	    <p>Today's project: {{ project.name }}</p>
+	    <p>Link: <a href="{{ project.link }}">{{ project.link }}</a></p>
 	    <p>Edited by: {{ project.editor }}</p>
   	    {% endfor %}
   	    {% assign i= i | minus:1 %}
