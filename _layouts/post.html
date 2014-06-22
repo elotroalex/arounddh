@@ -10,13 +10,6 @@ layout: default
 
   <article class="post-content">
   {{ content }}
-  
-	{% assign i=day %}
-	{% for project in site.data.projects limit:1 offset:i %}
-	<p>Link: <a href="{{ project.link }}">{{ project.link }}</a></p>
-	<p>Edited by: {{ project.editor }}</p>
-	{% endfor %}
-	{% assign i= i | minus:1 %}
   </article>
 
 </div>
