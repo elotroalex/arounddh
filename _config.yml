@@ -3,7 +3,7 @@ title: Around DH in 80 Days
 email: colibri.alex@gmail.com
 description: "A tour of the digital humanities in 80 days"
 baseurl: ""
-url: "http://www.elotroalex.com"
+url: "http://www.arounddh.org"
 
 # Build settings
 markdown: kramdown
