@@ -9,12 +9,5 @@ url: "http://www.elotroalex.com"
 markdown: kramdown
 permalink: pretty
 
-# Paginator
-paginate: 81
-
-# Stop future posts from publishing
-future: false
-
-# limit_posts: 1
-
+# For documentation purposes
 timezone: America/New_York
