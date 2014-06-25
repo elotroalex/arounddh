@@ -398,6 +398,14 @@ a:visited { color: #205caa; }
     padding: 5px 10px;
     margin: 0;
   }
+  
+/* Code for getting rid of .rss feed and / */
+
+a[href='/feed.xml'] {
+	background-color:gold;
+}
+
+
 
   .post-header h1 { font-size: 36px; }
   .post-content h2 { font-size: 28px; }
