@@ -2,7 +2,7 @@
 /* ----------------------------------------------------------*/
 
 /* Make previous posts invisible in front page */
-.posts li:nth-child(n+2) a.front-page {
+.posts li:nth-child(n+2) a.front-page, .posts li:nth-child(n+2) span.front-page {
 	display:none;
 }
 
