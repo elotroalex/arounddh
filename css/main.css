@@ -1,4 +1,29 @@
-/* test */
+/* User */
+/* ----------------------------------------------------------*/
+
+/* Make previous posts invisible in front page */
+.posts li:nth-child(n+2) a.front-page {
+	display:none;
+}
+
+/* Our journey link */
+
+p.our-journey {
+	margin-bottom: 30px;
+  	margin-top: 30px;
+  	text-align: center;
+  }
+  
+p.our-journey a {
+	font-size: 24px;
+	color: #818181;	 
+	}
+
+/* Makes previous posts smaller */
+.posts li:nth-child(n+2) a {
+	font-size: 20px;
+	color: #818181;
+}
 
 /* Base */
 /* ----------------------------------------------------------*/
@@ -157,11 +182,6 @@ a:visited { color: #205caa; }
 
 }
 
-.posts li:nth-child(n+2) a
-{
-	font-size: 20px;
-	color: #818181;
-}
 
 .posts .post-link {
   font-size: 32px;

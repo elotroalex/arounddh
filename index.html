@@ -20,16 +20,16 @@ layout: default
     {% for post in site.posts %}
 
       <li>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <a class="post-link front-page" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        <span class="post-date front-page">{{ post.date | date: "%b %-d, %Y" }}</span>
 
       </li>
 		
     {% endfor %}
     
   </ul>
-  <p>HELLO</p>
-  <p class="our-journey"><a href="{{ "/journey/" | prepend: site.baseurl }}>Our journey so far...</a></p>
+
+  <p class="our-journey"><a href="{{ "/journey/" | prepend: site.baseurl }}">Our journey so far...</a></p>
 
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
