@@ -1,3 +1,5 @@
+/* test */
+
 /* Base */
 /* ----------------------------------------------------------*/
 
@@ -155,7 +157,6 @@ a:visited { color: #205caa; }
 
 }
 
-# Older posts
 .posts li:nth-child(n+2) a
 {
 	font-size: 20px;
@@ -173,11 +174,6 @@ a:visited { color: #205caa; }
   font-size: 15px;
   color: #818181;
 }
-
-# Paragraphs
-p.journey-link {
-	display: visible;
-	}
 
 
 /* Post styles */
@@ -405,11 +401,6 @@ p.journey-link {
     margin: 0;
   }
   
-/* Code for getting rid of .rss feed and / */
-
-a[href='/feed.xml'] {
-	background-color:gold;
-}
 
 
 
