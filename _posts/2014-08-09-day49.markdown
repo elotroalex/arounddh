@@ -1,0 +1,23 @@
+---
+layout: post
+title:  "Day 49: Memora"
+date:   2014-08-09 04:00:00
+categories: jekyll update
+---
+
+<!-- Remember to change the date above -->
+
+
+During the 80s until 2000, Peru lived through an armed conflict between two radical leftist movements, Sendero Luminoso and the Movimiento Revolucionario Tupac Movement Amaru (MRTA), also in confrontation with the government and large parts of the population, unleashing one of the most violent periods in modern Peruvian history. These movements were eventually defeated, disarmed and imprisoned, but at a high cost in human lives. The process included violence by militant groups led by the Peruvian state. Today, almost 10 years after the end of violence, the museum commemorating the memory of the victims of years of violence for the the of national reconciliation, *Lugar de la Memoria del Perú*, has not yet been finalized.
+
+Memora was born out of the fill this gap for new generations who don't know this violent history. The site, still in construction, captures information about key events from the early 1980's until the 1990's. Users have several options for exploring the history, including map, timelines and narratives. The [Modo Historia](http://memora.pe/modo-historia) (History Mode) is an excellent example of the use of timelines for historical narratives. [Un Día en la Memoria](http://memora.pe/un-dia-en-la-memoria) (A day in the memory) is a collaboration with artist Mauricio Delgado C. to remember events through the use of posters commemorating specific dates.
+
+
+
+<!-- Remember to assign the day -->
+{% assign day=49 %}
+{% for project in site.data.projects limit:1 offset:day %}
+<p>Link: <a href="{{ project.link }}">{{ project.link }}</a></p>
+<p>Selected by: {{ project.editor }}</p>
+<p>Text by: {{ project.writer }}</p>
+{% endfor %}

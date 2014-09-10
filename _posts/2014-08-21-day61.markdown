@@ -1,0 +1,22 @@
+---
+layout: post
+title:  "Day 61: Rekhta"
+date:   2014-08-21 04:00:00
+categories: jekyll update
+---
+
+<!-- Remember to change the date above -->
+
+Rekhta is arguably the largest online collection of Urdu poetry available on the Internet, showcasing the works of 650 Urdu writers, including such legendary authors such as Sadat Manto and Mirza Ghalib, alongside lesser-known and forgotten poets from the past three hundred years. The site is available in Urdu, Roman and Devanagari script, ensuring the widest possible audience, and the site has a global readership, from hundred and fifty countries. This responsive site has a powerful search facility, allowing users to search by poet or poetic form such ghazals and shayari, as well as giving users the opportunity to see and hear additional multimedia content. Every word is glossed and additional material such as lectures and dictionaries enable even the novice reader of Urdu to contextualise and understand the literature made available on the site. Additionally, the site hosts an archive of e-books and literary magazines, and offers editorial, curatorial and readerly commentary on most of its content.
+
+The site is a labour of love by an Indian entrepreneur, Sanjiv Saraf, whose thirty five member team of editors are responsible for "professional content appraisal." The project scans 400 books per month, and the target is to create an archive of 50,000 Urdu works. Saraf scouts private and public libraries for collections, and has been responsible for digitizing complete collections of Urdu literature which might not have otherwise received this treatment - most recently he has unearthed a complete set of one of Urdu literature's most enduring works, the Dastan-e-Amir Hamza, possibly the only one in India - which will be digitized and put up on the site.
+
+
+
+<!-- Remember to assign the day -->
+{% assign day=61 %}
+{% for project in site.data.projects limit:1 offset:day %}
+<p>Link: <a href="{{ project.link }}">{{ project.link }}</a></p>
+<p>Selected by: {{ project.editor }}</p>
+<p>Text by: {{ project.writer }}</p>
+{% endfor %}

@@ -1,0 +1,22 @@
+---
+layout: post
+title:  "Day 16: Memories of Austral Patagonia | Memorias de la Patagonia Austral"
+date:   2014-07-07 04:00:00
+categories: jekyll update
+---
+
+
+*Memorias de la Patagonia Austral* seeks to collaborate to build memories of Patagonia, from the point of view of documentary sources from the public, of everyday life and subjectivities, offering an "extra-centric perspective" to hegemonic alternatives. Currently, the archive features material from the first half of the twentieth century from towns in the southern Patagonia region for use in research, the educational system and the community in general. The project has the distinction of working with a range of documentary materials produced or collected by persons, organizations and institutions in the region. This means that the material is not defined a priori by item types—photographs, local newspapers, maps, letters, oral history-but its meaning lies in the organic whole. 
+
+The project was built and is maintained through the collaborative work of participating Regional Museums and Municipal Archives, with an interdisciplinary team of researchers from the National University of Patagonia Austral. The archive gathers several collections of Governor Gregores locations, Puerto San Julián, Puerto Deseado, Comandante Luis Piedra Buena and Puerto Santa Cruz. The project also intends to develop a policy for seeking donations from both individuals and other organizations, institutions, etc.., in the context of repository initiatives. 
+
+ 
+
+
+<!-- Remember to assign the day -->
+{% assign day=16 %}
+{% for project in site.data.projects limit:1 offset:day %}
+<p>Link: <a href="{{ project.link }}">{{ project.link }}</a></p>
+<p>Edited by: {{ project.editor }}</p>
+<p>Text by: {{ project.writer }}</p>
+{% endfor %}

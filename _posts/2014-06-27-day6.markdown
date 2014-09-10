@@ -1,0 +1,27 @@
+---
+layout: post
+title:  "Day 6: Trove"
+date:   2014-06-27 04:00:00
+categories: jekyll update
+---
+
+> Trove is a discovery service<br/>
+> Trove is a community<br/>
+> Trove is a verb<br/>
+> Trove is a metadata aggregator<br/>
+> Trove is a content repository<br/>
+> Trove is a platform<br/>
+> Trove is a collaboration<br/>
+> Trove is yours<br/>
+
+Trove is a major national digitisation, discovery, and aggregation project for resources relating to Australia, created and maintained by the National Library of Australia. It brings together content from libraries, museums, archives and other research organisations and gives users tools to explore and build. Trove is many things: a community, a set of services, an aggregation of metadata, and a growing repository of fulltext digital resources.
+ 
+
+
+<!-- Remember to assign the day -->
+{% assign day=6 %}
+{% for project in site.data.projects limit:1 offset:day %}
+<p>Link: <a href="{{ project.link }}">{{ project.link }}</a></p>
+<p>Edited by: {{ project.editor }}</p>
+<p>Text by: {{ project.writer }}</p>
+{% endfor %}

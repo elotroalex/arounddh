@@ -1,0 +1,22 @@
+---
+layout: post
+title:  "Day 11: Digital Silk Road | デジタル・シルクロード・プロジェクト"
+date:   2014-07-02 04:00:00
+categories: jekyll update
+---
+
+Digital Silk Road is a project from Japan’s National Institute of Informatics (NII), the Digital Archives of Cultural Heritage, and the Digital Silk Road Project organization. It is a collection of a number of related projects, including records related to the Silk Road in the Tōyō Bunko 東洋文庫 library; a database of Silk Road ruins; mapping of Silk Road sites (with a search function); and digital archives and databases related to ancient Beijing, Buddhist cave temples, and Silk Road narratives - among many other diverse initiatives. The focus is on providing access to the cultural heritage and remnants of the Silk Road across China and Central Asia, especially via maps and photographs, with a wide variety of ways to engage with that heritage as well as broad geographic coverage. These many projects generally link to their own websites at their home institutions, and Digital Silk Road acts as a portal to bring them all together for those interested in the ancient Silk Road to explore.
+
+The goal of the project is to combine information science research with cultural heritage, investigating a number of ways to engage with materials using information technology, such as digitization of artifacts, construction of digital archives, and exhibition of the digital cultural heritage, as well as annotation of cultural resources based in collaborative work. In particular, Digital Silk Road aims to foster international collaborative research across academic fields, including the work of researchers at international organizations as well as Japanese and overseas universities. Future plans include broadly sharing the results of this research over the Internet and through other venues, and also improving access to digital cultural heritage, especially in countries that the ancient Silk Road passed through. The project also includes a site for children to engage with Silk Road heritage.
+
+Digital Silk Road is also doing collaborative research (with Kyoto University’s Center for Integrated Area Studies) on an Android mobile app, called Memory Hunting, that will allow users to compare photos from Digital Silk Road to actual historical sites that they visit, via their mobile phone or tablet cameras. The app is still in development.
+ 
+
+
+<!-- Remember to assign the day -->
+{% assign day=11 %}
+{% for project in site.data.projects limit:1 offset:day %}
+<p>Link: <a href="{{ project.link }}">{{ project.link }}</a></p>
+<p>Edited by: {{ project.editor }}</p>
+<p>Text by: {{ project.writer }}</p>
+{% endfor %}

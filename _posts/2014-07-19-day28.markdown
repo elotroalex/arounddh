@@ -1,0 +1,22 @@
+---
+layout: post
+title:  "Day 28: Digital Library of Morocco | Bibliothèque Numérique Marocaine"
+date:   2014-07-19 04:00:00
+categories: jekyll update
+---
+
+<!-- Remember to change the date above -->
+
+The mission of the Bibliothèque Numérique Marocaine is to preserve, promote and facilitate access to rare, valuable and fragile heritage collections. To achieve this goal, the National Library of the Kingdom of Morocco partnered with several institutions in the public and private sector, including Fondation OCP, Maroc Telecom and ALSTOM Maroc. The commitment of their partners reflects the willingness of some corporations to support the preservation of the documentary and cultural heritage of the Kingdom of Morocco. 
+
+So far the project has been able to make available more than 2m pages online. Continued plans for digitization stretch to the year 2019, and include 9,000 more manuscripts, 615 lithographs of enormous cultural value and the complete iconographic collection of the National Library.
+
+
+
+<!-- Remember to assign the day -->
+{% assign day=28 %}
+{% for project in site.data.projects limit:1 offset:day %}
+<p>Link: <a href="{{ project.link }}">{{ project.link }}</a></p>
+<p>Edited by: {{ project.editor }}</p>
+<p>Text by: {{ project.writer }}</p>
+{% endfor %}

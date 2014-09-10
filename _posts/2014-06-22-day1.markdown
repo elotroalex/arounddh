@@ -1,0 +1,17 @@
+---
+layout: post
+title:  "Day 1: Frog in a Well | 井底之蛙"
+date:   2014-06-22 04:00:00
+categories: jekyll update
+---
+
+[Frog in a Well](http://froginawell.net/) (井底之蛙) is a “collaborative weblog dedicated to East Asian History,” publishing open-source academic blog articles, scholarly reviews, and peer-to-peer commentary on Japanese, Chinese, and Korean culture and history. According to K.M. Lawson, the project’s founder and a regular contributor to each of the project’s three main blogs — 井の中の蛙 ([Japan History Group](http://www.froginawell.net/japan/)); 井底之蛙 ([China History Group](http://www.froginawell.net/china));  and 우물 안 개구리 ([Korea History Group](http://www.froginawell.net/korea/))— Frog in a Well was launched in August of 2004 as a digital-history project that aimed to create an transnational, multilingual digital scholarly commons for “promot[ing] more international awareness and cooperation in the field of history” between students and scholars in Japan, China, Korea, and the U.S. working in East Asian cultural histories. 
+
+Frog in a Well derives its philosophical commitment to a scholarly perspective, practice, and community founded on principles of openness, collaboration, and cultural preservation from the lessons of an [old Chinese Proverb](http://www.froginawell.net/about.html) (井底之蛙), “The frog in a well is ignorant of the (vast) sea.” The project editors note that “variations” of the proverb “can also be found in the Japanese and Korean languages,” but that the shared message between them, which has been carried over into the project’s scholarly vision, “is simply meant to indicate that we are all limited in our perspectives, and can all benefit from sharing them.” 
+
+{% assign i=1 %}
+{% for project in site.data.projects limit:1 offset:i %}
+<p>Link: <a href="{{ project.link }}">{{ project.link }}</a></p>
+<p>Edited by: {{ project.editor }}</p>
+<p>Text by: {{ project.writer }}</p>
+{% endfor %}

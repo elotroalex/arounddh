@@ -1,0 +1,21 @@
+---
+layout: post
+title:  "Day 23: Mindlin Brasiliana Library | Biblioteca Brasiliana Mindlin"
+date:   2014-07-14 04:00:00
+categories: jekyll update
+---
+
+The Guita and José Mindlin Brasiliana Library is an organ of the Dean of Culture and University Extension, University of São Paulo (USP). The library was created in January 2005 to house and integrate the Brasiliana collection gathered over more than eighty years ago by bibliophile José Mindlin and his wife Gita. The collection was donated by the Mindlin family to USP in a gesture of generosity to the nation. With its expressive set of books and manuscripts, collected by Guita and José Mindlin Brasiliana is considered the most important collection of its kind formed by individuals, with 32,200 titles, which corresponds to about 60 thousand volumes.
+
+The library formed by José Mindlin throughout his life was organized into four main components: Brazilian issues, general literature, art books, and 'books as art' chosen for their typographic features, layout, illustration, binding, among other things. This library is committed to preserve, promote and facilitate access for students, researchers and the general public, and to promote the dissemination of studies of Brazilian subjects through specific programs and projects. In this sense, it has served as an interdisciplinary center for documentation, research and scientific dissemination of Brazilian studies, the culture of books, information technology and digital humanities, becoming an organ of integration of various academic initiatives, intersectoral and interdisciplinary interest .
+
+Since 2005, when it became operational, the Library has gathered experts based projects and initiatives supported studies, developing activities around four areas of knowledge: 1) Brazilian Studies; 2) History of the Book and Reading; 3) Knowledge Technology and Digital Humanities; and 4) Conservation, preservation and restoration of books and paper.
+
+
+<!-- Remember to assign the day -->
+{% assign day=23 %}
+{% for project in site.data.projects limit:1 offset:day %}
+<p>Link: <a href="{{ project.link }}">{{ project.link }}</a></p>
+<p>Edited by: {{ project.editor }}</p>
+<p>Text by: {{ project.writer }}</p>
+{% endfor %}

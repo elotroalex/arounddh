@@ -1,0 +1,24 @@
+---
+layout: post
+title:  "Day 52: AlexCinema"
+date:   2014-08-12 04:00:00
+categories: jekyll update
+---
+
+<!-- Remember to change the date above -->
+
+
+Alexandria played a pioneering role in the establishment of the Egyptian cinema industry. Its early cinematographers were amateurs who experimented with this new form of art, and who were scriptwriters, directors of photography, actors and producers all in one. The first studios and films were Alexandrian, and Alexandrian by definition was a mixture of foreigners resident in Alexandria and Egyptians. As the art and the industry flourished, cinema makers gradually moved to Cairo where there was a larger audience, and where the newly created Studio Misr provided sophisticated equipment. Now, a hundred years later, *AlexCinema: The Birth of the Seventh Art in Alexandria* explores the history of the birth of the seventh art in Alexandria, and the attempt to revive the art of film making in the city of its birth.
+
+AlexCinema is a project of the impressive [Bibliotheca Alexandrina](http://www.bibalex.org/home/default_EN.aspx), the modern-day library of Alexandria, which hosts a number of other exhibits and a mirror of the Internet Archive.
+
+[Editors Note: On Thursday, 7 August 2014 at 7:00 am, the library suffered a small fire in a storage room on the second basement floor when a LED light bulb blew out, but they reassure us that everything is under control].
+
+
+<!-- Remember to assign the day -->
+{% assign day=52 %}
+{% for project in site.data.projects limit:1 offset:day %}
+<p>Link: <a href="{{ project.link }}">{{ project.link }}</a></p>
+<p>Selected by: {{ project.editor }}</p>
+<p>Text by: {{ project.writer }}</p>
+{% endfor %}

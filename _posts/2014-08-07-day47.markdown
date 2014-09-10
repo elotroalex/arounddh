@@ -1,0 +1,25 @@
+---
+layout: post
+title:  "Day 47: Eesti vanema kirjanduse digitaalne tekstikogu"
+date:   2014-08-07 04:00:00
+categories: jekyll update
+---
+
+<!-- Remember to change the date above -->
+
+
+EEVA: Eesti vanema kirjanduse digitaalne tekstikogu (Digital Text Repository for Older Estonian Literature) was founded in 2002, and is by now a long-standing effort to make publicly accessible "the old rare texts that have played an important role in Estonian cultural history" from the 13th to the mid-19th century.  With a complete interface available in a very impressive four languages (Estonian, German, Russian, and English) and a text collection representing an even more impressive sixteen languages, this collection documents a profoundly multilingual Baltic region, and reveals an important part Estonia's long history in letters.
+
+The catalog helpfully combines records for both authors (with substantial, if brief, biographical details, and even miniature portraits when available) and texts (with full bibliographical details, including references to secondary sources).  Most of the works are presented in their first print editions (or in the earliest available scholarly editions), but there are plans to include manuscripts as well.  As of this writing, there are over 6,500 texts from 778 authors.
+
+EEVA is the joint work of the Library and Department of Literature and Folklore at the University of Tartu, in partnership with the Estonian Literary Museum.
+
+
+
+<!-- Remember to assign the day -->
+{% assign day=47 %}
+{% for project in site.data.projects limit:1 offset:day %}
+<p>Link: <a href="{{ project.link }}">{{ project.link }}</a></p>
+<p>Selected by: {{ project.editor }}</p>
+<p>Text by: {{ project.writer }}</p>
+{% endfor %}

@@ -1,0 +1,25 @@
+---
+layout: post
+title:  "Day 41: DH-JAC | 日本文化デジタル・ヒューマニティーズ拠点"
+date:   2014-08-01 04:00:00
+categories: jekyll update
+---
+
+<!-- Remember to change the date above -->
+
+
+The Digital Humanities Center for Japanese Arts and Cultures, at Ritsumeikan University in Kyoto, is designated as a national 21st-Century Center of Excellence and has been dedicated to digital humanities resource building and research for over 10 years. Their original activities were focused on building digital archives and databases with a focus on Japanese and Kyoto-based cultural properties, but more recent years have seen an emphasis on using digital techniques to create further databases, develop methodologies for research using these datasets, and engaging in scholarship on the databases “[to increase our understanding of disciplines across the humanities](http://www.dh-jac.net/background.html).” They also aim to fill a gap between the research of foreign Japan-based scholars. Their goal is “to adopt a global perspective and to promote the development of Japanese scholars whose skills match those of their foreign counterparts.” 
+
+The Center’s various databases include a collection of woodblocks used for printing in the Edo period (Printing Block Browsing System 板木閲覧システム), the Fujii Eikan Collection (藤井永観文庫閲覧システム), ARC Ukiyo-e Search System for Japanese prints (浮世絵検索閲覧システム), the Japanese Ceramic Database (日本陶磁器データベース), and Maps of Japan from the collection of Sir Hugh and Lady Cortazzi, among others that are listed on the Center’s and Ritsumeikan University Art Research Center’s websites. (Some links are out of date.) They contain extensive digital collections of unique resources and an important contribution to the furthering of access to Japanese cultural heritage online.
+
+The Center is strongly associated with the Ritsumeikan University Art Research Center, which also engages in creating extensive online resources and was recently named a fellow Center of Excellence, as well as the Japanese Association for Digital Humanities (JADH). They hold regular symposia and seminars, offer research and financial support for junior scholars, and participate in the JADH annual conference. The Center additionally invites young scholars from outside Japan to participate in research projects as well as conduct their own research, aiming to “[establish [themselves] as a global hub of education](http://www.dh-jac.net/education.html).” 
+
+
+
+<!-- Remember to assign the day -->
+{% assign day=41 %}
+{% for project in site.data.projects limit:1 offset:day %}
+<p>Link: <a href="{{ project.link }}">{{ project.link }}</a></p>
+<p>Selected by: {{ project.editor }}</p>
+<p>Text by: {{ project.writer }}</p>
+{% endfor %}

@@ -1,0 +1,21 @@
+---
+layout: post
+title:  "Day 74: AfricaMap"
+date:   2014-09-03 04:00:00
+categories: jekyll update
+---
+
+<!-- Remember to change the date above -->
+
+Based on a [WorldMap](http://worldmap.harvard.edu) infrastructure, layers may be toggled on and off to reveal different aspects of the African continent. The range of layers available for exploration is extensive, from political boundaries to language families to conflict data to economic opportunity. Because there is no limit to the number of layers a user may toggle on and off, each viewer may create a custom view of Africa representing many cross-sections of data. Previous projects linked to in Around DH in 80 Days such as [Aluka](http://www.aluka.org) and [The Trans-Atlantic Slave Database](http://www.slavevoyages.org/tast/index.faces) are available as data overlays. 
+
+AfricaMap is housed at the Center for Geographic Analysis at Harvard University with an initial grant from the Harvard Provosts Fund for Innovative Computing and ongoing support from the W. E. B. Du Bois Institute, the Department of African and African American Studies and the Committee for African Studies at Harvard University. AfricaMap grew out of a project, called Baobab, funded by the Seaver Institute. 
+
+
+<!-- Remember to assign the day -->
+{% assign day=74 %}
+{% for project in site.data.projects limit:1 offset:day %}
+<p>Link: <a href="{{ project.link }}">{{ project.link }}</a></p>
+<p>Selected by: {{ project.editor }}</p>
+<p>Text by: {{ project.writer }}</p>
+{% endfor %}

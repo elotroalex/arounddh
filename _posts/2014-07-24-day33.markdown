@@ -1,0 +1,23 @@
+---
+layout: post
+title:  "Day 33: Indian Memory Project"
+date:   2014-07-24 04:00:00
+categories: jekyll update
+---
+
+<!-- Remember to change the date above -->
+
+Indian Memory Project was founded in February 2010, by [Anusha Yadav](http://anushayadav.com/). It is an online, curated, visual and oral-history based archive that traces a personal history of the Indian Subcontinent, its people, cultures, professions, cities, development, traditions, circumstances and their consequences. Applying images, letters and stories from family archives (sent and collected from contributors), it reconstructs a visual history that is emotionally rich, vivid, informative and even more surprising than we think.
+
+Family/Personal archives of photographs and letters hold a treasure trove of incredible & historically valuable information. They hold astonishing secrets, and when they reveal themselves via narratives, they become the missing links to a country’s emotional & personal history. A past that we can actually feel, connect and wonder with. Indian Memory Project is now also on the lookout for notable, interesting, personal and not so personal handwritten/typewritten letters (including postcards).
+
+
+
+
+<!-- Remember to assign the day -->
+{% assign day=33 %}
+{% for project in site.data.projects limit:1 offset:day %}
+<p>Link: <a href="{{ project.link }}">{{ project.link }}</a></p>
+<p>Edited by: {{ project.editor }}</p>
+<p>Text by: {{ project.writer }}</p>
+{% endfor %}

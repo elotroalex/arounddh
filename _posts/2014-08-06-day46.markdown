@@ -1,0 +1,25 @@
+---
+layout: post
+title:  "Day 46: Vectors"
+date:   2014-08-06 04:00:00
+categories: jekyll update
+---
+
+<!-- Remember to change the date above -->
+
+
+Vectors maps the multiple contours of daily life in an unevenly digital era, crystallizing around themes that highlight the social, political, and cultural stakes of our increasingly technologically-mediated existence. As such, the journal speaks both implicitly and explicitly to key debates across varied disciplines, including issues of globalization, mobility, power, and access. Operating at the intersection of culture, creativity, and technology, the journal focuses on the myriad ways technology shapes, transforms, reconfigures, and/or impedes social relations, both in the past and in the present.
+
+This investigation at the intersection of technology and culture is not simply thematic. Rather, Vectors is realized in multimedia, melding form and content to enact a second-order examination of the mediation of everyday life. Utilizing a peer-reviewed format and under the guidance of an international board, Vectors features submissions and specially-commissioned works comprised of moving- and still-images; voice, music, and sound; computational and interactive structures; social software; and much more. Vectors doesn't seek to replace text; instead, we encourage a fusion of old and new media in order to foster ways of knowing and seeing that expand the rigid text-based paradigms of traditional scholarship. Simply put, we publish only works that need, for whatever reason, to exist in multimedia. In so doing, we aim to explore the immersive and experiential dimensions of emerging scholarly vernaculars across media platforms.
+
+[Vectors is closely linked to the development of the [Scalar](http://scalar.usc.edu/) platform, which was used for the first iteration of this project created by students in Ryan Cordell's ["Doing Digital Humanities" graduate seminar](http://ryan.cordells.us/s13dh/)].
+
+
+
+<!-- Remember to assign the day -->
+{% assign day=46 %}
+{% for project in site.data.projects limit:1 offset:day %}
+<p>Link: <a href="{{ project.link }}">{{ project.link }}</a></p>
+<p>Selected by: {{ project.editor }}</p>
+<p>Text by: {{ project.writer }}</p>
+{% endfor %}

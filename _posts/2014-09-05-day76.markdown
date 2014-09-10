@@ -1,0 +1,25 @@
+---
+layout: post
+title:  "Day 76: Digitális Irodalmi Akadémia | Digital Literary Academy"
+date:   2014-09-05 04:00:00
+categories: jekyll update
+---
+
+<!-- Remember to change the date above -->
+
+The [Petőfi Literary Museum](http://www.pim.hu/) in Budapest hosts this fascinating [Digitális Irodalmi Akadémia](http://pim.hu/object.d8f182da-fdfa-45ba-914f-2688ce822346.ivy) (DIA, or "Digital Literary Academy"), founded in 1998 with an initial cohort of 39 distinguished, living Hungarian literary figures; it currently includes 78 authors and their works.
+
+Note this phrase: the Akadémia consists of both authors and their works.  Perhaps uniquely in the digital library world, the DIA is both a "virtual national institution" of living writers and a nationally-supported, high-quality digital library of their works.  Membership in the Academy is by nomination and election of the current living members, and implies both a public honor and a public responsibility, as members enter into non-exclusive contract with the Literary Museum to offer digital editions of their work freely to the public.  Although the institution itself is called "virtual," it does meet annually to elect new members (including some posthumously) and conduct its business; the DIA website includes [a chronicle of membership meetings](http://www.pim.hu/object.b3b4dd2c-8760-49d0-95c4-3dbbb0f78a06.ivy) that can serve to document contemporary Hungarian literary history in a nutshell, in the form of new elections to the Academy, and the passing of current members into the cultural memory.
+
+As perhaps a more familiar digital humanities enterprise, the Petőfi Literary Museum undertakes and oversees the efforts of digitization, metadata creation, biographic and bibliographic work, and preservation of these monuments of contemporary Hungarian literature: the complete oeuvres of the Hungarian literary community.  In addition to the elegantly searchable full-text database of their works, many author collections also include rich supplemental materials such as digitized manuscript pages, image galleries of book covers, and links to spoken-word recordings hosted on the Literary Museum's main website.  
+
+This remarkable dual effort, enacted in spaces both virtual and physical, with manifestations both social and literary, is an excellent reminder that in DH there can be nothing digital without the humanities, and of course no humanities without the human.  Finally, thanks to the generous collaboration between living literary figures, established literary institutions, and ongoing state support, the Digitális Irodalmi Akadémia is an outstanding example of public humanities at its best.  
+
+
+<!-- Remember to assign the day -->
+{% assign day=76 %}
+{% for project in site.data.projects limit:1 offset:day %}
+<p>Link: <a href="{{ project.link }}">{{ project.link }}</a></p>
+<p>Selected by: {{ project.editor }}</p>
+<p>Text by: {{ project.writer }}</p>
+{% endfor %}

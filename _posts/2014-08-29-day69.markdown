@@ -1,0 +1,21 @@
+---
+layout: post
+title:  "Day 69: National Palace Museum Virtual Museum"
+date:   2014-08-29 04:00:00
+categories: jekyll update
+---
+
+<!-- Remember to change the date above -->
+
+The [National Palace Museum](http://www.npm.gov.tw/) in Taiwan has been hailed as the single largest repository of rare manuscripts, cultural artifacts, paintings, sculptural works, calligraphy scrolls, and antiques of the Chinese-speaking world and East Asia. During the civil war between the nationalists and communists in 1948, the Republic of China government evacuated treasures from all over China but mainly from the Beijing National Palace Museum to Taipei under the leadership of Chiang Kai-shek. This collection became the National Palace Museum of Taiwan we know today. 
+
+The Virtual Museum—accessible in English and Chinese—offers a 3D tour of its buildings and halls. Some of the objects in its permanent collection can be studied though rich descriptions, robust metadata and high-resolution images.
+
+
+<!-- Remember to assign the day -->
+{% assign day=69 %}
+{% for project in site.data.projects limit:1 offset:day %}
+<p>Link: <a href="{{ project.link }}">{{ project.link }}</a></p>
+<p>Selected by: {{ project.editor }}</p>
+<p>Text by: {{ project.writer }}</p>
+{% endfor %}

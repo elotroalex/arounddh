@@ -1,0 +1,25 @@
+---
+layout: post
+title:  "Day 31: Biblioteca Digital del Pensamiento Novohispano | Digital Library of New Spanish Thought"
+date:   2014-07-22 04:00:00
+categories: jekyll update
+---
+
+<!-- Remember to change the date above -->
+
+The Biblioteca Digital del Pensamiento Novohispano (BdPn) is a project of the Faculty of Philosophy and Literature of the National Autonomous University of Mexico (UNAM).
+
+The BdPn has been conceived as a laboratory for the research of [New Spanish](http://en.wikipedia.org/wiki/New_Spain) texts. The BdPn is a collection of digital editions of diplomatic transcripts of texts taken from books and documents of the 17th century on the practices of astrology and astronomy. These editions are marked in TEI/XML, also, the BdPn is a group of digital tools for research that offers automatic indexing of terms, references, etc. It is, as well, a collaboration tool that allows for the creation of interpretive and philological annotations on texts.
+
+The BdPn is an open platform in which both the collection of documents and the creation of citations are in permanent construction through collaboration.
+
+
+
+
+<!-- Remember to assign the day -->
+{% assign day=31 %}
+{% for project in site.data.projects limit:1 offset:day %}
+<p>Link: <a href="{{ project.link }}">{{ project.link }}</a></p>
+<p>Edited by: {{ project.editor }}</p>
+<p>Text by: {{ project.writer }}</p>
+{% endfor %}

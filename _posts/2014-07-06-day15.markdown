@@ -1,0 +1,27 @@
+---
+layout: post
+title:  "Day 15: Tombouctou Manuscripts Project | مشروع مخطوطات تومبُكتو"
+date:   2014-07-06 04:00:00
+categories: jekyll update
+---
+
+Concerned initially with the manuscript tradition in Timbuktu, the archive began by digitizing one hundred legal texts from the Mamma Haidara Library in Timbuktu, Mali in 2004. Another sixty texts from the Ahmed Baba were then added. However, some texts were treated to further scrutiny, which included translating them into English.
+
+The project has broadened its scope textually and geographically since then, including collections in Madagascar and Mozambique written in Ajami, collections in Zanzibar in Arabic and Swahili, texts from Somalia, Coptic Christian writings in Ethiopia, and materials in the Addis Ababa archives. 
+
+As the project grows and these materials are made available to a wide audience the site has chosen to focus on book history in Africa and the state of archives where these texts may be found. These are key strategies because of the way in which they place African manuscript studies on the global stage:
+
+>The former places the African world of books firmly within an international discussion in
+>the growing field of “the history of books”, where it has no presence at the moment. The >latter, a more practical issue, approaches the way in which archives are constituted and
+>appropriated: the politics of the archive.
+
+ 
+
+
+<!-- Remember to assign the day -->
+{% assign day=15 %}
+{% for project in site.data.projects limit:1 offset:day %}
+<p>Link: <a href="{{ project.link }}">{{ project.link }}</a></p>
+<p>Edited by: {{ project.editor }}</p>
+<p>Text by: {{ project.writer }}</p>
+{% endfor %}

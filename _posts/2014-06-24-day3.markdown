@@ -1,0 +1,19 @@
+---
+layout: post
+title:  "Day 3: I ♥ E-Poetry"
+date:   2014-06-24 06:00:00
+categories: jekyll update
+---
+
+[I ♥ E-Poetry](http://iloveepoetry.com/) is a digital scholarly blog on Electronic Poetry by Leonardo Flores, an Associate Professor of English at UPRM (University of Puerto Rico at Mayagüez). Flores states that I ♥ E-Poetry was initially conceived as a professional, scholarly “constraint to read and critically reflect upon a work of e-poetry every day, leading [him] to revisit known works, discover new ones, and expand [his] knowledge of this emergent poetic genre.” I ♥ E-Poetry has broader significance and application, however, particularly for audiences hoping to advance their own scholarly interventions in this genre. Flores states he hopes to engage these audiences, "both within and outside of academia," in an interactive discourse into the “poetic, technological, and theoretical contexts” of  electronic poetry.
+
+Pairing original poetic works with supplemental scholarly analysis, as contributed by both Flores and other poets and scholars in the field, I ♥ E-Poetry guides audiences in an analysis of the intersection of the analog and digital poetics at work in this emerging genre. By offering his audience “close readings of the poems," Flores and his guest editors contribute "strategies for readers to approach the work” of scholarly analysis of electronic poetry critically and with a deeper appreciation for each poem as part of a rich poetic tapestry. Needless to say, the sustained curatorial work of I ♥ E-Poetry has been one of the inspirations behind Around DH.
+
+
+<!-- Remember to assign the day -->
+{% assign day=3 %}
+{% for project in site.data.projects limit:1 offset:day %}
+<p>Link: <a href="{{ project.link }}">{{ project.link }}</a></p>
+<p>Edited by: {{ project.editor }}</p>
+<p>Text by: {{ project.writer }}</p>
+{% endfor %}

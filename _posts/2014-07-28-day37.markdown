@@ -1,0 +1,29 @@
+---
+layout: post
+title:  "Day 37: Mo3jam | معجم"
+date:   2014-07-28 04:00:00
+categories: jekyll update
+---
+
+<!-- Remember to change the date above -->
+
+The first day of Eid al-Fitir 2014—the feast that marks the end of the month of Ramadan—seems an auspicious day to celebrate Arab diversity.  [Mo3jam](http://en.mo3jam.com/) ([معجم](http://ar.mo3jam.com/)) is a user-generated dictionary of colloquial Arabic (the word itself means lexicon or dictionary).  It was created in 2009 by Saudi developer [Abdullah Arif](http://blachan.com/) to document the local expressions spoken by the some 290 million speakers of Arabic in more than twenty countries.
+
+Mo3jam turns to the crowd to explore, share and evaluate meanings in the various colloquial Arabics. The interface is in both Arabic and English.  Crowd-generated entries include tags for the regional dialect(s) using the term.  Depending on the author, they may also include transcription in Latin letters, a definition in English or French and a sentence or passage written in Arabic script illustrating how the expression can be used.  When adding a new term, Mo3jam has built in the functionality of [Yamli](http://www.yamli.com/), allowing you to type Arabic without an Arabic keyboard.  Mo3jam gives all users, registered or not, the opportunity to vote on each entry, since in the words of creator Arif “quality should derive from consensus.”  
+ 
+At the time this was written, Mo3jam seemed to contain some 5500 expressions. In terms of pure numbers, the two communities that seem most active on the site are the Saudis and the Moroccans, with the Egyptians, Yemenis and Algerians trailing close behind.
+Arabic linguists have increasingly turned to social media for their data.  A quick search for “Arabic”  in the papers from the [Language Resources and Evaluation Conference](http://lrec2014.lrec-conf.org/en/conference-programme/list-accepted-papers/) held in Iceland in May 2014 shows how the natural language processing community is making considerable strides in mining Twitter, Facebook and Youtube. 
+
+Who will start using Mo3jam next?
+
+
+
+
+
+<!-- Remember to assign the day -->
+{% assign day=37 %}
+{% for project in site.data.projects limit:1 offset:day %}
+<p>Link: <a href="{{ project.link }}">{{ project.link }}</a></p>
+<p>Edited by: {{ project.editor }}</p>
+<p>Text by: {{ project.writer }}</p>
+{% endfor %}

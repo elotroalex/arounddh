@@ -1,0 +1,23 @@
+---
+layout: post
+title:  "Day 78: Indiancine.ma"
+date:   2014-09-07 04:00:00
+categories: jekyll update
+---
+
+<!-- Remember to change the date above -->
+
+Indiancine.ma is an annotated online archive of Indian cinema, created by Pad.ma (Public Access Digital Media Archive) – a collaboration between [CAMP](http://camputer.org/), [0x260](http://0x2620.org/) the [Alternative Law Forum](http://altlawforum.org/). The site’s foundational metadata originated largely from Ashish Rajadhyaksha's and Paul Willemen's Encyclopedia of Indian Cinema, and the [Indiancine.ma Wiki](http://wiki.indiancine.ma/). Users can currently browse the growing database of over 30,000 films, and search by year, director, language, studio, cinematographer, cast, colour or black and white, as well as by categories possibly more unique to Indian film such as composer and lyricist. Annotated entries feature details such as hue, saturation, aspect ration, cuts per minute and words per minute as well as the film’s copyright status, and detailed readings by film scholars; the site also features curated lists, such as ‘A short history of the telephone in Indian cinema,’ or ‘Mystery-Thrillers in Bengali cinema.’
+
+
+ 
+ 
+
+
+<!-- Remember to assign the day -->
+{% assign day=78 %}
+{% for project in site.data.projects limit:1 offset:day %}
+<p>Link: <a href="{{ project.link }}">{{ project.link }}</a></p>
+<p>Selected by: {{ project.editor }}</p>
+<p>Text by: {{ project.writer }}</p>
+{% endfor %}

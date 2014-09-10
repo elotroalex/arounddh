@@ -1,0 +1,18 @@
+---
+layout: post
+title:  "Day 2: Transcribe Bleek & Lloyd"
+date:   2014-06-23 06:00:00
+categories: jekyll update
+---
+
+Transcribe Bleek and Lloyd is a collaborative, multi-institutional, open-access scholarly project whose primary goal is to aid in the preservation of two rare South African languages, [\|xam](http://en.wikipedia.org/wiki/%C7%80Xam_language) and [!kun](http://en.wikipedia.org/wiki/!Kung_language), by crowdsourcing the transcription of South African cultural heritage materials (including “rock art painting, drawings and notebooks”) provided by the [Digital Bleek and Llyod Collection](http://lloydbleekcollection.cs.uct.ac.za/), a digital curation project by the [Centre for Curating the Archive](http://www.cca.uct.ac.za/) (CCA) at the research center at the University of Cape Town, South Africa. 
+
+Transcribe Bleek and Lloyd was created by Ngoni Munyaradzi as a Master’s research project in collaboration with the CCA and the [Digital Libraries Laboratory](http://dl.cs.uct.ac.za/) at the Computer Science Department, University of Cape Town, South Africa. In part, Munyaradzi was motivated by a desire to preserve the “endangered” cultural materials, histories, and linguistic practices of the South African Bushmen tribes. While studying in the Computer Science Department at the University of Cape Town, Munyaradzi began to design Transcribe Bleek and Lloyd as a way to also assess the “feasibility” of crowdsourcing methods for “carrying out online transcriptions.” In addition to the support provided by this multi-institutional partnership, the project’s scholarly, public transcription cooperation is made possible by the technical support of [Citizen CyberScience Centre](http://www.citizencyberscience.net/) — a scholarly project that “promotes the establishment of Citizen Science projects world wide.” Transcribe Bleek and Lloyd “uses the [Bossa framework](http://boinc.berkeley.edu/trac/wiki/BossaIntro) developed as a platform for crowdsourcing projects . . . . [And t]he tool for capturing, encoding and rendering the \|xam and !kun text was developed by Kyle Williams.”
+
+<!-- Remember to assign the day -->
+{% assign day=2 %}
+{% for project in site.data.projects limit:1 offset:day %}
+<p>Link: <a href="{{ project.link }}">{{ project.link }}</a></p>
+<p>Edited by: {{ project.editor }}</p>
+<p>Text by: {{ project.writer }}</p>
+{% endfor %}

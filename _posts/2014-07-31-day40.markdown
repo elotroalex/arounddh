@@ -1,0 +1,22 @@
+---
+layout: post
+title:  "Day 40: About Face"
+date:   2014-07-31 04:00:00
+categories: jekyll update
+---
+
+<!-- Remember to change the date above -->
+
+Face of Jamaica toured Europe for nine months between 1963 and 1964 and it was never viewed in Jamaica. Almost fifty years later, the exhibition *About Face: Revisiting Jamaica's First Exhibition in Europe* reconsiders that touring show by collating and re-presenting its art and related materials online. Using this interactive format, we invite you to see much of the show as it was staged back then, to look at many of the original pieces displayed; to study its catalogue, and to consider its various locations as well as its reception through newspaper clippings and reviews. Text panels, photography and multimedia such as music and video are all to be employed to help re-envisage this exhibition.
+
+Rather than reconstructing the exhibition in its entirety, curators Petrine Archer and Claudia Hucke work with a selection of its objects to deconstruct the original display and consider Jamaican art's meaning in the context of the 1960s art world and contemporary scholarship. By restaging the exhibition for the 50th anniversary of Jamaica's independence online they provide access to an event only previously experienced in Europe. They hope that this online display can serve as a research tool for those interested in understanding how the visual arts supported new definitions of nation. The exhibition remained online during the year of Jamaica's 50th anniversary celebration, 2012, after which part of its materials have been archived in [dLOC (Digital Library of the Caribbean)](http://dloc.com/) where you see it now.
+
+
+
+<!-- Remember to assign the day -->
+{% assign day=40 %}
+{% for project in site.data.projects limit:1 offset:day %}
+<p>Link: <a href="{{ project.link }}">{{ project.link }}</a></p>
+<p>Selected by: {{ project.editor }}</p>
+<p>Text by: {{ project.writer }}</p>
+{% endfor %}

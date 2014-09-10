@@ -1,0 +1,20 @@
+---
+layout: post
+title:  "Day 27: Maker Lab in the Humanities | UVic"
+date:   2014-07-18 04:00:00
+categories: jekyll update
+---
+
+The Maker Lab in the Humanities at the University of Victoria opened its doors in September 2012 under the direction of Jentery Sayers (Assistant Professor, English). With research priority areas in physical computing, desktop fabrication, versioning, and scholarly exhibits, it intersects cultural criticism, computation, and comparative media studies with tacit learning, multimodal communication, and experimental methods. As the Lab’s name suggests, its design is anchored in blending a humanities research lab with a collaborative makerspace—a design that affords its team of graduate students and faculty opportunities to build projects through various modes of knowing by doing (e.g., programming, markup, data modeling, 3D printing, speculative design, prototyping, and new media production).
+
+The Maker Lab’s approach to the humanities is influenced by popular makerspaces and maker faires as well as fields like experimental art, interaction design, and media archaeology. That said, its use of “maker” and “making” understands both words on a broad spectrum, to include writing and composition in addition to tinkering, coding, crafting, bending, prototyping, and fabricating (among many others). The Lab also resists impulses to reduce technical work and tacit learning to practices in “service” of scholarship. By extension, the Maker Lab is necessarily invested in the layered materiality of history, culture, media, and research. All of its projects engage the complex intermediations between print and electronics,  the digital and the analog, the persistent and the ephemeral. To learn more, you can visit their [about page](http://maker.uvic.ca/about/#sthash.JI2mWq1f.dpuf).
+
+
+
+<!-- Remember to assign the day -->
+{% assign day=27 %}
+{% for project in site.data.projects limit:1 offset:day %}
+<p>Link: <a href="{{ project.link }}">{{ project.link }}</a></p>
+<p>Edited by: {{ project.editor }}</p>
+<p>Text by: {{ project.writer }}</p>
+{% endfor %}

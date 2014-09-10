@@ -1,0 +1,19 @@
+---
+layout: post
+title:  "Day 73: Post Scriptum"
+date:   2014-09-02 04:00:00
+categories: jekyll update
+---
+
+<!-- Remember to change the date above -->
+
+The P.S. (Post Scriptum) project provides a home for the systematic research, editing and historical-linguistic study of private letters written during the Modern Age in Portugal and Spain. The site hosts previously unpublished correspondence from authors from different social backgrounds. They could be masters or servants, adults or children, men or women, thieves, soldiers, artisans, priests, political activists and other social agents. This epistolography survived under exceptional circumstances, after their paths crossed with the persecution of the Inquisition or the civil and ecclesiastical courts, institutions that used to make use of private correspondence as evidence of wrongdoing. The documents, which are part of judicial proceedings, are accompanied by true 'sociological interviews', carried out by inquisitors and judges, which allows researchers a more appropriate context of interpersonal relationships in these societies. These textual sources often show an (almost) oral rhetoric, thematising current affairs which until today have not been easy to study, other than from smaller documentary evidence. Post Scriptum not only brings together a comprehensive collection of private letters, but also offers its own philological treatment through an online digital edition accompanied by linguistic and cultural studies.
+
+
+<!-- Remember to assign the day -->
+{% assign day=73 %}
+{% for project in site.data.projects limit:1 offset:day %}
+<p>Link: <a href="{{ project.link }}">{{ project.link }}</a></p>
+<p>Selected by: {{ project.editor }}</p>
+<p>Text by: {{ project.writer }}</p>
+{% endfor %}

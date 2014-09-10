@@ -1,0 +1,25 @@
+---
+layout: post
+title:  "Day 62: Darwin Online"
+date:   2014-08-22 04:00:00
+categories: jekyll update
+---
+
+<!-- Remember to change the date above -->
+
+Darwin Online describes itself as “the largest and most widely consulted edition of the writings of Darwin ever published.” It holds 219,814 pages and more than 219,000 images. It also holds the largest collection of Darwin’s private documents. 
+
+In its beginnings, Darwin Online was the result of the efforts of its chief editor, John van Wyhe, who initiated and sustained the project. Dr van Wyhe’s work has generated intense interest and has manage to obtain contributions by important experts such as Janet Browne and Randall Keynes. He also pioneered the idea of crowdsourcing by recruiting people outside academia to help with the corrections. For example, Sue Asscher (associate editor of the project), has been a contributor since 2002 and has corrected a large number of texts as well as taken the immense task of renaming images. 
+
+The text and images are fully searchable making it the first resource to research Darwin’s work. The fact that both printed and manuscript materials are available together, makes it even more attractive. Darwin Online represents a massive effort to make available the works of Charles Darwin. The enterprise can only be matched by van Wyhe’s new project, [Wallace Online](http://wallace-online.org/). 
+
+
+
+
+<!-- Remember to assign the day -->
+{% assign day=62 %}
+{% for project in site.data.projects limit:1 offset:day %}
+<p>Link: <a href="{{ project.link }}">{{ project.link }}</a></p>
+<p>Selected by: {{ project.editor }}</p>
+<p>Text by: {{ project.writer }}</p>
+{% endfor %}

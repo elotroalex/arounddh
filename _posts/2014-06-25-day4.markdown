@@ -1,0 +1,19 @@
+---
+layout: post
+title:  "Day 4: Bichitra | বিচিত্রা"
+date:   2014-06-25 06:00:00
+categories: jekyll update
+---
+
+Co-ordinated by Sukanta Chaudhuri, Professor Emeritus at Jadavpur University, and Sankha Ghosh, poet and former Professor of Bengali at Jadavpur University, the Bichitra Tagore Online Variorum Project provides an online compilation of the writings of Rabindranath Tagore, India's first Nobel Laureate in Literature. The project is the result of two years of work by a staff of 30 and other contributors, and involved collaborations with Shantiniketan, the school Tagore himself founded; Calcutta University; Harvard University's Houghton Library; and private collectors of Tagore's work.
+
+In Bengali, the word বিচিত্রা, "bichitra," connotes a variety, and the project fulfills that promise with features that include digitized manuscripts of Tagore's writing (47,520 pages of manuscripts and 91,637 pages of printed books and journals); manuscript content lists; text transcriptions; a search function across manuscripts; a collation tool, Prabhed, that lets users "compare different versions of a work at three levels: chapter (in a long prose work) or act/scene (in a play); paragraph (in prose) or stanza (in verse); detailed wording"; timelines; and full bibliographies. Fitting for Tagore, who wrote in Bengali and English, the project includes his work in both languages. According to the project's creators, Bichitra is "the biggest integrated knowledge site devoted to any author in any language to date." Yet, the project caught the attention of AroundDH for its embrace of the multilingual approach necessary for representing Tagore's work and the Prahbed software package for three-level textual analysis from the collection.
+
+
+<!-- Remember to assign the day -->
+{% assign day=4 %}
+{% for project in site.data.projects limit:1 offset:day %}
+<p>Link: <a href="{{ project.link }}">{{ project.link }}</a></p>
+<p>Edited by: {{ project.editor }}</p>
+<p>Text by: {{ project.writer }}</p>
+{% endfor %}

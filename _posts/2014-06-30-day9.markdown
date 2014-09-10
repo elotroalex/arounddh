@@ -1,0 +1,20 @@
+---
+layout: post
+title:  "Day 9: eastcree.org"
+date:   2014-06-30 04:00:00
+categories: jekyll update
+---
+
+eastcree.org is a site dedicated to the East Cree language, ᐊᑎᒫᐲᓯᒻ, part of the Algonquian language family spoken in Northern Quebec, Canada, in the James Bay area. The site is "intended as a resource for Cree language teachers, literacy instructors, translators, linguists, and anyone who has an interest in the nuts and bolts of the East Cree language." The site was created in 2000 and reports continuous growth. eastcree.org contains a wide range of rich content including stories, a dictionary and lessons; since it's creation it has also been involved in several projects, including the [Algonquin Linguistic Atlas](http://www.atlas-ling.ca/). 
+
+The creators are still looking for collaborators "who value linguistic diversity and want the Cree language to be alive and well in the 21st century and after." At the moment, different parts of the site are offered in French, English and in the two major dialects of East Cree: the Southern and the Northern dialects, with their own standardized orthography. The intent of the site's creators is "to find a balance between standardization and respect of speech diversity." This laudable goal has been an inspiration to Around DH, which seeks to strike a balance between similarity and difference in digital humanities. 
+ 
+
+
+<!-- Remember to assign the day -->
+{% assign day=9 %}
+{% for project in site.data.projects limit:1 offset:day %}
+<p>Link: <a href="{{ project.link }}">{{ project.link }}</a></p>
+<p>Edited by: {{ project.editor }}</p>
+<p>Text by: {{ project.writer }}</p>
+{% endfor %}

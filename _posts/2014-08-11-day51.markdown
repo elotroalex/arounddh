@@ -1,0 +1,23 @@
+---
+layout: post
+title:  "Day 51: The History of Ayutthaya"
+date:   2014-08-11 04:00:00
+categories: jekyll update
+---
+
+<!-- Remember to change the date above -->
+
+
+The History of Ayutthaya, a cultural heritage project, is guided by the question, "How does a modern city identify with the ruins from its past?". The site has a curious history of its own. Tricky Vandenberg and a friend began walking around Ayutthaya and visiting local temples. They planned their trips based on a map they found in restored temple ruins. As they walked, they tracked sites on the map, later meeting Ken May who began working on the project with them. The team subsequently decided to create a site to archive the results of their walking tours: collected data on local temples and ruins. 
+
+Vandenberg and his team began the site because they recognized a gap in the available information in English on the cultural heritage of Ayutthaya. They continue to collect and publish information on the city with the goal of raising awareness and public support for Ayutthaya's public awareness. Their methods began with their walking site visits but also include research in books, historical documents, chronicles, and interviews with Ayutthaya's residents. The site aims to survey ruins of 400+ temples in the city; intact forts, gates,  palaces; and ancient waterways. Routes among these sites are available for biking, walking, and kayaking in GPS and downloadable form. The History of Ayutthaya is an inspiring example of how individuals committed to preserving cultural heritage have created a comprehensive account of Ayutthaya's cultural history, complete with maps, photos, videos, and detailed histories.
+
+
+
+<!-- Remember to assign the day -->
+{% assign day=51 %}
+{% for project in site.data.projects limit:1 offset:day %}
+<p>Link: <a href="{{ project.link }}">{{ project.link }}</a></p>
+<p>Selected by: {{ project.editor }}</p>
+<p>Text by: {{ project.writer }}</p>
+{% endfor %}

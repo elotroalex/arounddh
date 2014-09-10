@@ -1,0 +1,21 @@
+---
+layout: post
+title:  "Day 75: Global Egyptian Museum"
+date:   2014-09-04 04:00:00
+categories: jekyll update
+---
+
+<!-- Remember to change the date above -->
+
+The impact of Egyptomania on the cultural and aesthetic landscape in countries around the globe is well-known.  The post-Napoleonic desire for objects from Egypt meant that ancientartifacts were dispersed throughout the museums of the world. 
+ 
+The [Global Egyptian Museum](http://www.globalegyptianmuseum.org/) is a virtual collection of images of some 15000 of the estimated 2 million Egyptian objects found in public collections worldwide.  Co-directed by Dirk van der Plas, Director of the Centre for Computer-Aided Egyptological Research (CCER) and Mohamed Saleh, Director of the Egyptology Unit of the Grand Museum of Egypt, the project is being carried out under the aegis of the International Committee for Egyptology (CIPEG) and the content is being sourced by a number of participating museums around the world.  Reminiscent of digitization projects that “reunite” texts that were previously bound together—but at a much larger scale—this site allows one to make faceted searches of a general nature by kind of object, material, period, region and current museum collection.  Notable features of the project include augmentation by audio and 3D for selected objects, a glossary of terms relevant to Egyptology and a children’s section making it useful by a wide range of publics.  In advanced mode searches are possible by the terms included in the Integrated Multilingual Egyptological Thesaurus (MET, 1996), and metadata about the objects are available in eight languages, including Arabic.  Since ancient Egypt was appropriated by many national historiographies and orientalisms, an attempt has been made to standardize the transliteration systems of the various non-Latin writing systems involved. We look forward to the general use functionality of being able to pick and choose objects, custom curating them for teaching, study and comparison.
+
+
+<!-- Remember to assign the day -->
+{% assign day=75 %}
+{% for project in site.data.projects limit:1 offset:day %}
+<p>Link: <a href="{{ project.link }}">{{ project.link }}</a></p>
+<p>Selected by: {{ project.editor }}</p>
+<p>Text by: {{ project.writer }}</p>
+{% endfor %}

@@ -1,0 +1,21 @@
+---
+layout: post
+title:  "Day 14: Allama Iqbal Urdu Cyber Library"
+date:   2014-07-05 04:00:00
+categories: jekyll update
+---
+
+Allama Iqbal Urdu Cyber Library is the first digital library of Urdu literature. Hosted by Iqbal Academy Pakistan, the site is inspired by the approach and spirit of Project Gutenberg. While Urdu is one of the most prevalent world languages, few Urdu texts have been made available online. The project aims to intervene in this gap, contending, "Urdu cannot be a rich language in cyberspace until and unless a great work is done by the Urdu community." The site represents such an attempt to make Urdu literature, one of South Asia's most respected literary language traditions, accessible and legible.
+
+The project publishes Urdu books in multiple formats, with the goal of disseminating Urdu literature widely using digital book media. Available texts range from Urdu classics, Urdu poetry, and the work of Sir Muhammad Iqbal, one of the most eminent poets of Urdu language literature. Currently, the project houses nearly 800 digital books, ranging from Urdu fiction, poetry, and Islamic studies.
+
+ 
+
+
+<!-- Remember to assign the day -->
+{% assign day=14 %}
+{% for project in site.data.projects limit:1 offset:day %}
+<p>Link: <a href="{{ project.link }}">{{ project.link }}</a></p>
+<p>Edited by: {{ project.editor }}</p>
+<p>Text by: {{ project.writer }}</p>
+{% endfor %}

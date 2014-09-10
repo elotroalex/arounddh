@@ -1,0 +1,25 @@
+---
+layout: post
+title:  "Day 45: CollateX"
+date:   2014-08-05 04:00:00
+categories: jekyll update
+---
+
+<!-- Remember to change the date above -->
+
+
+Originally, CollateX was thought of a new, web-based version, of Peter Robinson’s Collate, which had become obsolete due to changes made to the Apple hardware and software that supported it. During its development, the aims of the CollateX team changed so the software started a new path, different from that of Collate. Unlike the original software, which worked independently, CollateX is a software component that can be integrated into other systems and, although its goal is still to support textual comparison, it aims to be flexible in the type of encoding and publication it supports. 
+
+Unlike other systems, CollateX, following its predecessor, works independently of the language or age of the tradition. CollateX offers different aligment algorithms and accepts different text input formats and so it works with plain text, JSON and XML. CollateX may be combined with other tools to offer the possibility of regularization (normalization), so permiting the comparison of versions that, although not identical in spelling, for example, are deemed identical in meaning. It also allows the independent alignment of tokens. CollateX is a fundamental tool for dealing with variant texts in multiple versions. 
+
+At the moment the project is lead by Ronald Dekker and Gregor Middell.
+
+
+
+<!-- Remember to assign the day -->
+{% assign day=45 %}
+{% for project in site.data.projects limit:1 offset:day %}
+<p>Link: <a href="{{ project.link }}">{{ project.link }}</a></p>
+<p>Selected by: {{ project.editor }}</p>
+<p>Text by: {{ project.writer }}</p>
+{% endfor %}

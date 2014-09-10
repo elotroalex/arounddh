@@ -1,0 +1,25 @@
+---
+layout: post
+title:  "Day 65: CEISMIC | Canterbury Earthquakes Digital Archive"
+date:   2014-08-25 04:00:00
+categories: jekyll update
+---
+
+<!-- Remember to change the date above -->
+
+CEISMIC is a social archive about the people, places, events, and consequences of the Canterbury earthquakes of 2010 and 2011. On 22 February 2011, the most severe of these quakes killed 185 people and caused widespread damage in the city of Christchurch and surrounding regions. While the rebuild process is now well underway, there has been enormous disruption to housing, roading, public services and cultural life; and such sweeping changes mean that Christchurch will never be quite the same ever again.
+
+Inspired by digital archive projects such as the [September 11 Digital Archive](http://911digitalarchive.org/) and the Hurricane Digital Memory Bank, CEISMIC is an open-access archive that can be used for commemoration, community building, research and future preparedness. It was founded in 2011 soon after the February quake, is being developed by the University of [Canterbury Digital Humanities Programme](http://dh.canterbury.ac.nz/) with support from a consortium of major New Zealand cultural heritage and research institutions. The content of the CEISMIC archive is very broad, and includes crowd-sourced stories and photographs, video, audio, newspapers, community newsletters, academic papers, archaeological reports, government data, television and radio news, heritage records, objects and ephemera. Currently it includes about 75000 items, many licensed for reuse under Creative Commons. 
+
+CEISMIC is a federated archive, comprised of many contributing repositories and websites, so we are particularly indebted to [DigitalNZ](http://www.digitalnz.org/) who provide metadata aggregation and a search API. The federation allows for a great variety of content collection methods, such as online crowdsourcing, digitisation of museum collections, and collaboration with academic researchers. A simple [search for stories](http://www.ceismic.org.nz/search?q=stories) for instance, will return personal accounts, children's stories, monologues recorded by the [QuakeBox](http://www.nzilbb.canterbury.ac.nz/QuakeBox.shtml) for use by linguistics and social researchers, written accounts by health workers, among others. 
+
+
+
+
+<!-- Remember to assign the day -->
+{% assign day=65 %}
+{% for project in site.data.projects limit:1 offset:day %}
+<p>Link: <a href="{{ project.link }}">{{ project.link }}</a></p>
+<p>Selected by: {{ project.editor }}</p>
+<p>Text by: {{ project.writer }}</p>
+{% endfor %}

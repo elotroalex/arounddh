@@ -1,0 +1,24 @@
+---
+layout: post
+title:  "Day 59: Hímaco"
+date:   2014-08-19 04:00:00
+categories: jekyll update
+---
+
+<!-- Remember to change the date above -->
+
+Hímaco—História, Mapas e Computadores (History, Maps and Computers)—is a research group dedicated to investigating the potentialities of Geographic Information Systems (GIS) for research into the historical transformations of space-related phenomena, and develop the necessary technical and human resources for this reasearch at the São Paulo State Archives. Originated from initial projects conducted by reseachers from the History Department of the Federal University of São Paulo in 2010, since 2013 the group is based at the maps section of the São Paulo State Archives, which is currently in process of digitazing its 400 years of documents. Himaco´s pilot project focuses on the social and urban impacts of a the series of floods that took place in the city of São Paulo from 1870 to 1940—the most intensive years of the city´s urban development. The project will be active until 2015, and will use gvSIG to develop maping technologies based on the wealth of historical maps available at the Archives for that period. Open access is a central concern of the team, and all the products of the ongoing research projetc will be made available freely by 2015.
+
+For this pilot project, Himaco is composed of an interdisciplinary group made up of historians, geographers, computer scientists and graphic designers, working in close colaboration with archive professionals. As the group´s misson statement declares, the use of digital technologies canot be divorced from theoretical and methodological debates, or it risks turning the research into a schematic technicism devoid of historiographical reflection. In order to foster this reflexive  attitude, the group meets regularly for study sessions focused on the implications of geospatial technologies in historical research and other issues. According to Luis Ferla, one of the founders of Hímaco, the group is formed with the aim of fostering this debate, with its experiments serving, in fact, as a "case study" about the effects of the techonlogical tools over historical reasearch. For Ferla, at a time when the access to historical documents is increasing and becoming irreversibly democratical, the separation between knowledge "producers" and knowledge "consumers" loses its meaning, and this places historians, today, in a singular position - one of the most important effects of which is a newfound oportunity for collaborative work.
+
+Hímaco was one of the projects represented in the [1st International Seminar for Digital Humanities in Brazil](http://seminariohumanidadesdigitais.wordpress.com/english/presentation/), in October 2013, and is part of [AHDig](http://ahdig.org/), the Association for Digital Humanities in Portuguese, founded also in October 2013 by the participants and organizers of the Seminar.
+
+
+
+<!-- Remember to assign the day -->
+{% assign day=59 %}
+{% for project in site.data.projects limit:1 offset:day %}
+<p>Link: <a href="{{ project.link }}">{{ project.link }}</a></p>
+<p>Selected by: {{ project.editor }}</p>
+<p>Text by: {{ project.writer }}</p>
+{% endfor %}

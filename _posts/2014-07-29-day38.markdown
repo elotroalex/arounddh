@@ -1,0 +1,29 @@
+---
+layout: post
+title:  "Day 38: Yeniseisk Heritage"
+date:   2014-07-29 04:00:00
+categories: jekyll update
+---
+
+<!-- Remember to change the date above -->
+
+Yeniseisk Heritage is an interdisciplinary project to combine the efforts of archeologists, historians, architects, dendrochronologists, software developers, digital humanities specialists, and linguists. The project’s objective was to collect visual documents and their metadata to model the historical architectural network of an old Siberian city. The result was a series of 3D models showing the Siberian churches, private buildings, hospitals, schools, and merchant warehouses dating back to the nineteenth and eighteenth centuries. The models are based on accurate architectural and historical studies and each record is linked to the city’s map. 
+
+The project’s web site is a combination of a reference in Siberian architectural history and a nonlinear study based on unexpected combinations of contemporary/historical photos. Yeniseysk is one of the first Siberian cities with a rich administrative and commercial history. Siberian merchants   and colonial officers who built their houses in this area tried to turn the place into a beautiful and interesting architectural environment. The city changed its status in the late nineteenth century when river transportation networks suffered from the competition from southern railroads and the regional capital city moved south. 
+
+The importance of maintaining visual historical records and building a visual databank for further studies is related to the practical tasks of preserving historic architecture and turning the city into a historic destination. Further questions of architectural links to other Siberian buildings, their relation to the nineteenth century Russian or European architecture, or specific Siberian features, the combination of buildings with different functions and its connection with the history of the region might be pursued based on the project data. 
+
+The team included faculty and staff from Siberian Federal University and Yeniseysk Regional Museum.  
+
+
+
+
+
+
+<!-- Remember to assign the day -->
+{% assign day=38 %}
+{% for project in site.data.projects limit:1 offset:day %}
+<p>Link: <a href="{{ project.link }}">{{ project.link }}</a></p>
+<p>Edited by: {{ project.editor }}</p>
+<p>Text by: {{ project.writer }}</p>
+{% endfor %}

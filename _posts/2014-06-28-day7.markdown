@@ -1,0 +1,20 @@
+---
+layout: post
+title:  "Day 7: Center for Digital Humanities | Центар за дигиталне хуманистичке науке"
+date:   2014-06-28 04:00:00
+categories: jekyll update
+---
+
+Digital humanities happens in many places around the world through its centers. Today we present The Center for Digital Humanities in Belgrade, Serbia, which reminds us that "Упркос гласинама, у питању нису ни комунистичке ни хумористичке науке" ("Despite the rumors, [digital humanities] is neither communist nor humorous science") The center deals with the theoretical basis and practical use of digital technologies in research, teaching and the promotion of philology, lexicography, literature and other humanities. 
+
+The center has only been around since 2009, but they are involved in several exciting projects, two of which bear mention here, [Транспоетика](http://www.transpoetika.org/), Transpoetika, "a lexicographic and publishing platform for the Serbian language"; and [IBiS](http://ibis.mi.sanu.ac.rs/index_e.html), the Internet Library of Serbia for Arts and Humanities. 
+ 
+
+
+<!-- Remember to assign the day -->
+{% assign day=7 %}
+{% for project in site.data.projects limit:1 offset:day %}
+<p>Link: <a href="{{ project.link }}">{{ project.link }}</a></p>
+<p>Edited by: {{ project.editor }}</p>
+<p>Text by: {{ project.writer }}</p>
+{% endfor %}

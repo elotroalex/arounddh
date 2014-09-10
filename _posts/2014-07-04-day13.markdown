@@ -1,0 +1,21 @@
+---
+layout: post
+title:  "Day 13: OpenEdition"
+date:   2014-07-04 04:00:00
+categories: jekyll update
+---
+
+OpenEdition is a portal for digital resources for the Humanities and Social Sciences. Its structure comprises four different publishing platforms that complement each other: [Revues.org](http://www.revues.org/), [OpenEdition Books](http://books.openedition.org/), [Calenda](http://calenda.org/), and [Hypothèses](http://hypotheses.org/). Each of these deals with a different set of materials, like realms in a virtual world. Revues.org is a platform for the publication of serials, either journals or book series, that allows journals to have a web-presence without interfeering with their unique editorial  policies. OpenEdition Books holds 1453 books from 39 different publishers, many of which are free access. Calenda presents information on upcoming events, including conferences, seminars, call for papers and other meetings that might be of interest to the community. Hypothèses is a platform for academic blogs, currently presented in German, French and Spanish.
+ 
+OpenEdition serves to promote sites by giving them visibility and the credibility of their editorial experts. Every blog, journal, book or resource appearing within this platform retains its individuality, methodology and editorial policies. The advantage of going throgh the review process and becoming part of OpenEdition is that the system lends visibility to resources that might otherwise not be easy to find. Individual researchers benefit by having access to a wide catalogue of academic publications in Humanities and Social Sciences fields, most of which are completely open access and from having in the same place resources that would have otherwise been scattered on the internet. For institutions and libraries, [OpenEdition Freemium](http://www.openedition.org/8873) offers access by subscription. Publishers, on the other hand, benefit from a publication platform specifically developed for Humanities and Social Sciences subjects. 
+
+ 
+
+
+<!-- Remember to assign the day -->
+{% assign day=13 %}
+{% for project in site.data.projects limit:1 offset:day %}
+<p>Link: <a href="{{ project.link }}">{{ project.link }}</a></p>
+<p>Edited by: {{ project.editor }}</p>
+<p>Text by: {{ project.writer }}</p>
+{% endfor %}

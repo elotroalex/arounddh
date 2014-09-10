@@ -1,0 +1,28 @@
+---
+layout: post
+title:  "Day 34: The Medici Archive Project"
+date:   2014-07-25 04:00:00
+categories: jekyll update
+---
+
+<!-- Remember to change the date above -->
+
+The Medici family ruled Florence between 1537 to 1743 and, during this time, they served as patrons for artists and scientist alike. Cosimo I established the Medici Archive in 1569 as a record of the family’s diverse activities. 
+
+Since 1990, the Medici Archive Project has catalogued, index and classified documents that have not been widely available before. The collection consists of over four-million letters, written during the Medici’s ruling period. It documents the political, diplomatic, gastronomic, economic, artistic, scientific, military and medical culture of early modern Tuscany and Europe. As of August 2011, the MAP database  had included over 21,000 letters, 15,000 biographical entries, and 80,000 geographical and topographical tags, and was receiveing an average of 20,000 monthly hits. 
+
+The Medici Archive Project represents an important historical source for early modern Europe, but much more interestingly, it allows for users to provide feedback and participate of the community created through the scholarly forums. This means that scholars and researchers all over the world can contribute to the management of the database, as well as to the improvement and modification of entries. It is this openess that sets MAP apart from similar databases. 
+
+The Medici Archive requires users to be registered, but it is open to everyone. 
+
+
+
+
+
+<!-- Remember to assign the day -->
+{% assign day=34 %}
+{% for project in site.data.projects limit:1 offset:day %}
+<p>Link: <a href="{{ project.link }}">{{ project.link }}</a></p>
+<p>Edited by: {{ project.editor }}</p>
+<p>Text by: {{ project.writer }}</p>
+{% endfor %}

@@ -1,0 +1,23 @@
+---
+layout: post
+title:  "Day 32: African Online Digital Library"
+date:   2014-07-23 04:00:00
+categories: jekyll update
+---
+
+<!-- Remember to change the date above -->
+
+Serving as a space to bring together humanities projects about and situated in Africa, the assemblage of projects under this umbrella include fifteen collections ranging from [Ajami in the Senegambia](http://aodl.org/islamictolerance/ajami/) to the [African Online Digital Library](http://aodl.org/westafrica/) to several South African Projects, one about [overcoming apartheid](http://overcomingapartheid.msu.edu/), another about [film and video in Africa](http://africanmedia.msu.edu/), and finally a site about [African oral history](http://www.aodl.org/oralnarratives/) with material from both South Africa and Ghana. With a broad range of offerings from [pedagogically focused material](http://exploringafrica.matrix.msu.edu/) about the African continent to [scholarly journals](http://africa.isp.msu.edu/AEJP/), the African Online Digital Library provides a jumping off point to explore many of the cultural heritage offerings of Africa. 
+
+Housed at Michigan State University by the [African Studies Center](http://africa.isp.msu.edu/http://africa.isp.msu.edu/) and facilitated by (MATRIX)[http://www2.matrix.msu.edu/]'s digital expertise, the site is partnered with organizations in Africa to develop its holdings. 
+
+
+
+
+<!-- Remember to assign the day -->
+{% assign day=32 %}
+{% for project in site.data.projects limit:1 offset:day %}
+<p>Link: <a href="{{ project.link }}">{{ project.link }}</a></p>
+<p>Edited by: {{ project.editor }}</p>
+<p>Text by: {{ project.writer }}</p>
+{% endfor %}

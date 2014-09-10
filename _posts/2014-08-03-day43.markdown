@@ -1,0 +1,27 @@
+---
+layout: post
+title:  "Day 43: The British Library Qatar Foundation Partnership"
+date:   2014-08-03 04:00:00
+categories: jekyll update
+---
+
+<!-- Remember to change the date above -->
+
+
+The [Qatar Foundation](http://www.qf.org.qa/) [Qatar National Library](http://www.qnl.qa/) partnership with the British Library began in 2012, with a kick-off project digitizing a half million pages of archival material about Arab, and particularly Gulf Arab, history. The partnership occupies a large part of the sixth floor at the British Library’s St Pancras site, and includes a wide array of curators, conservators, Arabists and digitization specialists, all collaborating with one main goal: to expand access to their collections for a number of global audiences.
+
+The British Library Qatar Foundation partnership is making available an eclectic combination of medieval texts about science and medicine along with documents from the [India Office](http://en.wikipedia.org/wiki/India_Office) concerning the Gulf region.  Included are manuscripts, personal and official archives, photographs, maps and even recordings of traditional music.
+
+At the end of the first three-year project, the partnership will deliver a portal for use of the collections under a Creative Commons license, along with interfaces and documentation in both English and Arabic.  The bilingual nature of the deliverables is a crucial point, seeking both to enrich the amount of high-quality, Arabic-language digital material on the Internet and to facilitate use of the collections by Arabic-speaking audiences.  The first phase also marks an important step in international cooperation for exploring digital cultural heritage management for the growing Qatar National Library.
+
+Samples of the diverse materials digitized can be found on [the press release page](http://pressandpolicy.bl.uk/Press-Releases/Transforming-our-understanding-of-Middle-Eastern-history-The-British-Library-and-Qatar-Foundation-unveil-project-to-digitise-half-a-million-pages-of-archive-material-5b8.aspx) for the project.  The British Library Qatar Foundation partnership tweets as [@BLQatar](https://twitter.com/BLQatar).
+
+
+
+<!-- Remember to assign the day -->
+{% assign day=43 %}
+{% for project in site.data.projects limit:1 offset:day %}
+<p>Link: <a href="{{ project.link }}">{{ project.link }}</a></p>
+<p>Selected by: {{ project.editor }}</p>
+<p>Text by: {{ project.writer }}</p>
+{% endfor %}

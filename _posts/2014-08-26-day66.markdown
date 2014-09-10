@@ -1,0 +1,28 @@
+---
+layout: post
+title:  "Day 66: Texas Slavery Project"
+date:   2014-08-26 04:00:00
+categories: jekyll update
+---
+
+<!-- Remember to change the date above -->
+
+The Texas Slavery Project looks at a crucial time in Texas's history when it went from being a Mexican province to an independent republic, primarily because of the desire of Anglo settlers to own slaves:
+
+
+>American slaveholders began migrating to the Mexican province of Texas in the 1820s, where they established a society like those developing at the same time in Mississippi and Alabama. Tensions quickly rose between these Anglo settlers and the government of Mexico, which repeatedly attempted to outlaw slavery in Texas. Settlers in the region eventually rebelled from Mexico in 1836 and established the Republic of Texas. From 1836 to 1845, slaveholders from the American South poured into this new nation between the borders of the United States and Mexico.
+
+With a database of slaves and slaveholders from the Republic era (1837-45), information may be separated by counties or amalgamated over the entire region. In addition, there is a graphing interface so that information may be visualized in a meaningful way. There are also dynamic interactive maps showing flows of slaves and slaveholders over time. Finally, via digitized original documents, the site brings together a corpora composed of everything from personal writing to journalism to legal documents. Each of these contributes to form a more complete picture of slavery, and the people who lived with it, in Texas.
+
+The project was founded by AndrewTorget, Professor of History at the University of North Texas and is supported by [The Summerlee Foundation](http://www.summerlee.org/) in Dallas, Texas and [The Virginia Center for Digital History](http://www.vcdh.virginia.edu/index.php?page=VCDH).
+
+
+
+
+<!-- Remember to assign the day -->
+{% assign day=66 %}
+{% for project in site.data.projects limit:1 offset:day %}
+<p>Link: <a href="{{ project.link }}">{{ project.link }}</a></p>
+<p>Selected by: {{ project.editor }}</p>
+<p>Text by: {{ project.writer }}</p>
+{% endfor %}

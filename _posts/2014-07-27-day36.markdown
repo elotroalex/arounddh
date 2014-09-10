@@ -1,0 +1,24 @@
+---
+layout: post
+title:  "Day 36: Neatline"
+date:   2014-07-27 04:00:00
+categories: jekyll update
+---
+
+<!-- Remember to change the date above -->
+
+Neatline is a geotemporal exhibit-builder that allows users to create beautiful, complex maps, image annotations, and narrative sequences from [Omeka](http://omeka.org/) collections of archives and artifacts, and to connect their maps and narratives with timelines that are more-than-usually sensitive to ambiguity and nuance. Neatline lets you make hand-crafted, interactive stories as interpretive expressions of a single document or a whole archival or cultural heritage collection. You can import these documents (georeferenced historical maps, manuscripts, high-resolution photographs, etc.) from an existing collection, or create a new digital archive, yourself. Every Neatline exhibit is your contribution to humanities scholarship, in the visual vernacular.
+
+Designed by the [Scholars’ Lab](http://www.scholarslab.org/) at the University of Virginia Library, Neatline is a suite of plugins for the open-source Omeka framework, which provides a powerful platform for management and publication of the underlying collection on which an exhibit is built. Through Neatline, you can create create rich representations of places, objects, events, narratives, and documents — like the ones featured [here](http://neatline.org/neatline-in-action/).
+
+
+
+
+
+<!-- Remember to assign the day -->
+{% assign day=36 %}
+{% for project in site.data.projects limit:1 offset:day %}
+<p>Link: <a href="{{ project.link }}">{{ project.link }}</a></p>
+<p>Edited by: {{ project.editor }}</p>
+<p>Text by: {{ project.writer }}</p>
+{% endfor %}

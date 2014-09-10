@@ -1,0 +1,39 @@
+---
+layout: post
+title:  "Day 55: AustLit"
+date:   2014-08-15 04:00:00
+categories: jekyll update
+---
+
+<!-- Remember to change the date above -->
+
+[AustLit](www.austlit.edu.au) is a major DH project focused on the art and production of story. Covering all forms of literary work, alongside criticism, film, theatre, performance art and storytelling, AustLit, with its numerous specialist research projects, is the largest database of its kind in the world providing enhanced biographical, bibliographical, and subject specific data and information. AustLit is integral to any large-scale research requiring information relating to Australian literary and cultural history. A highly evolved search function allows researchers to discover, extract and analyse large sets of data relating to Australian print culture and publishing history. The AustLit team is led by scholars at The University of Queensland and includes researchers at many Australian universities across many fields of interest.  Researchers can also use AustLit as infrastructure for their own data-driven projects by building collections of biographical and bibliographical records which can be presented in a variety of ways.
+ 
+Explore [AustLit’s Research Projects](http://www.austlit.edu.au/specialistDatasets) to discover fascinating scholarly projects that range through such diverse subjects as:
+
+* the banning of books by the federal censor;
+
+* Indigenous writers and storytellers;
+
+* the literary responses to World War I;
+
+* multicultural Australia represented through publications in languages other than English; and, among others,
+
+* various film, television, and theatre projects.  
+
+ 
+AustLit also supports [the teaching](http://www.austlit.edu.au/teaching-with-austlit) of Australian texts through its many trails, exhibitions and datasets that present related information in dynamic useful ways. It expands its usefulness programmatically linking to related resources such as the National Library’s Trove service.
+ 
+We welcome the participation of scholars and researchers. For queries, or guest access, contact AustLit Director, [Kerry Kilner](k.kilner@uq.edu.au).
+
+
+
+
+
+<!-- Remember to assign the day -->
+{% assign day=55 %}
+{% for project in site.data.projects limit:1 offset:day %}
+<p>Link: <a href="{{ project.link }}">{{ project.link }}</a></p>
+<p>Selected by: {{ project.editor }}</p>
+<p>Text by: {{ project.writer }}</p>
+{% endfor %}

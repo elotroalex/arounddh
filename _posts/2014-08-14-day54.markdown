@@ -1,0 +1,32 @@
+---
+layout: post
+title:  "Day 54: The Shahnameh Project"
+date:   2014-08-14 04:00:00
+categories: jekyll update
+---
+
+<!-- Remember to change the date above -->
+
+
+The Shahnameh (“Book of Kings”; 1010) by the Iranian poet Ferdowsi  is a multi-millennial epic in Persian, spanning the mythic times of the first signs of civilisation in “the world” with Iran-zameen (“the land of Iran”) at its centre to the last monarch of the pre-Islamic Sassanid dynasty in mid-seventh century CE. The fifty monarchs chronicled in the Shahnameh, starting with the first king/shah on Earth who is also an Iranian, belong to four successive dynasties: Pishdadian and Kayanids, who were largely mythical, succeeded by the quasi-historical Arsacids and Sassanids, whose accounts more or less follow the outline of the Parthian and Persian political history in their pre-Islamic period. In another categorisation, the Shahnameh is divided into three phases: the mythic, the heroic (or legendary), and the historical. Whilst the first phase deals with stories of emerging civilisation on the Iranian plateau (rather than the Creation)—hence making the epic a point of reference for multiple cultures and states which are now situated outside the political borders of Iran—the second phase mainly revolves around the two houses of the royal Kayanids and their chief vassal champions, the sons of Nariman, and the interaction of these families both in the court and out on the battlefield. The same section also includes some of the best-known and most dramatic stories of the Shahnameh, which take place in an area extending from Mount Damavand to the northeast of modern day Tehran to the borders of western China. The final phase is qualitatively different from the previous two, shifting the scene partially to the western parts of Iran and dealing for the most part with dynastic intrigues that increasingly dominate the narrative with occasional flourishes of great story-telling.
+
+The creators of [the Shahnameh Project](http://www.nimrouz.ir/shahnameh/)  describe it as their “first attempt  to put together an ontology of a textual narrative and visualise it,” seeking to “determine the semantic bonds between the characters” of the epic.  These characters are provided in the vertical lists on the left and the right, and the middle vertical list provides certain categories for the characters’ relationships as a result of which the emerging networks can visually be examined. The relationship categories to choose from are as follows:
+
+-  On the top horizontal line (right to left): spouse, child, sibling, grandchild, relation, successor, ally, subordinate, clash, arrest warrant, death warrant, killer.
+
+-  On the bottom horizontal line (left to right): female vs male [gender]; divine vs satanic [state of grace]; Iranian vs non-Iranian [nationality]; angel, demon, human, animal [chain of being]; monarch, courtier, warrior, civilian, prophet, priest [social class].
+
+A gigantic poem of some 50,000 lines, the Shahnameh offers fertile ground for DH-orientated work, and [the Shahnama Project at Pembroke Centre for Persian Studies](http://shahnama.caret.cam.ac.uk/new/jnama/page/), University of Cambridge, UK, is another such ambitious undertaking. The project’s website contains “a comprehensive collection of manuscripts” as well as “a display of the miniature paintings in each one. There are currently about 1,500 manuscripts and single pages recorded, 18,000 records of paintings, and 12,000 images from all over the world.”
+
+
+
+
+
+
+<!-- Remember to assign the day -->
+{% assign day=54 %}
+{% for project in site.data.projects limit:1 offset:day %}
+<p>Link: <a href="{{ project.link }}">{{ project.link }}</a></p>
+<p>Selected by: {{ project.editor }}</p>
+<p>Text by: {{ project.writer }}</p>
+{% endfor %}

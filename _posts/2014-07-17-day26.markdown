@@ -1,0 +1,21 @@
+---
+layout: post
+title:  "Day 26: Digital New Zealand Ā-tihi o Aotearoa"
+date:   2014-07-17 04:00:00
+categories: jekyll update
+---
+
+Digital New Zealand aims to make New Zealand content easy to find, share and use. This includes content from over 160 content partners from around NZ, including the cultural and heritage, broadcasting, education, and government sectors; as well as local community sources and individuals. Their goal is to uncover hidden or buried New Zealand content such as images, audio, video, interactives, and documents, and make them available for discovery and use.
+
+DigitalNZ is also testing new ways to create digital content, collect and share existing digital content; and build smart, freely available, search and discovery tools. Launched in 2008, DigitalNZ offers an API that allows developers to build new tools using data aggregated from over 25 New Zealand content providers (including galleries, museums, archives and libraries) A customisable search tool that lets anyone (especially non-developers) build a mini-search engine using specified content aggregated by DigitalNZ
+Advice and best practice guides for organisations who are creating digital content.
+
+
+
+<!-- Remember to assign the day -->
+{% assign day=26 %}
+{% for project in site.data.projects limit:1 offset:day %}
+<p>Link: <a href="{{ project.link }}">{{ project.link }}</a></p>
+<p>Edited by: {{ project.editor }}</p>
+<p>Text by: {{ project.writer }}</p>
+{% endfor %}

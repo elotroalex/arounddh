@@ -1,0 +1,29 @@
+---
+layout: post
+title:  "Day 67: Iraqi Jewish Archive"
+date:   2014-08-27 04:00:00
+categories: jekyll update
+---
+
+<!-- Remember to change the date above -->
+
+> Startling evidence of the once vibrant Jewish life in Iraq came to light in May 2003 — over 2,700 books and tens of thousands of documents were discovered in the flooded basement of the Iraqi intelligence headquarters by a US Army team. The remarkable survival of this written record of Iraqi Jewish life provides an unexpected opportunity to better understand this 2,500-year-old Jewish community. For centuries, it had flourished in what had generally been a tolerant, multicultural society. But circumstances changed dramatically for Jews in the mid-twentieth century, when most Iraqi Jews fled and were stripped of their citizenship and assets. To provide accessibility throughout the world to the damaged materials found in 2003, the US National Archives and Records Administration and its partners have preserved, cataloged, and digitized the books and documents.
+
+> For guidance and assistance in preserving the treasure trove of books and documents from the mid-sixteenth to late twentieth century, the Coalition Provisional Authority called on the [US National Archives and Records Administration](http://www.archives.gov/). With the agreement of Iraqi officials, the National Archives undertook the effort to preserve these waterlogged, damaged, and moldy materials; to catalog and digitize them; and to develop an exhibit from the books and documents. The work occurred in three phases: Initial recovery, freezing and shipping, and vacuum freeze-drying; Identification, assessment, photographing title pages and covers, creation of a database, preliminary cataloging, and consultation with subject matter experts; Completion of cataloging, stabilization of materials, digitization, boxing, creation of the exhibition in English and Arabic, collaboration with Iraqi conservators, and return of the materials to Iraq. 
+
+> The collection of books and documents is organized in a database with 3,846 entries of two types: 
+
+> - Published books (more than 2,700)
+> - Unpublished archival materials (tens of thousands), including handwritten books, correspondence, booklets, school records, financial records, telegrams, and more.Often an entry/item number contains a group of related documents: for example, a binder of student records from a single school. By opening that item, a user will be able to access PDFs of all the documents in the binder. Learn more about the range of items in the Iraqi Jewish Archive.  
+
+
+
+
+
+<!-- Remember to assign the day -->
+{% assign day=67 %}
+{% for project in site.data.projects limit:1 offset:day %}
+<p>Link: <a href="{{ project.link }}">{{ project.link }}</a></p>
+<p>Selected by: {{ project.editor }}</p>
+<p>Text by: {{ project.writer }}</p>
+{% endfor %}

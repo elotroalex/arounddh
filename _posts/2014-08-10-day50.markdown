@@ -1,0 +1,23 @@
+---
+layout: post
+title:  "Day 50: The Palace Museum"
+date:   2014-08-10 04:00:00
+categories: jekyll update
+---
+
+<!-- Remember to change the date above -->
+
+
+The website of the Palace Museum in Beijing, of Forbidden City fame, is an example of a museum website that presents "[Virtual Exhibitions](http://www.dpm.org.cn/shtml/2/@/8797.html#145)" of unique cultural artifacts accompanied by scholarly commentary from expert curators. It also presents some of its material to the internet public through the use of [timelines](http://www.dpm.org.cn/shtml/520/@/96565.html). The website also features a section of [academic resources](http://www.dpm.org.cn/shtml/115/@/9036.html#115) (In Chinese only) and a [Virtual Palace Tour](http://www.dpm.org.cn/shtml/2/@/8797.html#149).
+
+The Chinese portions are offered in both traditional and simplified Chinese scripts. These offer the following content-rich sections: Architectural History, Special Collections, Rare Books, Life in Ming and Qing Courts, Preservation. The digitized resources—rare books and manuscripts—section is impressive, with material presented in wide PDF formats in high resolution, allowing readers to explore the resources in Beijing without having to register for an account or visit Beijing.
+
+
+
+<!-- Remember to assign the day -->
+{% assign day=50 %}
+{% for project in site.data.projects limit:1 offset:day %}
+<p>Link: <a href="{{ project.link }}">{{ project.link }}</a></p>
+<p>Selected by: {{ project.editor }}</p>
+<p>Text by: {{ project.writer }}</p>
+{% endfor %}

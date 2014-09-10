@@ -1,0 +1,27 @@
+---
+layout: post
+title:  "Day 79: Archaeology and Landscape in the Altai Mountains of Mongolia"
+date:   2014-09-08 04:00:00
+categories: jekyll update
+---
+
+<!-- Remember to change the date above -->
+
+This project presents the results of eighteen field seasons in the Altai Mountains of Russia and Mongolia. The extensive materials the archaeologists have been able to gather and document represent the first broad inventory of surface archaeology in northwestern Mongolia.
+
+The project draws on three major resources: analysis of the region’s cultural monuments, accessed through the Archaeology section; an Image Gallery, consisting of digitized photographs of monuments and landscape; and a set of maps which include 1) a series of static image maps, and 2) a searchable Interactive Map. All maps are derived from the Project’s extensive Geographic Information Systems (GIS) database. The static maps consist of Basin Maps, located in the Altai Region Basin pages, and View Shed Maps, accessed in the Cultural Landscape section. The Interactive Map is designed to allow users to display map layers dynamically, pan and zoom the Altai region, and view specific monument types. Many of the map features have a direct link to the photographic archive, also accessed through the Image Gallery.
+
+A generous Research Materials Grant from the National Endowment for the Humanities (2007–2009) has made the completion of this project possible. The University of Oregon has also generously supported many years of fieldwork in the Altai Mountains through the Maude I. Kerns Bequest in the Department of Art History. Through the same fund, the University also supported the early development of mapping in the Department of Geography’s InfoGraphics Lab.
+
+
+ 
+ 
+
+
+<!-- Remember to assign the day -->
+{% assign day=79 %}
+{% for project in site.data.projects limit:1 offset:day %}
+<p>Link: <a href="{{ project.link }}">{{ project.link }}</a></p>
+<p>Selected by: {{ project.editor }}</p>
+<p>Text by: {{ project.writer }}</p>
+{% endfor %}

@@ -1,0 +1,24 @@
+---
+layout: post
+title:  "Day 29: Tripitaka Koreana Knowledgebase"
+date:   2014-07-20 04:00:00
+categories: jekyll update
+---
+
+<!-- Remember to change the date above -->
+
+The Daejanggyeong (大藏經, Tripitaka) is "a synthesis of all of the Buddha's teachings," composed of three sections, called *pitakas*, thus the name Tripitaka (三藏). These three include the Sutra Pitaka, the Vinaya Pitaka, and the Abhidharma Pitaka. Since the Tripitaka was first composed on the Korean peninsula during the Goryeo dynasty, it has been commonly called the "Tripitaka Koreana," also called the Palman Daejanggyeong (80,000 Tripitaka Korean) because it consists of more than 80,000 (pal man, 팔만) woodblocks. The Tripitaka Koreana project is an effort to digitize and create a knowledgebase around the documentary evidence surrounding the Daejanggyeong. 
+
+From the year 2001 until today, Haein-sa Temple has been the site of the continuous collection of accurate information about the Tripitaka Koreana, and this effort has helped to maintain a scientific and systematic preservation of the data. This process of digitizing the images and basic information in the Tripitaka Koreana is aimed at the goal of eternal preservation. Therefore, the Research Institute of Tripitaka Koreana is making every effort to collect every bit of information and to make it widely available as a web-based resource, in line with the needs of all those who are interested in its use.
+
+The Research Institute of Tripitaka Koreana has not only digitized the more than 55,000,000 characters of the Tripitaka Koreana, there have also been numerous supplemental projects considered crucial to the Tripitaka Koreana research, including the addition of notational mark-ups, the publication of the Dictionary of the Chinese Variant Characters, the collection of various sutras from all over the world, and a standardized comparison between the Tripitaka Koreana and Japan’s Taisho Shinshu Tripitaka. In addition, the Institution has developed further basic research aids, including the Tripitaka Koreana index, a Buddhist Vocabulary dictionary, an electronic dictionary, critical essays about Korea-Buddhism relations, and various other information.
+
+
+
+<!-- Remember to assign the day -->
+{% assign day=29 %}
+{% for project in site.data.projects limit:1 offset:day %}
+<p>Link: <a href="{{ project.link }}">{{ project.link }}</a></p>
+<p>Edited by: {{ project.editor }}</p>
+<p>Text by: {{ project.writer }}</p>
+{% endfor %}

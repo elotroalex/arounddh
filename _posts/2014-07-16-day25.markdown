@@ -1,0 +1,22 @@
+---
+layout: post
+title:  "Day 25: Digitizing \"Chinese Englishmen\""
+date:   2014-07-16 04:00:00
+categories: jekyll update
+---
+
+Digitizing "Chinese Englishmen" is,
+
+>a digital project focusing on the creation of “Asian Victorians” in Southeast Asia under British colonialism. It focuses on the digitization and annotation of the Straits Chinese Magazine, a journal produced by the Chinese diaspora in Southeast Asia in the late nineteenth and early twentieth centuries.
+
+The project is an example of a digitization project to rescue material that is otherwise difficult to access and accompany it with scholarly commentary. The project was founded and is directed by Adeline Koh, who together with Roopika Risam was also creator of [Postcolonial Digital Humanities](http://dhpoco.org/) or #dhpoco as it is known. DCE also represents one of many projects that links diasporic scholars in the United States to digital humanities work in the global south. 
+
+
+
+<!-- Remember to assign the day -->
+{% assign day=25 %}
+{% for project in site.data.projects limit:1 offset:day %}
+<p>Link: <a href="{{ project.link }}">{{ project.link }}</a></p>
+<p>Edited by: {{ project.editor }}</p>
+<p>Text by: {{ project.writer }}</p>
+{% endfor %}

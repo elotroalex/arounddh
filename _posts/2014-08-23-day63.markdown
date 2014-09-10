@@ -1,0 +1,22 @@
+---
+layout: post
+title:  "Day 63: DigiHUBB"
+date:   2014-08-23 04:00:00
+categories: jekyll update
+---
+
+<!-- Remember to change the date above -->
+
+DigiHUBB, Centrul Digital Humanities Transilvania, the Digital Humanities Center of Transylvania, is the first Center of its kind in Romania. It is affiliated to the Babes-Bolyai University of Cluj-Napoca, and functions as a research consortium. DigiHUBB’s purpose is to spread digital humanities knowledge in Romania, to encourage researchers to work in interdisciplinary teams and to promote digital creativity.
+
+DigiHUBB aims at developing programs focused on applied research and innovation through  knowledge transfer and dissemination in the field of Digital Humanities; developing, in the future, professional training programs in line with the Centre’s domain, as well as creating practical end products, such as knowledge bases, database, interactive maps, cloud platforms, 3-D reconstructions, mobile applications, among others.
+
+
+
+<!-- Remember to assign the day -->
+{% assign day=63 %}
+{% for project in site.data.projects limit:1 offset:day %}
+<p>Link: <a href="{{ project.link }}">{{ project.link }}</a></p>
+<p>Selected by: {{ project.editor }}</p>
+<p>Text by: {{ project.writer }}</p>
+{% endfor %}

@@ -1,0 +1,30 @@
+---
+layout: post
+title:  "Day 57: Voyages: The Trans-Atlantic Slave Trade Database"
+date:   2014-08-17 04:00:00
+categories: jekyll update
+---
+
+<!-- Remember to change the date above -->
+
+The Trans-Atlantic Slave Trade Database has information on more than 35,000 slave voyages that forcibly embarked over 12 million Africans for transport to the Americas between the sixteenth and nineteenth centuries. It offers researchers, students and the general public a chance to rediscover the reality of one of the largest forced movements of peoples in world history. The Database allows you to do many things including 
+
+- [Search the Voyages Database](http://www.slavevoyages.org/tast/database/search.faces). You can look for particular voyages in this database of documented slaving expeditions. Create listings, tables, charts, and maps using information from the database.
+ 	
+- [Examine Estimates of the Slave Trade](http://www.slavevoyages.org/tast/assessment/estimates.faces). Slaves on documented voyages represent four-fifths of the number who were actually transported. Use the interactive estimates page to analyze the full volume and multiple routes of the slave trade.
+ 	
+- [Explore the African Names Database](http://www.slavevoyages.org/tast/resources/slaves.faces). This database identifies 91,491 Africans taken from captured slave ships or from African trading sites. It displays the African name, age, gender, origin, country, and places of  embarkation and disembarkation of each individual.
+
+The database is the result of decades of work by scholars and institutions from many parts of the world, with the support of several major awards. The construction of the present open access web site, Voyages, was made possible by yet a major award in 2006, and was launched from Emory University. The National Endowment for the Humanities was the source of the bulk of the award, but supplementary funding came from the W. E. B. Du Bois Institute for Afro-American Research at Harvard.
+
+
+
+
+
+<!-- Remember to assign the day -->
+{% assign day=57 %}
+{% for project in site.data.projects limit:1 offset:day %}
+<p>Link: <a href="{{ project.link }}">{{ project.link }}</a></p>
+<p>Selected by: {{ project.editor }}</p>
+<p>Text by: {{ project.writer }}</p>
+{% endfor %}

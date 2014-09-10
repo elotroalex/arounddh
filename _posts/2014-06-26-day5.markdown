@@ -1,0 +1,22 @@
+---
+layout: post
+title:  "Day 5: Book of the Dead | Totenbuch "
+date:   2014-06-26 04:00:00
+categories: jekyll update
+---
+
+The [Book of the Dead Project](http://totenbuch.awk.nrw.de/), currently under the direction of Marcus Müller, was started in Bonn in 1990, under Ursula Roessler-Koehler. In 1994 the project obtained funding from the Deutsche Forschungsgemeinschaft which would last until 2004. It was during this phase that the University of Cologne became involved in the project.
+
+The Book of the Dead is an ancient Egyptian funerary text that was transmitted for around 1500 years. Because the aim of the project is to edit the text of the Book of the Dead, it was necessary first to locate, evaluate and classify the primary sources. To this end, a complex database of materials was created. This same database became available to the general public in 2012.
+ 
+Although this project is primarily aimed at Egyptologists, the general public has access to the materials through its web interface. The search engine allows sophisticated searches including a spell search, which can locate particular instances of a text. A very interesting feature is the search by “Objektart” (support) which discriminates the type of support (papyrus, mummy bandage, stone, etc.) on which the text is written. The data is sharable and has already been shared with [Pelagios](http://pelagios-project.blogspot.de/) to create maps of the location of the different documentary sources of the Book of the Dead. The database currently has more than 3000 records that cover the vast majority of the witnesses of this text from 2008 to 313 BCE.
+ 
+
+
+<!-- Remember to assign the day -->
+{% assign day=5 %}
+{% for project in site.data.projects limit:1 offset:day %}
+<p>Link: <a href="{{ project.link }}">{{ project.link }}</a></p>
+<p>Edited by: {{ project.editor }}</p>
+<p>Text by: {{ project.writer }}</p>
+{% endfor %}

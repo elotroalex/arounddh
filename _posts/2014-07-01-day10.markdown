@@ -1,0 +1,20 @@
+---
+layout: post
+title:  "Day 10: Aluka"
+date:   2014-07-01 04:00:00
+categories: jekyll update
+---
+
+Aluka is an international collaborative working to build a “digital library of scholarly resources from and about Africa.” Aluka is part of JSTOR, and is freely available in Africa. While the site is a scholarly resource with many submissions aimed at being used in the undergraduate classroom, materials are valuable to secondary and graduate students as well. Work began in 2003 with a site launch in 2006. It became a part of JSTOR in 2008.
+
+Organizations that have joined Aluka may contribute to the collection, thereby gaining a larger audience for their materials. The goal is to bring together and raise visibility of the holdings of any institution with African holdings. Current holdings fall into two categories [African Cultural Heritage Sites](http://www.aluka.org/page/content/heritage.jsp) and [Landscapes and Struggles for Freedom in Southern Africa](http://www.aluka.org/page/content/struggles.jsp). Both have been curated by local and international experts to ensure the quality of included materials which range across a many media from travelogues to oral histories to maps to excavation reports to scholarly research.
+ 
+
+
+<!-- Remember to assign the day -->
+{% assign day=10 %}
+{% for project in site.data.projects limit:1 offset:day %}
+<p>Link: <a href="{{ project.link }}">{{ project.link }}</a></p>
+<p>Edited by: {{ project.editor }}</p>
+<p>Text by: {{ project.writer }}</p>
+{% endfor %}

@@ -1,0 +1,25 @@
+---
+layout: post
+title:  "Day 53: Rousseau Online"
+date:   2014-08-13 04:00:00
+categories: jekyll update
+---
+
+<!-- Remember to change the date above -->
+
+
+Rousseau Online aims to make freely available the complete works of the French writer and philosopher, Jean-Jacques Rousseau. Through the site iit is possible to access Rousseau’s works either online or as ePub for smart phones and other mobile devices. 
+
+An interesting feature of this project is [the interactive map](http://www.rousseauonline.ch/maps/maps.php), which shows the place in which Rousseau wrote his letters. The site also includes the original artwork that was published to accompany his works, which can be seen through hyperlinks to the original images. 
+
+One of the most notable characteristics of Rousseau online is that all texts are available through a Creative Commons license without commercial restriction. This represents an important step since the texts could, conceivable, be used for commercial ventures. In practical terms, this means that the texts will be used over and over again and that they will be maintened beyond the longevity of the site. 
+
+
+
+<!-- Remember to assign the day -->
+{% assign day=53 %}
+{% for project in site.data.projects limit:1 offset:day %}
+<p>Link: <a href="{{ project.link }}">{{ project.link }}</a></p>
+<p>Selected by: {{ project.editor }}</p>
+<p>Text by: {{ project.writer }}</p>
+{% endfor %}

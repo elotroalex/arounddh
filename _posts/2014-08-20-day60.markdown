@@ -1,0 +1,31 @@
+---
+layout: post
+title:  "Day 60: Asian Shakespeare Intercultural Archive (A|S|I|A)"
+date:   2014-08-20 04:00:00
+categories: jekyll update
+---
+
+<!-- Remember to change the date above -->
+
+Asian performance cultures interact with the idea of Shakespeare in richly diverse ways.
+To give scholars, practitioners, teachers, students and general audiences access to productions in these cultures, the Asian Shakespeare Intercultural Archive (A|S|I|A) is building a multilingual online resource of performance materials. The archive will eventually hold 70 productions from East and Southeast Asia, and provides a full set of features: 
+
+
+•	Users can switch between English, Mandarin, Japanese and Korean on the website
+•	Complete video recordings of all productions can be viewed online
+•	Each video is accompanied by the original script and translations in a text window that displays 8-10 lines at a time
+•	Photos, programmes and videos of rehearsals and interviews
+•	Parallel databases in English, Mandarin and Japanese highlight the unique intercultural profile of a performance: its creators, dates and venues; art/forms, languages and staging; receptions and reviews; historical and cultural references
+•	A Notepad attached to each video contains editors’ and translators’ notes, and users can add their own notes for private, group or public access
+•	A personal workspace saves video bookmarks and searches 
+•	A forum for members to exchange views, news, and information
+
+
+
+<!-- Remember to assign the day -->
+{% assign day=60 %}
+{% for project in site.data.projects limit:1 offset:day %}
+<p>Link: <a href="{{ project.link }}">{{ project.link }}</a></p>
+<p>Selected by: {{ project.editor }}</p>
+<p>Text by: {{ project.writer }}</p>
+{% endfor %}

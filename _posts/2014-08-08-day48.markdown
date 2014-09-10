@@ -1,0 +1,25 @@
+---
+layout: post
+title:  "Day 48: Bénincultures"
+date:   2014-08-08 04:00:00
+categories: jekyll update
+---
+
+<!-- Remember to change the date above -->
+
+
+Bénincultures is a francophone site dedicated to cultural products related to and originating in Benin. The site amalgamates news, a library of pertinent articles and publications, a directory of cultural producers in the country, a list of initiatives, a "tv" page with stories about the unfolding of current cultural projects, and information about a prize awarded annually.
+
+Current highlights include [Création Artistique : Dans La Fabrique De Dominique Zinkpè](https://www.benincultures.com/fr/creation-artistique-dans-la-fabrique-de-dominique-zinkpe/), a space that incorporates work by welders, carpenters, sculptors, and decorators in one space. [Le Kleenex Qui Tue : Hermas Gbaguidi, Une Dramaturgie De La Vertu](https://www.benincultures.com/fr/le-kleenex-qui-tue-hermas-gbaguidi-une-dramaturgie-de-la-vertu/), a collection of four plays exploring the role of virtue in consumer society. 
+
+The site is maintained by a non-profit, "Les Editions Plurielles."
+
+
+
+<!-- Remember to assign the day -->
+{% assign day=48 %}
+{% for project in site.data.projects limit:1 offset:day %}
+<p>Link: <a href="{{ project.link }}">{{ project.link }}</a></p>
+<p>Selected by: {{ project.editor }}</p>
+<p>Text by: {{ project.writer }}</p>
+{% endfor %}

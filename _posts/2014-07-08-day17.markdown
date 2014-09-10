@@ -1,0 +1,24 @@
+---
+layout: post
+title:  "Day 17: Deepening Histories of Place"
+date:   2014-07-08 04:00:00
+categories: jekyll update
+---
+
+
+'Deepening Histories of Place' is the largest multi-institutional digital cultural project for Aboriginal knowledge management attempted in Australia that deals with the most complex and ethically sensitive issues facing digital humanities around access control and cultural heritage. At its core, it investigates the social and environmental links that create historical 'highways' of understanding, including song-lines, tracks, exploration, trade, pastoral and tourism routes. Its pilot studies are in Sydney-Blue Mountains, Central Australia and the Top End of the Northern Territory. As a digital history project, it aims to enrich visitor understandings of internationally significant Australian landscapes through digital technologies and multi-vocal Indigenous-focused histories. Its Chief Investigators are Professor Ann McGrath and Professor Peter Read. It is based at the Australian National University and funded by the Australian Research Council, backed by a consortium of Industry partners that include the University of Sydney, AIATSIS, the National Film & Sound Archive, Ronin Films, National Parks, the Northern Territory Government, the Office of Environment and Heritage, and the University of Western Sydney.
+
+This project has especially broken new ground in the legal area of Indigenous Cultural Intellectual Property (ICIP) rights management through the use of digital methods. The Attorney-General of Australia launched five outcomes resulting from this work in April 2013: a project home website which hosts a set of Ethical Protocols and five clearance forms developed by Terri Janke and Company for fostering and maintaining ethical research relationships with Indigenous people and communities; a digital history research environment developed by Dr Jason Ensor for cultural knowledge management, which consists of administrative tasks and decisions surrounding the ingestion, annotation, cataloguing, storage, retrieval and distribution of digital photographs, audio and video (which are in turn processed within the context of Dublin Core metadata for resource descriptions and an Ethical Protocols controlled vocabulary for managing ICIP status and access); and three scholarly research publications in digital form.
+
+These three digital research outputs are: 'A Feeling For Place: Reflections on Arnhem Land History with Emeritus Professor John Mulvaney' by Dr Mary Anne Jebb, which combines over 800 photographs taken since the late 1960s with recorded commentaries; 'The Dreaming History from the Pelican' by Rob Paton, which tells us about the creation of stone knives and their movement along the ancient Aboriginal trade routes that cross Australia's Top End; and 'Our Music, Performing Place, Listening to Sydney' by Julia Torpey, which collects together performances from a day-long event held at Sydney's iconic Conservatorium of Music, providing an opportunity for both established and emerging Aboriginal and Torres Strait Islander musicians who call Sydney home, to come together to perform and discuss their personal, family and community history, their connection to place, and their musical practice. In November 2013, Julia Torpey and Karen Maber officially launched 'At the Heart of It ... Place stories across Darug and Gundungurra Lands: A Downloadable History', an enhanced eBook illustrative of the diversity of storytelling, history, identity and connection to landscape that are encountered with individual Indigenous people.
+
+ 
+
+
+<!-- Remember to assign the day -->
+{% assign day=17 %}
+{% for project in site.data.projects limit:1 offset:day %}
+<p>Link: <a href="{{ project.link }}">{{ project.link }}</a></p>
+<p>Edited by: {{ project.editor }}</p>
+<p>Text by: {{ project.writer }}</p>
+{% endfor %}

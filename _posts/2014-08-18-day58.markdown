@@ -1,0 +1,26 @@
+---
+layout: post
+title:  "Day 58: Манускрипт | Manuscript"
+date:   2014-08-18 04:00:00
+categories: jekyll update
+---
+
+<!-- Remember to change the date above -->
+
+This monument to the entire "Slavic written heritage" is a broad and deep collection of Slavic writings from the earliest times, beginning with the Glagolitic (that is, pre-Cyrillic) manuscripts dating from the 10th and 11th centuries CE through particular liturgical genres composed in Old Church Slavonic as late as the 19th century.  This millennium of writings includes not only liturgical works, but also historical chronicles, ancient translations into Old Russian, hagiographies, patristic literature, and other ancient works.  The Russian-language interface is helpfully complemented with substantial amounts of English navigation and documentation.
+
+The thousands of texts in the collection make profound use of TEI markup, enabling a dizzying array of search and retrieval functions, including grammatical, morphological, paleographic, and textological search parameters; lemmatization of search terms and results; statistical tools for various kinds of text analysis; and specialized editors for working with Slavonic text.  In addition, scholars using the resource have access to a full suite of grammatical dictionaries and a geolinguistic system for dialectological work.
+
+"Manuscript" is a joint project of Udmurt State University and Izhevsk State Technical University (both in Izhevsk, Russia), and has been active in a variety of guises since about 1989.
+
+
+
+
+
+<!-- Remember to assign the day -->
+{% assign day=58 %}
+{% for project in site.data.projects limit:1 offset:day %}
+<p>Link: <a href="{{ project.link }}">{{ project.link }}</a></p>
+<p>Selected by: {{ project.editor }}</p>
+<p>Text by: {{ project.writer }}</p>
+{% endfor %}

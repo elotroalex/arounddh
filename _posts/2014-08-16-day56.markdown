@@ -1,0 +1,28 @@
+---
+layout: post
+title:  "Day 56: Text Analysis with R for Students of Literature"
+date:   2014-08-16 04:00:00
+categories: jekyll update
+---
+
+<!-- Remember to change the date above -->
+
+The digital humanities produces many forms of scholarship in different mediums; while a significant part is digital and mostly online in 2014, in many cases, the tangible vehicle of that scholarship is in print. *Text Analysis with R for Students of Literature* is a book by [Matthew Jockers](http://www.matthewjockers.net/), co-founder of the [Stanford Literary Lab](http://litlab.stanford.edu/) with Franco Moretti, and currently professor in the English Department at the University of Nebraska-Lincoln. The book is a primer on the use of computational techniques—in particular the use of the R programming language—for the study of literature and literary history. The book follows on the success of Jocker's 2013 volume *[Macronalysis: Digital Methods and Literary History](http://books.google.com/books/about/Macroanalysis.html?id=mPOdxQgpOSUC)*, and serves as it's practical companion. 
+
+The book also serves as a great introduction to key concepts and techniques in one of the most important strands of the history of digital humanities: *humanities computing*. *Text Analysis with R* is divided into three parts: Microanalysis (the study of one text, *Moby Dick*), Mesoanalysis (the study of a small corpus) and Macroanalysis (the study of a large corpus). Jockers writes in a very accessible style making it great for students and beginners. As Jockers puts it in the Introduction: 
+
+> [This book] is designed for the student and scholar of literature who doesn't already know a programming language, or at the every least does not know the R language, and more importantly is a person who has come to R because of some literary question or due to some sense that computation might offer a new or particularly useful way to address, explore, probe, or answer some literary question. You are not coming to this book because you want to become a master programmer. You are a student or scholar in the humanities seeking to learn just enough to gain entry into the wide world of humanities computing.
+
+While we encourage you to get a copy of the book, Springer is kind enough to offer [a version online](http://link.springer.com/book/10.1007/978-3-319-03164-4).
+
+
+
+
+
+<!-- Remember to assign the day -->
+{% assign day=56 %}
+{% for project in site.data.projects limit:1 offset:day %}
+<p>Link: <a href="{{ project.link }}">{{ project.link }}</a></p>
+<p>Selected by: {{ project.editor }}</p>
+<p>Text by: {{ project.writer }}</p>
+{% endfor %}

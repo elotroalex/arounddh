@@ -1,0 +1,21 @@
+---
+layout: post
+title:  "Day 21: Association for Computational Linguistics and Chinese Language Processing"
+date:   2014-07-12 04:00:00
+categories: jekyll update
+---
+
+The [Association for Computational Linguistics and Chinese Language Processing](http://www.aclclp.org.tw/) (ACLCLP) was initiated in 1988 by the program committee of the first conference on Chinese computational linguistics (ROCLING I). The committee members included Keh-jiann Chen, Chu-Ren Huang, Hsi-Jian Lee, I-Peng Ling and Keh-Yih Su. The committee reached a consensus that it was the time to constitute an academic association for computational linguistics specializing in Chinese languages. Ching-Chun Hsieh was elected to be the chair of the founding committee and the first president of the association for computational linguistics and Chinese language processing. In 1990, the association was formally founded. Currently, the ACLCLP has more than 200 members, including 129 life members and 10 corporate members.
+
+In its twenty year history, the ACLCLP goal has been able to conduct research in computational linguistics, to promote the utilization and development of computational linguistics, both domestically and internationally, and to cultivate academic exchange  with international groups who have similar goals. The [annual ROCLING conferences](http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=36420) offer a unique opportunity for academic and industrial individuals and institutions to present research results in Chinese computational linguistics.
+
+The ACLCLP regularly hosts workshops and offers courses to promote computational linguistics in Taiwan. International conferences such as AIRS-2010, PACLIC 19, ISCSLP-2002 and COLING 2002 were hosted by the ACLCLP recently. For promoting resource sharing, the ACLCLP also releases a wide variety of Mandarin corpora including the Sinica Corpus and the CKIP lexicon, the Chinese News Corpus, the Sinica Treebank, the Chinese Information Retrieval Testing Corpus and the Mandarin Speech Databases (MAT and TCC). After more than a decade of effort, the [International Journal for Computational Linguistics and Chinese Language Processing](http://www.aclclp.org.tw/journal/) (IJCLCLP) published by the ACLCLP has become one of the most important journals specializing in Chinese computational linguistics.
+
+
+<!-- Remember to assign the day -->
+{% assign day=21 %}
+{% for project in site.data.projects limit:1 offset:day %}
+<p>Link: <a href="{{ project.link }}">{{ project.link }}</a></p>
+<p>Edited by: {{ project.editor }}</p>
+<p>Text by: {{ project.writer }}</p>
+{% endfor %}

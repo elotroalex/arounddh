@@ -1,0 +1,18 @@
+---
+layout: post
+title:  "Day 22: Zamani"
+date:   2014-07-13 04:00:00
+categories: jekyll update
+---
+
+Zamani is a site dedicated to the "the spatial domain heritage" in Africa. Aluka, [Day 10 of Around DH](http://www.arounddh.org/jekyll/update/2014/07/01/day10/), augments Zamani with contextual non-spatial data. The sites, as their surroundings, are documented to create a record that may be used for conservation, preservation, and restoration. Initial work has been completed in Ghana, Mali, Kenya, Ethiopia, Tanzania and South Africa.
+
+Begun in 2004 at the University of Cape Town Geomatics Division, the project has robust infrastructure, a sustainable funding model, and is available to subscribing institutions. Data types on the site include 3D models, laser scans, plans (sections and elevations), GIS, 3D landscape models and remote sensing, contextual images and video, stereo pairs, and panoramas.
+
+<!-- Remember to assign the day -->
+{% assign day=22 %}
+{% for project in site.data.projects limit:1 offset:day %}
+<p>Link: <a href="{{ project.link }}">{{ project.link }}</a></p>
+<p>Edited by: {{ project.editor }}</p>
+<p>Text by: {{ project.writer }}</p>
+{% endfor %}

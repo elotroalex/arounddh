@@ -1,0 +1,26 @@
+---
+layout: post
+title:  "Day 80: You, wherever you may be."
+date:   2014-09-09 04:00:00
+categories: jekyll update
+---
+
+<!-- Remember to change the date above -->
+
+At the end of Jules Vernes' *Around the World in 80 Days*, we are led to believe that the bet is lost, that the tour was made in 81 days; that is, until Passepartout (he who goes everywhere) learns that, because they were travelling eastwards, they had actually gained a day. The plot device that delays our happy ending goes precisely against the focused precision and cool-headed calculations of our hero, Phileas Fogg, who wagers his fortune on his ability to predict the homogenous working of systems in his day, mostly by just keeping an eye on his watch. Such a simple error, caught on time to prove that systems were indeed predictable and the calculating mind deserving of victory—love included. Digital Humanities this is not.
+
+While this project went on for 80 days we looked at more than our clocks. Horrors flowed on our screens from all corners of the world, and unlike Phileas Fogg, we could not divorce ourselves from what was happening around us: Gaza, Ukraine, Ferguson. We pushed on with the work, each day looking at a map of our fragile world, dotting it with the labors of scholars and technologists, conscious of the gaps and the silences, and ever more conscious of the reasons for humanistic work.   
+
+Each of the projects and teams we highlighted here testify to the rich heterogeneity of digital practices in the humanities around the world. If they have anything in common it is their impulse to understand and remember the precious shards of our voices using our evolving mechanisms. They remind us that questions of preservation, standards, labor practices, diversity and many others we debate, cannot divorce themselves from what is actual. We hope that our future arguments point to the evidence at hand. We've provided 79 + 1 examples of arduous efforts around the world; we hope you can provide many more.
+
+Many of us also hope you take this project as a further reminder that the value is in the work. You too can harness these tools, band together, wherever you may be. While many of the projects we highlighted here are large, expensive affairs, some others are not, including this one, which only cost time. 
+
+The projects and teams in AroundDH had long lives before they saw the light of day and may have long repercussions beyond their link rot or their disbanding. AroundDH is no exception. What was once a small idea a couple of years ago became embodied for 80 days on a simple [Jekyll](http://jekyllrb.com/) site because of the joint effort of folks residing all over the planet. A few days from now I will do some final tweaks, upload the data to GitHub, as promised, and fix it in time. But we can keep going in other ways, all with the goal of being present to one another: 
+
+Every time you see a fantastic project far away from you pass it around on social media with the [hashtag #arounddh](https://twitter.com/search?q=arounddh&src=sprv); [Join GO::DH](http://www.globaloutlookdh.org/join/), sign up for a working group; Build something with a friend across the ocean, across the desert; [Take the code](https://github.com/elotroalex/arounddh) and run the tour again; Go around; and,
+
+Godspeed to you, wherever you may be,
+
+Alex Gil, New York City 
+
+

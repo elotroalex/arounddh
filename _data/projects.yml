@@ -1,0 +1,571 @@
+- day: 0
+  name: Welcome
+  link: http://www.arounddh.org/
+  point_html: '<circle onclick="window.open(&#39;/jekyll/update/2014/06/21/welcome/&#39;, &#39;_self&#39;)" onmouseover="style.fill=&#39;white&#39;" onmouseout="style.fill=&#39;#A00000&#39;" style="cursor: pointer" fill="#C00000" stroke="#A00000" stroke-miterlimit="10" cx="44" cy="28" r="1.5"/>'
+  editor: Alex Gil
+  writer: Alex Gil
+
+
+- day: 1
+  name: Frog in a Well | 井底之蛙
+  link: http://www.froginawell.net/
+  point_html: '<circle onclick="window.open(&#39;/jekyll/update/2014/06/22/day1/&#39;, &#39;_self&#39;)" onmouseover="style.fill=&#39;white&#39;" onmouseout="style.fill=&#39;#A00000&#39;" style="cursor: pointer" fill="#C00000" stroke="#A00000" stroke-miterlimit="10" cx="156" cy="35" r="1.5"/><circle onclick="window.open(&#39;/jekyll/update/2014/06/22/day1/&#39;, &#39;_self&#39;)" onmouseover="style.fill=&#39;white&#39;" onmouseout="style.fill=&#39;#A00000&#39;" style="cursor: pointer" fill="#C00000" stroke="#A00000" stroke-miterlimit="10" cx="169" cy="32" r="1.5"/><circle onclick="window.open(&#39;/jekyll/update/2014/06/22/day1/&#39;, &#39;_self&#39;)" onmouseover="style.fill=&#39;white&#39;" onmouseout="style.fill=&#39;#A00000&#39;" style="cursor: pointer" fill="#C00000" stroke="#A00000" stroke-miterlimit="10" cx="176" cy="33" r="1.5"/><circle onclick="window.open(&#39;/jekyll/update/2014/06/22/day1/&#39;, &#39;_self&#39;)" onmouseover="style.fill=&#39;white&#39;" onmouseout="style.fill=&#39;#A00000&#39;" style="cursor: pointer" fill="#C00000" stroke="#A00000" stroke-miterlimit="10" cx="88" cy="18" r="1.5"/>'
+  editor: Doing Digital Humanities
+  writer: Doing Digital Humanities
+
+- day: 2
+  name: Transcribe Bleek & Lloyd
+  link: http://boinc.cs.uct.ac.za/transcribe_bushman/
+  point_html: '<circle onclick="window.open(&#39;/jekyll/update/2014/06/23/day2/&#39;, &#39;_self&#39;)" onmouseover="style.fill=&#39;white&#39;" onmouseout="style.fill=&#39;#A00000&#39;" style="cursor: pointer" fill="#C00000" stroke="#A00000" stroke-miterlimit="10" cx="100" cy="80" r="1.5"/>'
+  editor: Doing Digital Humanities
+  writer: Doing Digital Humanities
+
+- day: 3
+  name: I ♥ E-Poetry
+  link: http://iloveepoetry.com/
+  point_html: '<circle onclick="window.open(&#39;/jekyll/update/2014/06/24/day3/&#39;, &#39;_self&#39;)" onmouseover="style.fill=&#39;white&#39;" onmouseout="style.fill=&#39;#A00000&#39;" style="cursor: pointer" fill="#C00000" stroke="#A00000" stroke-miterlimit="10" cx="46" cy="43" r="1.5"/>'
+  editor: Doing Digital Humanities
+  writer: Doing Digital Humanities
+  
+- day: 4
+  name: Bichitra | বৈচিত্র্য
+  link: http://bichitra.jdvu.ac.in/
+  point_html: '<circle onclick="window.open(&#39;/jekyll/update/2014/06/25/day4/&#39;, &#39;_self&#39;)" onmouseover="style.fill=&#39;white&#39;" onmouseout="style.fill=&#39;#A00000&#39;" style="cursor: pointer" fill="#C00000" stroke="#A00000" stroke-miterlimit="10" cx="146" cy="42" r="1.5"/>'
+  editor: Roopika Risam
+  writer: Roopika Risam
+  
+- day: 5
+  name: Book of the Dead | Totenbuch
+  link: http://totenbuch.awk.nrw.de/
+  point_html: '<circle onclick="window.open(&#39;/jekyll/update/2014/06/26/day5/&#39;, &#39;_self&#39;)" onmouseover="style.fill=&#39;white&#39;" onmouseout="style.fill=&#39;#A00000&#39;" style="cursor: pointer" fill="#C00000" stroke="#A00000" stroke-miterlimit="10" cx="94" cy="21" r="1.5"/><circle onclick="window.open(&#39;/jekyll/update/2014/06/26/day5/&#39;, &#39;_self&#39;)" onmouseover="style.fill=&#39;white&#39;" onmouseout="style.fill=&#39;#A00000&#39;" style="cursor: pointer" fill="#C00000" stroke="#A00000" stroke-miterlimit="10" cx="107" cy="38" r="1.5"/>'
+  editor: Barbara Bordalejo
+  writer: Barbara Bordalejo
+  
+- day: 6
+  name: Trove
+  link: http://trove.nla.gov.au/
+  point_html: '<circle onclick="window.open(&#39;/jekyll/update/2014/06/27/day6/&#39;, &#39;_self&#39;)" onmouseover="style.fill=&#39;white&#39;" onmouseout="style.fill=&#39;#A00000&#39;" style="cursor: pointer" fill="#C00000" stroke="#A00000" stroke-miterlimit="10" cx="183" cy="83" r="1.5"/>'
+  editor: Paul Arthur
+  writer: Paul Arthur
+  
+- day: 7
+  name: Center for Digital Humanities | Центар за дигиталне хуманистичке науке
+  link: http://www.humanistika.org/
+  point_html: '<circle onclick="window.open(&#39;/jekyll/update/2014/06/28/day7/&#39;, &#39;_self&#39;)" onmouseover="style.fill=&#39;white&#39;" onmouseout="style.fill=&#39;#A00000&#39;" style="cursor: pointer" fill="#C00000" stroke="#A00000" stroke-miterlimit="10" cx="102" cy="26" r="1.5"/>'
+  editor: Glen Worthey
+  writer: Dennis Tenen
+  
+- day: 8
+  name: Arab Image Foundation
+  link: http://www.fai.org.lb/
+  point_html: '<circle onclick="window.open(&#39;/jekyll/update/2014/06/29/day8/&#39;, &#39;_self&#39;)" onmouseover="style.fill=&#39;white&#39;" onmouseout="style.fill=&#39;#A00000&#39;" style="cursor: pointer" fill="#C00000" stroke="#A00000" stroke-miterlimit="10" cx="112" cy="32" r="1.5"/>'
+  editor: David J. Wrisley
+  writer: David J. Wrisley
+  
+- day: 9
+  name: eastcree.org
+  link: http://www.eastcree.org/
+  point_html: '<circle onclick="window.open(&#39;/jekyll/update/2014/06/30/day9/&#39;, &#39;_self&#39;)" onmouseover="style.fill=&#39;white&#39;" onmouseout="style.fill=&#39;#A00000&#39;" style="cursor: pointer" fill="#C00000" stroke="#A00000" stroke-miterlimit="10" cx="48" cy="21" r="1.5"/>'
+  editor: Alex Gil
+  writer: Site info
+  
+- day: 10
+  name: Aluka
+  link: http://www.aluka.org/
+  point_html: '<circle onclick="window.open(&#39;/jekyll/update/2014/07/01/day10/&#39;, &#39;_self&#39;)" onmouseover="style.fill=&#39;white&#39;" onmouseout="style.fill=&#39;#A00000&#39;" style="cursor: pointer" fill="#C00000" stroke="#A00000" stroke-miterlimit="10" cx="104" cy="54" r="1.5"/>'
+  editor: Tassie Gniady
+  writer: Tassie Gniady
+  
+- day: 11
+  name: Digital Silk Road
+  link: http://dsr.nii.ac.jp/
+  point_html: '<circle onclick="window.open(&#39;/jekyll/update/2014/07/02/day11/&#39;, &#39;_self&#39;)" onmouseover="style.fill=&#39;white&#39;" onmouseout="style.fill=&#39;#A00000&#39;" style="cursor: pointer" fill="#C00000" stroke="#A00000" stroke-miterlimit="12" cx="174" cy="31" r="1.5"/>'
+  editor: Alexa Huang
+  writer: Molly Des Jardin
+  
+- day: 12
+  name: Virtual Library | Biblioteca Virtual
+  link: http://www.banrepcultural.org/blaavirtual/indice
+  point_html: '<circle onclick="window.open(&#39;/jekyll/update/2014/07/03/day12/&#39;, &#39;_self&#39;)" onmouseover="style.fill=&#39;white&#39;" onmouseout="style.fill=&#39;#A00000&#39;" style="cursor: pointer" fill="#C00000" stroke="#A00000" stroke-miterlimit="12" cx="41" cy="53" r="1.5"/>'
+  editor: Miriam Pimentel
+  writer: Miriam Pimentel
+  
+- day: 13
+  name: OpenEdition
+  link: http://www.openedition.org/
+  point_html: '<circle onclick="window.open(&#39;/jekyll/update/2014/07/04/day13/&#39;, &#39;_self&#39;)" onmouseover="style.fill=&#39;white&#39;" onmouseout="style.fill=&#39;#A00000&#39;" style="cursor: pointer" fill="#C00000" stroke="#A00000" stroke-miterlimit="12" cx="91" cy="23.5" r="1.5"/>'
+  editor: Barbara Bordalejo
+  writer: Barbara Bordalejo
+  
+- day: 14
+  name: Allama Iqbal Urdu Cyber Library
+  link: http://www.iqbalcyberlibrary.net/
+  point_html: '<circle onclick="window.open(&#39;/jekyll/update/2014/07/05/day14/&#39;, &#39;_self&#39;)" onmouseover="style.fill=&#39;white&#39;" onmouseout="style.fill=&#39;#A00000&#39;" style="cursor: pointer" fill="#C00000" stroke="#A00000" stroke-miterlimit="12" cx="132" cy="35.5" r="1.5"/>'
+  editor: Roopika Risam
+  writer: Roopika Risam
+  
+- day: 15
+  name: Tombouctou Manuscripts Project | مشروع مخطوطات تومبُكتو
+  link: http://www.tombouctoumanuscripts.org/
+  point_html: '<circle onclick="window.open(&#39;/jekyll/update/2014/07/06/day15/&#39;, &#39;_self&#39;)" onmouseover="style.fill=&#39;white&#39;" onmouseout="style.fill=&#39;#A00000&#39;" style="cursor: pointer" fill="#C00000" stroke="#A00000" stroke-miterlimit="12" cx="88" cy="44" r="1.5"/><circle onclick="window.open(&#39;/jekyll/update/2014/07/06/day15/&#39;, &#39;_self&#39;)" onmouseover="style.fill=&#39;white&#39;" onmouseout="style.fill=&#39;#A00000&#39;" style="cursor: pointer" fill="#C00000" stroke="#A00000" stroke-miterlimit="10" cx="99" cy="79" r="1.5"/>'
+  editor: Tassie Gniady
+  writer: Tassie Gniady
+  
+- day: 16
+  name: Memories of Austral Patagonia | Memorias de la Patagonia Austral
+  link: http://www.koluel.org/
+  point_html: '<circle onclick="window.open(&#39;/jekyll/update/2014/07/07/day16/&#39;, &#39;_self&#39;)" onmouseover="style.fill=&#39;white&#39;" onmouseout="style.fill=&#39;#A00000&#39;" style="cursor: pointer" fill="#C00000" stroke="#A00000" stroke-miterlimit="12" cx="50" cy="90" r="1.5"/>'
+  editor: Barbara Bordalejo
+  writer: Maria Claudia Andre
+  
+- day: 17
+  name: Deepening Histories of Place
+  link: http://www.deepeninghistories.anu.edu.au/
+  point_html: '<circle onclick="window.open(&#39;/jekyll/update/2014/07/08/day17/&#39;, &#39;_self&#39;)" onmouseover="style.fill=&#39;white&#39;" onmouseout="style.fill=&#39;#A00000&#39;" style="cursor: pointer" fill="#C00000" stroke="#A00000" stroke-miterlimit="12" cx="184" cy="82" r="1.5"/>'
+  editor: Paul Arthur
+  writer: Paul Arthur
+  
+- day: 18
+  name: BitCurator
+  link: http://www.bitcurator.net/
+  point_html: '<circle onclick="window.open(&#39;/jekyll/update/2014/07/09/day18/&#39;, &#39;_self&#39;)" onmouseover="style.fill=&#39;white&#39;" onmouseout="style.fill=&#39;#A00000&#39;" style="cursor: pointer" fill="#C00000" stroke="#A00000" stroke-miterlimit="12" cx="40" cy="31.5" r="1.5"/>'
+  editor: Alex Gil
+  writer: Porter Olsen
+  
+- day: 19
+  name: All of Tolstoy in One Click | Весь Толстой в один клик
+  link: http://www.readingtolstoy.ru/
+  point_html: '<circle onclick="window.open(&#39;/jekyll/update/2014/07/10/day19/&#39;, &#39;_self&#39;)" onmouseover="style.fill=&#39;white&#39;" onmouseout="style.fill=&#39;#A00000&#39;" style="cursor: pointer" fill="#C00000" stroke="#A00000" stroke-miterlimit="12" cx="109" cy="17" r="1.5"/>'
+  editor: Dennis Tenen
+  writer: Glen Worthey
+  
+- day: 20
+  name: Sefaria
+  link: http://www.sefaria.org/
+  point_html: '<circle onclick="window.open(&#39;/jekyll/update/2014/07/11/day20/&#39;, &#39;_self&#39;)" onmouseover="style.fill=&#39;white&#39;" onmouseout="style.fill=&#39;#A00000&#39;" style="cursor: pointer" fill="#C00000" stroke="#A00000" stroke-miterlimit="12" cx="111.5" cy="33.5" r="1.5"/>'
+  editor: Michelle Chesner
+  writer: Michelle Chesner
+  
+- day: 21
+  name: Association for Computational Linguistics and Chinese Language
+  link: http://www.aclclp.org.tw/
+  point_html: '<circle onclick="window.open(&#39;/jekyll/update/2014/07/12/day21/&#39;, &#39;_self&#39;)" onmouseover="style.fill=&#39;white&#39;" onmouseout="style.fill=&#39;#A00000&#39;" style="cursor: pointer" fill="#C00000" stroke="#A00000" stroke-miterlimit="12" cx="168" cy="40" r="1.5"/>'
+  editor: Alex Gil
+  writer: Site info
+  
+- day: 22
+  name: Zamani
+  link: http://www.zamaniproject.org
+  point_html: '<circle onclick="window.open(&#39;/jekyll/update/2014/07/13/day22/&#39;, &#39;_self&#39;)" onmouseover="style.fill=&#39;white&#39;" onmouseout="style.fill=&#39;#A00000&#39;" style="cursor: pointer" fill="#C00000" stroke="#A00000" stroke-miterlimit="12" cx="102" cy="82" r="1.5"/><circle onclick="window.open(&#39;/jekyll/update/2014/07/13/day22/&#39;, &#39;_self&#39;)" onmouseover="style.fill=&#39;white&#39;" onmouseout="style.fill=&#39;#A00000&#39;" style="cursor: pointer" fill="#C00000" stroke="#A00000" stroke-miterlimit="12" cx="90" cy="52" r="1.5"/><circle onclick="window.open(&#39;/jekyll/update/2014/07/13/day22/&#39;, &#39;_self&#39;)" onmouseover="style.fill=&#39;white&#39;" onmouseout="style.fill=&#39;#A00000&#39;" style="cursor: pointer" fill="#C00000" stroke="#A00000" stroke-miterlimit="12" cx="88" cy="44" r="1.5"/><circle onclick="window.open(&#39;/jekyll/update/2014/07/13/day22/&#39;, &#39;_self&#39;)" onmouseover="style.fill=&#39;white&#39;" onmouseout="style.fill=&#39;#A00000&#39;" style="cursor: pointer" fill="#C00000" stroke="#A00000" stroke-miterlimit="12" cx="114" cy="57" r="1.5"/><circle onclick="window.open(&#39;/jekyll/update/2014/07/13/day22/&#39;, &#39;_self&#39;)" onmouseover="style.fill=&#39;white&#39;" onmouseout="style.fill=&#39;#A00000&#39;" style="cursor: pointer" fill="#C00000" stroke="#A00000" stroke-miterlimit="12" cx="114" cy="50" r="1.5"/><circle onclick="window.open(&#39;/jekyll/update/2014/07/13/day22/&#39;, &#39;_self&#39;)" onmouseover="style.fill=&#39;white&#39;" onmouseout="style.fill=&#39;#A00000&#39;" style="cursor: pointer" fill="#C00000" stroke="#A00000" stroke-miterlimit="12" cx="110" cy="62" r="1.5"/>'
+  editor: Tassie Gniady
+  writer: Tassie Gniady
+  
+- day: 23
+  name: Mindlin Brazilian Library | Biblioteca Brasiliana Mindlin
+  link: http://www.bbm.usp.br/
+  point_html: '<circle onclick="window.open(&#39;/jekyll/update/2014/07/14/day23/&#39;, &#39;_self&#39;)" onmouseover="style.fill=&#39;white&#39;" onmouseout="style.fill=&#39;#A00000&#39;" style="cursor: pointer" fill="#C00000" stroke="#A00000" stroke-miterlimit="12" cx="58.5" cy="73.5" r="1.5"/>'
+  editor: Miriam Pimentel
+  writer: Miriam Pimentel
+  
+- day: 24
+  name: Interactive Quixote | Quijote interactivo
+  link: http://quijote.bne.es/libro.html
+  point_html: '<circle onclick="window.open(&#39;/jekyll/update/2014/07/15/day24/&#39;, &#39;_self&#39;)" onmouseover="style.fill=&#39;white&#39;" onmouseout="style.fill=&#39;#A00000&#39;" style="cursor: pointer" fill="#C00000" stroke="#A00000" stroke-miterlimit="12" cx="87" cy="28" r="1.5"/>'
+  editor: Barbara Bordalejo
+  writer: Barbara Bordalejo
+  
+- day: 25
+  name: Digitizing \"Chinese Englishmen\"
+  link: http://chineseenglishmen.adelinekoh.org/
+  point_html: '<circle onclick="window.open(&#39;/jekyll/update/2014/07/16/day25/&#39;, &#39;_self&#39;)" onmouseover="style.fill=&#39;white&#39;" onmouseout="style.fill=&#39;#A00000&#39;" style="cursor: pointer" fill="#C00000" stroke="#A00000" stroke-miterlimit="12" cx="43" cy="29" r="1.5"/><circle onclick="window.open(&#39;/jekyll/update/2014/07/16/day25/&#39;, &#39;_self&#39;)" onmouseover="style.fill=&#39;white&#39;" onmouseout="style.fill=&#39;#A00000&#39;" style="cursor: pointer" fill="#C00000" stroke="#A00000" stroke-miterlimit="12" cx="157" cy="54" r="1.5"/>'
+  editor: Alex Gil
+  writer: Site info
+  
+- day: 26
+  name: Digital New Zealand Ā-tihi o Aotearoa
+  link: http://www.digitalnz.org/
+  point_html: '<circle onclick="window.open(&#39;/jekyll/update/2014/07/17/day26/&#39;, &#39;_self&#39;)" onmouseover="style.fill=&#39;white&#39;" onmouseout="style.fill=&#39;#A00000&#39;" style="cursor: pointer" fill="#C00000" stroke="#A00000" stroke-miterlimit="12" cx="196" cy="86" r="1.5"/>'
+  editor: Paul Arthur
+  writer: Paul Arthur
+  
+- day: 27
+  name: Maker Lab in the Humanities | UVic
+  link: http://maker.uvic.ca/
+  point_html: '<circle onclick="window.open(&#39;/jekyll/update/2014/07/18/day27/&#39;, &#39;_self&#39;)" onmouseover="style.fill=&#39;white&#39;" onmouseout="style.fill=&#39;#A00000&#39;" style="cursor: pointer" fill="#C00000" stroke="#A00000" stroke-miterlimit="12" cx="18" cy="22" r="1.5"/>'
+  editor: Alex Gil
+  writer: Site info
+  
+- day: 28
+  name: Bibliothèque Numérique Marocaine
+  link: http://bnm.bnrm.ma:86/Accueil.aspx
+  point_html: '<circle onclick="window.open(&#39;/jekyll/update/2014/07/19/day28/&#39;, &#39;_self&#39;)" onmouseover="style.fill=&#39;white&#39;" onmouseout="style.fill=&#39;#A00000&#39;" style="cursor: pointer" fill="#C00000" stroke="#A00000" stroke-miterlimit="12" cx="85" cy="33" r="1.5"/>'
+  editor: Alex Gil
+  writer: Site info
+  
+- day: 29
+  name: Tripitaka Koreana Knowledgebase
+  link: http://kb.sutra.re.kr/ritk/index.do
+  point_html: '<circle onclick="window.open(&#39;/jekyll/update/2014/07/20/day29/&#39;, &#39;_self&#39;)" onmouseover="style.fill=&#39;white&#39;" onmouseout="style.fill=&#39;#A00000&#39;" style="cursor: pointer" fill="#C00000" stroke="#A00000" stroke-miterlimit="10" cx="168" cy="31" r="1.5"/>'
+  editor: Alex Gil
+  writer: Site info
+  
+- day: 30
+  name: eZISS
+  link: http://nl.ijs.si/e-zrc/index-en.html
+  point_html: '<circle onclick="window.open(&#39;/jekyll/update/2014/07/21/day30/&#39;, &#39;_self&#39;)" onmouseover="style.fill=&#39;white&#39;" onmouseout="style.fill=&#39;#A00000&#39;" style="cursor: pointer" fill="#C00000" stroke="#A00000" stroke-miterlimit="10" cx="100" cy="25" r="1.5"/>'
+  editor: Glen Worthey
+  writer: Site info
+  
+- day: 31
+  name: Biblioteca Digital del Pensamiento Novohispano | Digital Library of New Spanish Thought
+  link: http://bdpn.unam.mx/project
+  point_html: '<circle onclick="window.open(&#39;/jekyll/update/2014/07/22/day31/&#39;, &#39;_self&#39;)" onmouseover="style.fill=&#39;white&#39;" onmouseout="style.fill=&#39;#A00000&#39;" style="cursor: pointer" fill="#C00000" stroke="#A00000" stroke-miterlimit="10" cx="23.5" cy="42" r="1.5"/>'
+  editor: Alex Gil
+  writer: Miriam Pimentel
+  
+- day: 32
+  name: African Online Digital LIbrary
+  link: http://www.aodl.org/
+  point_html: '<circle onclick="window.open(&#39;/jekyll/update/2014/07/23/day32/&#39;, &#39;_self&#39;)" onmouseover="style.fill=&#39;white&#39;" onmouseout="style.fill=&#39;#A00000&#39;" style="cursor: pointer" fill="#C00000" stroke="#A00000" stroke-miterlimit="10" cx="39" cy="26" r="1.5"/><circle onclick="window.open(&#39;/jekyll/update/2014/07/23/day32/&#39;, &#39;_self&#39;)" onmouseover="style.fill=&#39;white&#39;" onmouseout="style.fill=&#39;#A00000&#39;" style="cursor: pointer" fill="#C00000" stroke="#A00000" stroke-miterlimit="10" cx="79" cy="46" r="1.5"/><circle onclick="window.open(&#39;/jekyll/update/2014/07/23/day32/&#39;, &#39;_self&#39;)" onmouseover="style.fill=&#39;white&#39;" onmouseout="style.fill=&#39;#A00000&#39;" style="cursor: pointer" fill="#C00000" stroke="#A00000" stroke-miterlimit="10" cx="88" cy="51" r="1.5"/><circle onclick="window.open(&#39;/jekyll/update/2014/07/23/day32/&#39;, &#39;_self&#39;)" onmouseover="style.fill=&#39;white&#39;" onmouseout="style.fill=&#39;#A00000&#39;" style="cursor: pointer" fill="#C00000" stroke="#A00000" stroke-miterlimit="10" cx="104" cy="77" r="1.5"/>'
+  editor: Tassie Gniady
+  writer: Tassie Gniady
+    
+- day: 33
+  name: Indian Memory Project
+  link: http://www.indianmemoryproject.com/
+  point_html: '<circle onclick="window.open(&#39;/jekyll/update/2014/07/24/day33/&#39;, &#39;_self&#39;)" onmouseover="style.fill=&#39;white&#39;" onmouseout="style.fill=&#39;#A00000&#39;" style="cursor: pointer" fill="#C00000" stroke="#A00000" stroke-miterlimit="10" cx="137" cy="44" r="1.5"/>'
+  editor: Padmini Ray Murray
+  writer: Site info
+  
+- day: 34
+  name: The Medici Archive Project
+  link: http://www.medici.org/
+  point_html: '<circle onclick="window.open(&#39;/jekyll/update/2014/07/25/day34/&#39;, &#39;_self&#39;)" onmouseover="style.fill=&#39;white&#39;" onmouseout="style.fill=&#39;#A00000&#39;" style="cursor: pointer" fill="#C00000" stroke="#A00000" stroke-miterlimit="10" cx="98" cy="28" r="1.5"/>'
+  editor: Barbara Bordalejo
+  writer: Barbara Bordalejo
+  
+- day: 35
+  name: Digital Harlem
+  link: http://digitalharlem.org/
+  point_html: '<circle onclick="window.open(&#39;/jekyll/update/2014/07/26/day35/&#39;, &#39;_self&#39;)" onmouseover="style.fill=&#39;white&#39;" onmouseout="style.fill=&#39;#A00000&#39;" style="cursor: pointer" fill="#C00000" stroke="#A00000" stroke-miterlimit="10" cx="181.5" cy="81.5" r="1.5"/><circle onclick="window.open(&#39;/jekyll/update/2014/07/26/day35/&#39;, &#39;_self&#39;)" onmouseover="style.fill=&#39;white&#39;" onmouseout="style.fill=&#39;#A00000&#39;" style="cursor: pointer" fill="#C00000" stroke="#A00000" stroke-miterlimit="10" cx="44.5" cy="29" r="1.5"/>'
+  editor: Paul Arthur
+  writer: Site info
+  
+- day: 36
+  name: Neatline
+  link: http://neatline.org/
+  point_html: '<circle onclick="window.open(&#39;/jekyll/update/2014/07/27/day36/&#39;, &#39;_self&#39;)" onmouseover="style.fill=&#39;white&#39;" onmouseout="style.fill=&#39;#A00000&#39;" style="cursor: pointer" fill="#C00000" stroke="#A00000" stroke-miterlimit="10" cx="39" cy="32" r="1.5"/>'
+  editor: Alex Gil
+  writer: Bethany Nowviskie
+  
+- day: 37
+  name: Mo3jam | معجم
+  link: http://en.mo3jam.com/
+  point_html: '<circle onclick="window.open(&#39;/jekyll/update/2014/07/28/day37/&#39;, &#39;_self&#39;)" onmouseover="style.fill=&#39;white&#39;" onmouseout="style.fill=&#39;#A00000&#39;" style="cursor: pointer" fill="#C00000" stroke="#A00000" stroke-miterlimit="10" cx="124" cy="39" r="1.5"/>'
+  editor: David J. Wrisley
+  writer: David J. Wrisley
+  
+- day: 38
+  name: Yeniseisk Heritage
+  link: http://www.yeniseisk-heritage.ru/
+  point_html: '<circle onclick="window.open(&#39;/jekyll/update/2014/07/29/day38/&#39;, &#39;_self&#39;)" onmouseover="style.fill=&#39;white&#39;" onmouseout="style.fill=&#39;#A00000&#39;" style="cursor: pointer" fill="#C00000" stroke="#A00000" stroke-miterlimit="10" cx="140" cy="17" r="1.5"/>'
+  editor: Alex Gil
+  writer: Inna Kizhner
+  
+- day: 39
+  name: World War I in Africa
+  link: http://wwiafrica.tumblr.com/
+  point_html: '<circle onclick="window.open(&#39;/jekyll/update/2014/07/30/day39/&#39;, &#39;_self&#39;)" onmouseover="style.fill=&#39;white&#39;" onmouseout="style.fill=&#39;#A00000&#39;" style="cursor: pointer" fill="#C00000" stroke="#A00000" stroke-miterlimit="10" cx="100" cy="50" r="1.5"/>'
+  editor: Tassie Gniady
+  writer: Tassie Gniady
+  
+- day: 40
+  name: "About Face: Revisiting Jamaica's First Exhibition in Europe" 
+  link: http://dloc.com/exhibits/aboutface/
+  point_html: '<circle onclick="window.open(&#39;/jekyll/update/2014/07/31/day40/&#39;, &#39;_self&#39;)" onmouseover="style.fill=&#39;white&#39;" onmouseout="style.fill=&#39;#A00000&#39;" style="cursor: pointer" fill="#C00000" stroke="#A00000" stroke-miterlimit="10" cx="38" cy="44" r="1.5"/>'
+  editor: Miriam Pimentel
+  writer: Site info
+  
+- day: 41
+  name: "DH-JAC | 日本文化デジタル・ヒューマニティーズ拠点" 
+  link: http://www.dh-jac.net/
+  point_html: '<circle onclick="window.open(&#39;/jekyll/update/2014/08/01/day41/&#39;, &#39;_self&#39;)" onmouseover="style.fill=&#39;white&#39;" onmouseout="style.fill=&#39;#A00000&#39;" style="cursor: pointer" fill="#C00000" stroke="#A00000" stroke-miterlimit="10" cx="173" cy="33" r="1.5"/>'
+  editor: Alex Gil
+  writer: Molly Des Jardin
+  
+- day: 42
+  name: "Umang | امنگ" 
+  link: http://www.umangpoetry.org/
+  point_html: '<circle onclick="window.open(&#39;/jekyll/update/2014/08/02/day42/&#39;, &#39;_self&#39;)" onmouseover="style.fill=&#39;white&#39;" onmouseout="style.fill=&#39;#A00000&#39;" style="cursor: pointer" fill="#C00000" stroke="#A00000" stroke-miterlimit="10" cx="132" cy="39" r="1.5"/>'
+  editor: A. Sean Pue
+  writer: A. Sean Pue
+  
+- day: 43
+  name: "The British Library Qatar Foundation Partnership" 
+  link: http://www.bl.uk/qatar/
+  point_html: '<circle onclick="window.open(&#39;/jekyll/update/2014/08/03/day43/&#39;, &#39;_self&#39;)" onmouseover="style.fill=&#39;white&#39;" onmouseout="style.fill=&#39;#A00000&#39;" style="cursor: pointer" fill="#C00000" stroke="#A00000" stroke-miterlimit="10" cx="122" cy="39" r="1.5"/><circle onclick="window.open(&#39;/jekyll/update/2014/08/03/day43/&#39;, &#39;_self&#39;)" onmouseover="style.fill=&#39;white&#39;" onmouseout="style.fill=&#39;#A00000&#39;" style="cursor: pointer" fill="#C00000" stroke="#A00000" stroke-miterlimit="10" cx="88" cy="20" r="1.5"/>'
+  editor: David J. Wrisley
+  writer: David J. Wrisley
+  
+- day: 44
+  name: "Humanities Networked Infrastructure" 
+  link: http://huni.net.au/
+  point_html: '<circle onclick="window.open(&#39;/jekyll/update/2014/08/04/day44/&#39;, &#39;_self&#39;)" onmouseover="style.fill=&#39;white&#39;" onmouseout="style.fill=&#39;#A00000&#39;" style="cursor: pointer" fill="#C00000" stroke="#A00000" stroke-miterlimit="10" cx="179" cy="85" r="1.5"/>'
+  editor: Paul Arthur
+  writer: Paul Arthur
+  
+- day: 45
+  name: "CollateX" 
+  link: http://collatex.net/
+  point_html: '<circle onclick="window.open(&#39;/jekyll/update/2014/08/05/day45/&#39;, &#39;_self&#39;)" onmouseover="style.fill=&#39;white&#39;" onmouseout="style.fill=&#39;#A00000&#39;" style="cursor: pointer" fill="#C00000" stroke="#A00000" stroke-miterlimit="10" cx="92" cy="20" r="1.5"/>'
+  editor: Barbara Bordalejo
+  writer: Barbara Bordalejo
+  
+- day: 46
+  name: "Vectors" 
+  link: http://vectors.usc.edu/
+  point_html: '<circle onclick="window.open(&#39;/jekyll/update/2014/08/06/day46/&#39;, &#39;_self&#39;)" onmouseover="style.fill=&#39;white&#39;" onmouseout="style.fill=&#39;#A00000&#39;" style="cursor: pointer" fill="#C00000" stroke="#A00000" stroke-miterlimit="10" cx="15" cy="33" r="1.5"/>'
+  editor: Alex Gil
+  writer: Site Info
+  
+- day: 47
+  name: "Eesti vanema kirjanduse digitaalne tekstikogu" 
+  link: http://www.utlib.ee/ekollekt/eeva/
+  point_html: '<circle onclick="window.open(&#39;/jekyll/update/2014/08/07/day47/&#39;, &#39;_self&#39;)" onmouseover="style.fill=&#39;white&#39;" onmouseout="style.fill=&#39;#A00000&#39;" style="cursor: pointer" fill="#C00000" stroke="#A00000" stroke-miterlimit="10" cx="103" cy="15" r="1.5"/>'
+  editor: Glen Worthey
+  writer: Glen Worthey
+  
+- day: 48
+  name: "Bénincultures" 
+  link: https://www.benincultures.com/fr/accueil/
+  point_html: '<circle onclick="window.open(&#39;/jekyll/update/2014/08/08/day48/&#39;, &#39;_self&#39;)" onmouseover="style.fill=&#39;white&#39;" onmouseout="style.fill=&#39;#A00000&#39;" style="cursor: pointer" fill="#C00000" stroke="#A00000" stroke-miterlimit="10" cx="90.5" cy="52" r="1.5"/>'
+  editor: Tassie Gniady
+  writer: Tassie Gniady
+  
+- day: 49
+  name: "Memora" 
+  link: http://memora.pe/
+  point_html: '<circle onclick="window.open(&#39;/jekyll/update/2014/08/09/day49/&#39;, &#39;_self&#39;)" onmouseover="style.fill=&#39;white&#39;" onmouseout="style.fill=&#39;#A00000&#39;" style="cursor: pointer" fill="#C00000" stroke="#A00000" stroke-miterlimit="10" cx="38.5" cy="65.5" r="1.5"/>'
+  editor: Alex Gil
+  writer: Alex Gil
+  
+- day: 50
+  name: "The Palace Museum" 
+  link: http://www.dpm.org.cn/shtml/2/@/8797.html
+  point_html: '<circle onclick="window.open(&#39;/jekyll/update/2014/08/10/day50/&#39;, &#39;_self&#39;)" onmouseover="style.fill=&#39;white&#39;" onmouseout="style.fill=&#39;#A00000&#39;" style="cursor: pointer" fill="#C00000" stroke="#A00000" stroke-miterlimit="10" cx="159" cy="28" r="1.5"/>'
+  editor: Alexa Huang
+  writer: Alexa Huang
+  
+- day: 51
+  name: "The History of Ayutthaya" 
+  link: http://www.ayutthaya-history.com/
+  point_html: '<circle onclick="window.open(&#39;/jekyll/update/2014/08/11/day51/&#39;, &#39;_self&#39;)" onmouseover="style.fill=&#39;white&#39;" onmouseout="style.fill=&#39;#A00000&#39;" style="cursor: pointer" fill="#C00000" stroke="#A00000" stroke-miterlimit="10" cx="157" cy="47" r="1.5"/>'
+  editor: Roopika Risam
+  writer: Roopika Risam
+  
+- day: 52
+  name: "Alex Cinema" 
+  link: http://www.bibalex.org/alexcinema/index.html
+  point_html: '<circle onclick="window.open(&#39;/jekyll/update/2014/08/12/day52/&#39;, &#39;_self&#39;)" onmouseover="style.fill=&#39;white&#39;" onmouseout="style.fill=&#39;#A00000&#39;" style="cursor: pointer" fill="#C00000" stroke="#A00000" stroke-miterlimit="10" cx="108" cy="34" r="1.5"/>'
+  editor: Alex Gil
+  writer: Site info
+  
+- day: 53
+  name: "Rousseau Online" 
+  link: http://www.rousseauonline.ch/
+  point_html: '<circle onclick="window.open(&#39;/jekyll/update/2014/08/13/day53/&#39;, &#39;_self&#39;)" onmouseover="style.fill=&#39;white&#39;" onmouseout="style.fill=&#39;#A00000&#39;" style="cursor: pointer" fill="#C00000" stroke="#A00000" stroke-miterlimit="10" cx="95" cy="24" r="1.5"/>'
+  editor: Barbara Bordalejo
+  writer: Barbara Bordalejo
+  
+- day: 54
+  name: "The Shahnameh Project" 
+  link: http://www.nimrouz.ir/shahnameh/
+  point_html: '<circle onclick="window.open(&#39;/jekyll/update/2014/08/14/day54/&#39;, &#39;_self&#39;)" onmouseover="style.fill=&#39;white&#39;" onmouseout="style.fill=&#39;#A00000&#39;" style="cursor: pointer" fill="#C00000" stroke="#A00000" stroke-miterlimit="10" cx="123" cy="33.5" r="1.5"/>'
+  editor: Kasra Ghorbaninejad
+  writer: Kasra Ghorbaninejad
+  
+- day: 55
+  name: "AustLit" 
+  link: http://www.austlit.edu.au
+  point_html: '<circle onclick="window.open(&#39;/jekyll/update/2014/08/15/day55/&#39;, &#39;_self&#39;)" onmouseover="style.fill=&#39;white&#39;" onmouseout="style.fill=&#39;#A00000&#39;" style="cursor: pointer" fill="#C00000" stroke="#A00000" stroke-miterlimit="10" cx="186.5" cy="74" r="1.5"/>'
+  editor: Paul Arthur
+  writer: Paul Arthur
+  
+- day: 56
+  name: "Text Analysis with R for Students of Literature" 
+  link: http://www.matthewjockers.net/text-analysis-with-r-for-students-of-literature/
+  point_html: '<circle onclick="window.open(&#39;/jekyll/update/2014/08/16/day56/&#39;, &#39;_self&#39;)" onmouseover="style.fill=&#39;white&#39;" onmouseout="style.fill=&#39;#A00000&#39;" style="cursor: pointer" fill="#C00000" stroke="#A00000" stroke-miterlimit="10" cx="30" cy="26" r="1.5"/>'
+  editor: Alex Gil
+  writer: Alex Gil
+  
+- day: 57
+  name: "Voyages: The Trans-Atlantic Slave Trade Database" 
+  link: http://www.slavevoyages.org/tast/index.faces
+  point_html: '<circle onclick="window.open(&#39;/jekyll/update/2014/08/17/day57/&#39;, &#39;_self&#39;)" onmouseover="style.fill=&#39;white&#39;" onmouseout="style.fill=&#39;#A00000&#39;" style="cursor: pointer" fill="#C00000" stroke="#A00000" stroke-miterlimit="10" cx="64" cy="40" r="1.5"/>'
+  editor: Alex Gil
+  writer: Site Info
+  
+- day: 58
+  name: "Манускрипт | Manuscript" 
+  link: http://manuscripts.ru/
+  point_html: '<circle onclick="window.open(&#39;/jekyll/update/2014/08/18/day58/&#39;, &#39;_self&#39;)" onmouseover="style.fill=&#39;white&#39;" onmouseout="style.fill=&#39;#A00000&#39;" style="cursor: pointer" fill="#C00000" stroke="#A00000" stroke-miterlimit="10" cx="119" cy="15" r="1.5"/>'
+  editor: Glen Worthey
+  writer: Glen Worthey
+  
+- day: 59
+  name: "Hímaco" 
+  link: http://www.unifesp.br/himaco/#
+  point_html: '<circle onclick="window.open(&#39;/jekyll/update/2014/08/19/day59/&#39;, &#39;_self&#39;)" onmouseover="style.fill=&#39;white&#39;" onmouseout="style.fill=&#39;#A00000&#39;" style="cursor: pointer" fill="#C00000" stroke="#A00000" stroke-miterlimit="10" cx="59.5" cy="73" r="1.5"/>'
+  editor: Maria Clara Paixão de Sousa
+  writer: Maria Clara Paixão de Sousa
+  
+- day: 60
+  name: "Asian Shakespeare Intercultural Archive (A|S|I|A)" 
+  link: http://a-s-i-a-web.org/
+  point_html: '<circle onclick="window.open(&#39;/jekyll/update/2014/08/20/day60/&#39;, &#39;_self&#39;)" onmouseover="style.fill=&#39;white&#39;" onmouseout="style.fill=&#39;#A00000&#39;" style="cursor: pointer" fill="#C00000" stroke="#A00000" stroke-miterlimit="10" cx="157" cy="55" r="1.5"/>'
+  editor: Alex Gil
+  writer: Yong Li Lan
+  
+- day: 61
+  name: "Rekhta" 
+  link: http://rekhta.org/
+  point_html: '<circle onclick="window.open(&#39;/jekyll/update/2014/08/21/day61/&#39;, &#39;_self&#39;)" onmouseover="style.fill=&#39;white&#39;" onmouseout="style.fill=&#39;#A00000&#39;" style="cursor: pointer" fill="#C00000" stroke="#A00000" stroke-miterlimit="10" cx="140" cy="36" r="1.5"/>'
+  editor: Padmini Ray Murray
+  writer: Padmini Ray Murray
+  
+- day: 62
+  name: "Darwin Online" 
+  link: http://darwin-online.org.uk/
+  point_html: '<circle onclick="window.open(&#39;/jekyll/update/2014/08/22/day62/&#39;, &#39;_self&#39;)" onmouseover="style.fill=&#39;white&#39;" onmouseout="style.fill=&#39;#A00000&#39;" style="cursor: pointer" fill="#C00000" stroke="#A00000" stroke-miterlimit="10" cx="88.5" cy="19.5" r="1.5"/>'
+  editor: Alex Gil
+  writer: Barbara Bordalejo
+  
+- day: 63
+  name: "DigiHUBB" 
+  link: http://centre.ubbcluj.ro/digihubb/index.php
+  point_html: '<circle onclick="window.open(&#39;/jekyll/update/2014/08/23/day63/&#39;, &#39;_self&#39;)" onmouseover="style.fill=&#39;white&#39;" onmouseout="style.fill=&#39;#A00000&#39;" style="cursor: pointer" fill="#C00000" stroke="#A00000" stroke-miterlimit="10" cx="104" cy="23.5" r="1.5"/>'
+  editor: Alex Gil
+  writer: Corina Moldovan
+  
+- day: 64
+  name: "Ulwazi" 
+  link: http://www.ulwazi.org/
+  point_html: '<circle onclick="window.open(&#39;/jekyll/update/2014/08/24/day64/&#39;, &#39;_self&#39;)" onmouseover="style.fill=&#39;white&#39;" onmouseout="style.fill=&#39;#A00000&#39;" style="cursor: pointer" fill="#C00000" stroke="#A00000" stroke-miterlimit="10" cx="110" cy="76.5" r="1.5"/>'
+  editor: Tassie Gniady
+  writer: Tassie Gniady
+  
+- day: 65
+  name: "CEISMIC" 
+  link: http://www.ceismic.org.nz/
+  point_html: '<circle onclick="window.open(&#39;/jekyll/update/2014/08/25/day65/&#39;, &#39;_self&#39;)" onmouseover="style.fill=&#39;white&#39;" onmouseout="style.fill=&#39;#A00000&#39;" style="cursor: pointer" fill="#C00000" stroke="#A00000" stroke-miterlimit="10" cx="193.5" cy="88.5" r="1.5"/>'
+  editor: Paul Arthur
+  writer: Christopher Thomson
+  
+- day: 66
+  name: "Texas Slavery Project" 
+  link: http://www.texasslaveryproject.org/
+  point_html: '<circle onclick="window.open(&#39;/jekyll/update/2014/08/26/day66/&#39;, &#39;_self&#39;)" onmouseover="style.fill=&#39;white&#39;" onmouseout="style.fill=&#39;#A00000&#39;" style="cursor: pointer" fill="#C00000" stroke="#A00000" stroke-miterlimit="10" cx="29" cy="32" r="1.5"/>'
+  editor: Amy Earhart, Alex Gil and Jennifer Serventi
+  writer: Tassie Gniady
+  
+- day: 67
+  name: "Iraqi Jewish Archive" 
+  link: http://ija.archives.gov/
+  point_html: '<circle onclick="window.open(&#39;/jekyll/update/2014/08/27/day67/&#39;, &#39;_self&#39;)" onmouseover="style.fill=&#39;white&#39;" onmouseout="style.fill=&#39;#A00000&#39;" style="cursor: pointer" fill="#C00000" stroke="#A00000" stroke-miterlimit="10" cx="117" cy="33.5" r="1.5"/><circle onclick="window.open(&#39;/jekyll/update/2014/08/27/day67/&#39;, &#39;_self&#39;)" onmouseover="style.fill=&#39;white&#39;" onmouseout="style.fill=&#39;#A00000&#39;" style="cursor: pointer" fill="#C00000" stroke="#A00000" stroke-miterlimit="10" cx="40.5" cy="31" r="1.5"/>'
+  editor: Alex Gil and Michelle Chesner
+  writer: Site Info
+  
+- day: 68
+  name: "The Afrolatin@ Project" 
+  link: http://afrolatinoproject.org/
+  point_html: '<circle onclick="window.open(&#39;/jekyll/update/2014/08/28/day68/&#39;, &#39;_self&#39;)" onmouseover="style.fill=&#39;white&#39;" onmouseout="style.fill=&#39;#A00000&#39;" style="cursor: pointer" fill="#C00000" stroke="#A00000" stroke-miterlimit="10" cx="39" cy="64" r="1.5"/><circle onclick="window.open(&#39;/jekyll/update/2014/08/28/day68/&#39;, &#39;_self&#39;)" onmouseover="style.fill=&#39;white&#39;" onmouseout="style.fill=&#39;#A00000&#39;" style="cursor: pointer" fill="#C00000" stroke="#A00000" stroke-miterlimit="10" cx="44.5" cy="28.5" r="1.5"/><circle onclick="window.open(&#39;/jekyll/update/2014/08/28/day68/&#39;, &#39;_self&#39;)" onmouseover="style.fill=&#39;white&#39;" onmouseout="style.fill=&#39;#A00000&#39;" style="cursor: pointer" fill="#C00000" stroke="#A00000" stroke-miterlimit="10" cx="37" cy="50" r="1.5"/>'
+  editor: Alex Gil
+  writer: Alex Gil and Site Info
+  
+- day: 69
+  name: "National Palace Museum Virtual Museum" 
+  link: http://www.npm.gov.tw/vrmuseum_en/index.html
+  point_html: '<circle onclick="window.open(&#39;/jekyll/update/2014/08/29/day69/&#39;, &#39;_self&#39;)" onmouseover="style.fill=&#39;white&#39;" onmouseout="style.fill=&#39;#A00000&#39;" style="cursor: pointer" fill="#C00000" stroke="#A00000" stroke-miterlimit="10" cx="168.5" cy="40.5" r="1.5"/>'
+  editor: Alexa Huang
+  writer: Alexa Huang
+  
+- day: 70
+  name: "Kerala State Central Library Rare Books Online" 
+  link: http://statelibrary.kerala.gov.in/rarebooks/
+  point_html: '<circle onclick="window.open(&#39;/jekyll/update/2014/08/30/day70/&#39;, &#39;_self&#39;)" onmouseover="style.fill=&#39;white&#39;" onmouseout="style.fill=&#39;#A00000&#39;" style="cursor: pointer" fill="#C00000" stroke="#A00000" stroke-miterlimit="10" cx="139" cy="49" r="1.5"/>'
+  editor: Roopika Risam
+  writer: Roopika Risam
+  
+- day: 71
+  name: "Croatica et Tyrolensia" 
+  link: http://www.ffzg.unizg.hr/klafil/dokuwiki/doku.php/z:croatica-et-tyrolensia
+  point_html: '<circle onclick="window.open(&#39;/jekyll/update/2014/08/31/day71/&#39;, &#39;_self&#39;)" onmouseover="style.fill=&#39;white&#39;" onmouseout="style.fill=&#39;#A00000&#39;" style="cursor: pointer" fill="#C00000" stroke="#A00000" stroke-miterlimit="10" cx="99.5" cy="24.5" r="1.5"/>'
+  editor: Glen Worthey
+  writer: Glen Worthey
+  
+- day: 72
+  name: "Online Dictionary of Cook Islands Languages" 
+  link: http://cookislandsdictionary.com/
+  point_html: '<circle onclick="window.open(&#39;/jekyll/update/2014/09/01/day72/&#39;, &#39;_self&#39;)" onmouseover="style.fill=&#39;white&#39;" onmouseout="style.fill=&#39;#A00000&#39;" style="cursor: pointer" fill="#C00000" stroke="#A00000" stroke-miterlimit="10" cx="5" cy="70" r="1.5"/>'
+  editor: Rachel Hendery
+  writer: Rachel Hendery
+  
+- day: 73
+  name: "Post Scriptum" 
+  link: http://ps.clul.ul.pt/index.php
+  point_html: '<circle onclick="window.open(&#39;/jekyll/update/2014/09/02/day73/&#39;, &#39;_self&#39;)" onmouseover="style.fill=&#39;white&#39;" onmouseout="style.fill=&#39;#A00000&#39;" style="cursor: pointer" fill="#C00000" stroke="#A00000" stroke-miterlimit="10" cx="84.5" cy="28.5" r="1.5"/>'
+  editor: Maria Clara Paixão de Sousa
+  writer: Alex Gil (trans. site info)
+  
+- day: 74
+  name: "AfricaMap" 
+  link: https://worldmap.harvard.edu/africamap/
+  point_html: '<circle onclick="window.open(&#39;/jekyll/update/2014/09/03/day74/&#39;, &#39;_self&#39;)" onmouseover="style.fill=&#39;white&#39;" onmouseout="style.fill=&#39;#A00000&#39;" style="cursor: pointer" fill="#C00000" stroke="#A00000" stroke-miterlimit="10" cx="44.5" cy="27" r="1.5"/><circle onclick="window.open(&#39;/jekyll/update/2014/09/03/day74/&#39;, &#39;_self&#39;)" onmouseover="style.fill=&#39;white&#39;" onmouseout="style.fill=&#39;#A00000&#39;" style="cursor: pointer" fill="#C00000" stroke="#A00000" stroke-miterlimit="10" cx="44.5" cy="27" r="1.5"/>'
+  editor: Tassie Gniady
+  writer: Tassie Gniady
+  
+- day: 75
+  name: "Global Egyptian Museum" 
+  link: http://www.globalegyptianmuseum.org/
+  point_html: '<circle onclick="window.open(&#39;/jekyll/update/2014/09/04/day75/&#39;, &#39;_self&#39;)" onmouseover="style.fill=&#39;white&#39;" onmouseout="style.fill=&#39;#A00000&#39;" style="cursor: pointer" fill="#C00000" stroke="#A00000" stroke-miterlimit="10" cx="108" cy="38" r="1.5"/>'
+  editor: David Wrisley
+  writer: David Wrisley
+  
+- day: 76
+  name: "Digitális Irodalmi Akadémia | Digital Literary Academy" 
+  link: http://dia.pim.hu
+  point_html: '<circle onclick="window.open(&#39;/jekyll/update/2014/09/05/day76/&#39;, &#39;_self&#39;)" onmouseover="style.fill=&#39;white&#39;" onmouseout="style.fill=&#39;#A00000&#39;" style="cursor: pointer" fill="#C00000" stroke="#A00000" stroke-miterlimit="10" cx="101" cy="23" r="1.5"/>'
+  editor: Glen Worthey
+  writer: Glen Worthey
+  
+- day: 77
+  name: "The Digital Library of the Caribbean" 
+  link: http://dloc.com/
+  point_html: '<circle onclick="window.open(&#39;/jekyll/update/2014/09/06/day77/&#39;, &#39;_self&#39;)" onmouseover="style.fill=&#39;white&#39;" onmouseout="style.fill=&#39;#A00000&#39;" style="cursor: pointer" fill="#C00000" stroke="#A00000" stroke-miterlimit="10" cx="38" cy="38" r="1.5"/>'
+  editor: Alex Gil
+  writer: Alex Gil
+  
+- day: 78
+  name: "Indiancine.ma" 
+  link: http://indiancine.ma/
+  point_html: '<circle onclick="window.open(&#39;/jekyll/update/2014/09/07/day78/&#39;, &#39;_self&#39;)" onmouseover="style.fill=&#39;white&#39;" onmouseout="style.fill=&#39;#A00000&#39;" style="cursor: pointer" fill="#C00000" stroke="#A00000" stroke-miterlimit="10" cx="140" cy="42" r="1.5"/>'
+  editor: Padmini Ray Murray
+  writer: Padmini Ray Murray
+  
+- day: 79
+  name: "Archaeology and Landscape in the Altai Mountains of Mongolia" 
+  link: http://mongolianaltai.uoregon.edu/index.php
+  point_html: '<circle onclick="window.open(&#39;/jekyll/update/2014/09/08/day79/&#39;, &#39;_self&#39;)" onmouseover="style.fill=&#39;white&#39;" onmouseout="style.fill=&#39;#A00000&#39;" style="cursor: pointer" fill="#C00000" stroke="#A00000" stroke-miterlimit="10" cx="142" cy="24" r="1.5"/><circle onclick="window.open(&#39;/jekyll/update/2014/09/08/day79/&#39;, &#39;_self&#39;)" onmouseover="style.fill=&#39;white&#39;" onmouseout="style.fill=&#39;#A00000&#39;" style="cursor: pointer" fill="#C00000" stroke="#A00000" stroke-miterlimit="12" cx="17" cy="26.5" r="1.5"/>'
+  editor: Alex Gil
+  writer: Site Info
+  
+- day: 80
+  name: "You, wherever you may be." 
+  link: http://www.globaloutlookdh.org/join/
+  point_html: 
+  editor: Alex Gil
+  writer: Alex Gil
+  
+  
+  
+# remember to change the date and post on the link inside the <circle>

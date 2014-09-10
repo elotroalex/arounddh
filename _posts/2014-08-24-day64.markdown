@@ -1,0 +1,24 @@
+---
+layout: post
+title:  "Day 64: Ulwazi"
+date:   2014-08-24 04:00:00
+categories: jekyll update
+---
+
+<!-- Remember to change the date above -->
+
+Ulwazi formed in 2008 as a site for "collecting and sharing indigenous knowledge and local history and culture." A wiki is used by fieldworkers to update the site. These fieldworkers have been trained in uploading audio and visual media in addition to writing about cultural heritage, thereby enabling the site to function both as a repository and a place for developing technical literacy.
+
+Every page in the wiki has a published version and source version, which can only be accessed by users registered with the project. However, anyone familiar with wikipedia's backend will recognize the markup of the source and the tree structure of the entire site, as it resembles a catalogue of material in categorized in headings, subheadings, and so on. The three dominant forks of the site are "Environment," "Culture," and "Heritage." Articles are written in the fieldworkers' native languages, with English translations or summaries provided at the end of the article. 
+
+The  project is part of the  eThekwini Municipality’s Libraries and Heritage Department and aims to address the needs of the previously under-represented majority. 
+
+
+
+<!-- Remember to assign the day -->
+{% assign day=64 %}
+{% for project in site.data.projects limit:1 offset:day %}
+<p>Link: <a href="{{ project.link }}">{{ project.link }}</a></p>
+<p>Selected by: {{ project.editor }}</p>
+<p>Text by: {{ project.writer }}</p>
+{% endfor %}

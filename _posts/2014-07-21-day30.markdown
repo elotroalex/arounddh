@@ -1,0 +1,24 @@
+---
+layout: post
+title:  "Day 30: eZISS"
+date:   2014-07-21 04:00:00
+categories: jekyll update
+---
+
+<!-- Remember to change the date above -->
+
+The eZISS digital critical editions of Slovenian literature offer selected Slovenian texts with integrated facsimiles, transcriptions and scholarly commentary, in some cases including audiovisual recordings. 
+
+The eZISS project strives to create a synthesis of three components. The first one is the tradition of Slovenian literature, reaching from medieval manuscripts and folk songs to works of literary art. The second component is ecdotics – the tradition of philological study of texts and their presentations in critical editions. The third component is modern information technology. The junction of two traditions and modern technology, already beyond the level of experiment in the area of text processing, shapes clear standards and becomes an important medium of our literary past. Digital critical editions do not supersede classical printed editions, but offer several additions, and a way to a more varied reader's reception.
+
+The project Digital critical editions of Slovenian literature involves the [Institute of Slovenian Literature and Literary Studies ZRC SAZU](http://isllv.zrc-sazu.si/#v) (project leader Matija Ogrin) and the Dept. of Knowledge Technologies, [Jožef Stefan Institute](http://kt.ijs.si/) (project leader at JSI Tomaž Erjavec). The JSI is also involved in several other initiatives worthy of note, including the [NoSketch Engine](http://nl.ijs.si/noske/index-en.html).
+
+
+
+<!-- Remember to assign the day -->
+{% assign day=30 %}
+{% for project in site.data.projects limit:1 offset:day %}
+<p>Link: <a href="{{ project.link }}">{{ project.link }}</a></p>
+<p>Edited by: {{ project.editor }}</p>
+<p>Text by: {{ project.writer }}</p>
+{% endfor %}

@@ -1,0 +1,21 @@
+---
+layout: post
+title:  "Day 70: Kerala State Central Library Rare Books Online"
+date:   2014-08-30 04:00:00
+categories: jekyll update
+---
+
+<!-- Remember to change the date above -->
+
+In 2005, the Kerala State Central Library began the enormous task of digitizing their collection of rare texts. The digital archive opened in 2006 and has been available online since. The digitized collection includes colonial-era publications and colonial government documents; gazettes for Travancore, Travancore-Cochin, and Kerala dating to 1904; and a 444-year old book on Alexander the Great. In the first year alone, the library digitized over three million pages, comprising 644 books in English and 63 books in Malayalam. In 2010, a second phase added nearly two million more pages from 480 books written in English. Work is ongoing to make Kerala gazettes from 1954-on available online as well. 
+
+At the library itself, physical access to these documents is highly restricted, so the digital archive has opened up this tremendous resource to the public. The digital collection is searchable through contents and title, author, and accession number, while a click on the small keyboard icon to the right of the search bar produces a keyboard that allows users to search for documents in English, Malayalam, and Tamil. A milestone for India's digital cultural heritage, the release of the digital archive was greeted with great enthusiasm from the Indian media, with stories about the collection appearing in the country's major news outlets.
+
+
+<!-- Remember to assign the day -->
+{% assign day=70 %}
+{% for project in site.data.projects limit:1 offset:day %}
+<p>Link: <a href="{{ project.link }}">{{ project.link }}</a></p>
+<p>Selected by: {{ project.editor }}</p>
+<p>Text by: {{ project.writer }}</p>
+{% endfor %}

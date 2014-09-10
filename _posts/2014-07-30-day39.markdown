@@ -1,0 +1,22 @@
+---
+layout: post
+title:  "Day 39: World War I in Africa"
+date:   2014-07-30 04:00:00
+categories: jekyll update
+---
+
+<!-- Remember to change the date above -->
+
+Over the next four years, the world will mark the one hundredth anniversary of World I. Africa's role in the Great War is largely ignored despite the fact that tens of thousands of Africans died in the service of colonial powers. Africans underwent forced recruitment and were often forced to fight each other. Photographs, cartoons, maps, caricatures, and commentary will be used on this tumblr site to interrogate and change what many think of as "the" narrative surrounding World War I. Supplementing the [tumblr](http://wwiafrica.tumblr.com/) is an active [Facebook page](https://www.facebook.com/WWIAFRICA) and a [twitter account](https://twitter.com/wwiafrica) (that may also be used as a hashtag).
+
+This project grows out of the blog "[Africa is a Country](http://africasacountry.com/the-world-war-i-project/)," founded by New School professor [Sean Jacobs](http://www.newschool.edu/public-engagement/faculty-list/?id=87806). The blog is a collective of scholars, writers, artists, filmmakers, bloggers, and curators seeking to transcend national boundaries so "that Africa is indeed a 'country,' an imagined community whose 'citizens' must reinvent the narrative and visual economy of Africa. Active on [Facebook](https://www.facebook.com/Africasacountry/timeline) and [Twitter](https://twitter.com/AfricasaCountry).
+
+
+
+<!-- Remember to assign the day -->
+{% assign day=39 %}
+{% for project in site.data.projects limit:1 offset:day %}
+<p>Link: <a href="{{ project.link }}">{{ project.link }}</a></p>
+<p>Selected by: {{ project.editor }}</p>
+<p>Text by: {{ project.writer }}</p>
+{% endfor %}

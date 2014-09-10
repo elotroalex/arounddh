@@ -1,0 +1,27 @@
+---
+layout: post
+title:  "Day 44: Humanities Networked Infrastructure"
+date:   2014-08-04 04:00:00
+categories: jekyll update
+---
+
+<!-- Remember to change the date above -->
+
+
+The Humanities Networked Infrastructure (HuNI) project is a new research and discovery platform developed by and for humanities and creative arts scholars which will be officially launched in September 2014. It also encourages insights and input from the interested public. A [functional staging site](http://staging.huni.net.au/#/search) is currently available.
+
+HuNI combines data from many Australian cultural websites into the biggest humanities and creative arts database ever assembled in Australia. For two years, [Deakin University](http://www.deakin.edu.au/) and [13 partner public institutions](http://huni.net.au/partners/) have been working to pool their resources in order to improve opportunities for Australian research from a wide range of stakeholders. HuNI data covers all disciplines and brings together more than 2 million authoritative records about the people, works, events, organisations and places that make up Australia's rich cultural landscape. HuNI also enables researchers to work with and share this large-scale aggregation of cultural information.
+ 
+The HuNI Virtual Laboratory is designed to support the nonlinear and recursive research methods practiced in the humanities. HuNI provides discovery tools for casual users from the wider community, but more sophisticated functionality is available to researchers who register for an account in the virtual laboratory. Registered researchers have their own personal workspace within HuNI. Central to the design of the HuNI platform is the recognition that HuNI users will already be comfortable with existing tools and workflows. Consequently, researchers can authenticate themselves using social media logins and will also be able to share their discoveries and activities through their existing social media accounts. The HuNI VL enables researchers to create, save and publish selections of data; to analyse and manipulate the data; share findings and to export the data for reuse in external environments.
+ 
+In a major innovation, HuNI also enables researchers to assert relationships between records in the form of ‘socially linked’ data which are visualised as a dynamic network graph. This capability contributes to the building of a ‘vernacular’ network of associations between HuNI records that recognise that there are diverse perspectives on knowledge and amplify avenues for research discovery beyond keyword and phrase searches.
+
+
+
+<!-- Remember to assign the day -->
+{% assign day=44 %}
+{% for project in site.data.projects limit:1 offset:day %}
+<p>Link: <a href="{{ project.link }}">{{ project.link }}</a></p>
+<p>Selected by: {{ project.editor }}</p>
+<p>Text by: {{ project.writer }}</p>
+{% endfor %}

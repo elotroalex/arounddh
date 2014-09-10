@@ -1,0 +1,20 @@
+---
+layout: post
+title:  "Day 12: Virtual Library | Biblioteca Virtual"
+date:   2014-07-03 04:00:00
+categories: jekyll update
+---
+
+La Biblioteca Virtual, The Virtual Library, is a program of the [Luis Angel Arango Library](http://www.banrepcultural.org/blaa). Created in 1996, this digital library makes available materials, content and information, mostly about Colombia or Colombian authors to the world. The library contains materials in different formats, organized in thematic collections. In the site you can find books, images, sound and video files, interactive pages, online exhibitions, thematic projects, and educational materials. 
+
+The Virtual Library is part of the [Portal de la Actividad Cultural del Banco de la República](www.banrepcultural.org), where in addition to other national programs, you can find information on collections preserved by the Central Bank in the Arts, Numismatics, Philately and diverse collections of the Museo del Oro. In the pages of the Virtual Library you can also find links to exquisitely designed ["special" projects](http://www.banrepcultural.org/blaavirtual/especiales) associated with the library, such as [Alejandro de Humboldt: Viajes por Colombia](http://www.banrepcultural.org/blaavirtual/exhibiciones/humboldt/home.htm), a project on the travels of Alexander Humboldt through Colombia, and [Candelario Obeso: bogando en un río de letras](http://www.banrepcultural.org/blaavirtual/exhibiciones/candelario-obeso/), on the Colombian author.
+ 
+
+
+<!-- Remember to assign the day -->
+{% assign day=12 %}
+{% for project in site.data.projects limit:1 offset:day %}
+<p>Link: <a href="{{ project.link }}">{{ project.link }}</a></p>
+<p>Edited by: {{ project.editor }}</p>
+<p>Text by: {{ project.writer }}</p>
+{% endfor %}

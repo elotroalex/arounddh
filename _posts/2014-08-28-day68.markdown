@@ -1,0 +1,23 @@
+---
+layout: post
+title:  "Day 68: The Afrolatin@ Project"
+date:   2014-08-28 04:00:00
+categories: jekyll update
+---
+
+<!-- Remember to change the date above -->
+
+The Afrolatin@ Project aims to raise awareness about and promote the digital curation of the Afrolatin@/Afrodescendant experience, to ensure the preservation of their histories and cultures, and build support for the current struggles of Afrodescendant people in the Americas and the Caribbean by facilitating collaborations and programs that advance Afrolatin@ Studies and grass root activities. In order to accomplish its goals, the Afrolatin@ Project develops digital tools that strengthen research and support ongoing documentation and archiving of the Afrolatin@ histories and experiences in the Americas and the Caribbean, such as [Conversemos Afro](http://Afrolatinoproject.org/category/initiatives/conversemos-afro/) and its [Repository](http://Afrolatinoproject.org/repository/) of documents relating to the Afrolatin@ experience.
+
+The Afrolatin@ Project was originally founded by Dr. George Priestley at CUNY-Queens College through an initial grant from the Ford Foundation’s Higher Education and Scholarship portfolio in 2005. In 2007, the Afrolatin@ Project was awarded a second Ford Foundation grant through their HIV-AIDS Initiative. Following Dr. Priestley’s death in 2009, the Afrolatin@ Project was relaunched in 2012 as an entity independent of Queens College. Its focus has been using web-based and mobile technology to advance the work of ALP. Towards that end, in early 2012, ALP completed a pilot study to explore how mobile telephony can be used to facilitate development of digital citizenship for Afrodescendants and Afrodescendant social movements. Since Afrodescendant histories have often been excluded from official histories, ALP examined the possibilities of using digital tools to teach these histories. 
+
+This project is an example of the productive intersection of social justice work with historical and heritage work in a digital environment, combining both current news with an archive of the past to provide a sense of community. 
+
+
+<!-- Remember to assign the day -->
+{% assign day=68 %}
+{% for project in site.data.projects limit:1 offset:day %}
+<p>Link: <a href="{{ project.link }}">{{ project.link }}</a></p>
+<p>Selected by: {{ project.editor }}</p>
+<p>Text by: {{ project.writer }}</p>
+{% endfor %}

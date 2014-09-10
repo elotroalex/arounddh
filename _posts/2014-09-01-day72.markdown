@@ -1,0 +1,23 @@
+---
+layout: post
+title:  "Day 72: Online Dictionary of Cook Islands Languages"
+date:   2014-09-01 04:00:00
+categories: jekyll update
+---
+
+<!-- Remember to change the date above -->
+
+As English becomes the essential daily language in education, government, tourism and large workplaces across the Pacific, many smaller languages are in danger of disappearing. Resources to publish and disseminate traditional dictionaries or grammars of languages that are spoken only by a few hundred people are also limited.
+
+Interactive web-based dictionaries and repositories of language materials are fast becoming a solution to both of these problems, and the [Online Dictionary of Cook Islands Languages](http://cookislandsdictionary.com/) project provides a great example of this. So far the website is a portal to a database of words and phrases from the islands of Aitutaki, Atiu, Mangaia, Manihiki, Ma’uke, Mitiaro and Penrhyn. To begin with, researchers have digitised older print dictionaries, which are often very hard to come by. They are now also actively soliciting as-yet unpublished research data. Eventually the project aims to incorporate materials from all the Cook Island language varieties, including the less closely related language of Pukapuka, and the English-based creole, Palmerston English. The intention is to provide user-friendly access to proverbs, stories, and other cultural material as well as basic word lists.
+
+This project is officially supported by the Cook Islands Ministry of Education, the University of the South Pacific, The Auckland University of Technology, and Te Ipukarea, the National Maori Language Institute of New Zealand. The project is managed by Dr Rod Dixon at the University of the South Pacific.
+
+
+<!-- Remember to assign the day -->
+{% assign day=72 %}
+{% for project in site.data.projects limit:1 offset:day %}
+<p>Link: <a href="{{ project.link }}">{{ project.link }}</a></p>
+<p>Selected by: {{ project.editor }}</p>
+<p>Text by: {{ project.writer }}</p>
+{% endfor %}

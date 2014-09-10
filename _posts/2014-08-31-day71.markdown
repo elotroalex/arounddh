@@ -1,0 +1,23 @@
+---
+layout: post
+title:  "Day 71: Croatica et Tyrolensia"
+date:   2014-08-31 04:00:00
+categories: jekyll update
+---
+
+<!-- Remember to change the date above -->
+
+"[Croatica et Tyrolensia: A digital comparison of Croatian and Tyrolean neo-Latin literature](http://www.ffzg.unizg.hr/klafil/dokuwiki/doku.php/z:croatica-et-tyrolensia)"  is a fascinating comparative text-analytic effort of two distinct (yet historically and culturally similar) neo-Latin traditions, with three concrete outcomes: bibliographic (to create interoperable bibliographies of the Croation and Tyrolean Latin literatures; textual (to produce high-quality digital corpora of the two bodies of writing -- consisting of about 7,000 works each); and historical (to write a new history focused especially on the less-studied Croatian Latin tradition).
+
+"Croatica et Tyrolensia" includes some very thoughtful introductory material in Croatian, German, and English (reflecting its international audience and scope, with research partners in Innsbruck, Split, and Pula), as well as a rich set of combined scholarly and technical materials (in English and Latin) in its "[Observatorium et laboratorium](http://www.ffzg.unizg.hr/klafil/dokuwiki/doku.php/z:croatica-et-tyrolensia#observatorium-et-laboratorium)" section: not only rich [prosopographic](http://www.ffzg.unizg.hr/klafil/dokuwiki/doku.php/z:croat-tyrol-prosopography), [bibliographic](http://www.ffzg.unizg.hr/klafil/dokuwiki/doku.php/z:croat-tyrol-biblio-ana), and [genre](http://www.ffzg.unizg.hr/klafil/dokuwiki/doku.php/z:croat-tyrol-genera) analyses, but also useful and generous under-the-hood discussions of the project's [text encoding guidelines](http://www.ffzg.unizg.hr/klafil/dokuwiki/doku.php/z:croat-tyrol-text) (TEI-based, of course) and even some of the [XQuery scripts](http://www.ffzg.unizg.hr/klafil/dokuwiki/doku.php/z:croat-tyrol-xquery) it relies on.  Such an open and respectful combination of technology and scholarship is, for this reviewer, DH at its finest.
+
+"Croatica et Tyrolensia" makes specific and concrete use of the wonderful, and still-growing, [CroALa corpus](http://www.ffzg.unizg.hr/klafil/croala/), "a digital collection of texts by Croatian Latin authors, and by authors somehow connected with people and region of today's Croatia" ("[Qui et quid](http://www.ffzg.unizg.hr/klafil/dokuwiki/doku.php/z:croala-qui-quid#english)?").  Its current scope is described as part of the fully Latin website and search interface thus: "In collectione sunt verba 5,126,465, documenta 449, auctores (nostrates) 181, ab anno 976 usque ad annum 1984."  (Ever since Father Busa's most delicious DH pun -- "[Digitus Dei est hic!](http://www.digitalhumanities.org/companion/view?docId=blackwell/9781405103213/9781405103213.xml&chunk.id=ss1-1-2)" -- there's been a special place in my heart for DH done in Latin.)  CroALa boasts of an international consilium editorum led by Neven Jovanović of the University of Zagreb, who has made many [thoughtful](http://digilab2.let.uniroma1.it/teiconf2013/program/papers/abstracts-paper#C156) [contributions](http://jtei.revues.org/425) to DH discourse around the world.  These two related projects are fine examples of that thought in action.
+
+
+<!-- Remember to assign the day -->
+{% assign day=71 %}
+{% for project in site.data.projects limit:1 offset:day %}
+<p>Link: <a href="{{ project.link }}">{{ project.link }}</a></p>
+<p>Selected by: {{ project.editor }}</p>
+<p>Text by: {{ project.writer }}</p>
+{% endfor %}

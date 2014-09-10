@@ -1,0 +1,25 @@
+---
+layout: post
+title:  "Day 42: Umang | امنگ"
+date:   2014-08-02 04:00:00
+categories: jekyll update
+---
+
+<!-- Remember to change the date above -->
+
+
+Across the diverse languages of Pakistan and South Asia, poetry remains a vibrant and vital form for individual and social expression and resistance. Launched from Karachi in January 2014 and supported by volunteers, [Umang امنگ](http://umangpoetry.org) is an open forum to disseminate, explore, and discuss “poetic knowledge” across media and linguistic boundaries. A common Indic word, “Umang” means “new hope, desire, and joy.” Umang hosts poetic videos and documentaries (“poementaries”) featuring prominent contemporary poets of numerous languages. These include Pakistan’s national language of Urdu, the regional language of Sindhi, and Wakhi, which is spoken by a community of 58,000 in northern Pakistan and surrounding areas of China, Tajikistan, and Afghanistan. Umang's artistic and elegant videos capture the poets’ recitations alongside imagery, music, and sounds inspired by and complementing their poems. Umang also features blog posts addressing aspects of world literature, art, and critical discourse.
+
+A prominent feature of Umang is its commitment to translation, not only across media but also languages. It provides full text of poems in their original languages as well as English and Urdu translations. The videos include subtitles in the original languages, English, Urdu, and also a romanized version of the Urdu/Hindi text. All parts of the site are open to community commentary following a simple registration process. Umang’s attractive website can be navigated in English and in Urdu, as well as on mobile devices. 
+
+Umang actively seeks poetic videos and documentaries, art work, blog posts, and translations and supports a transnational and transregional community committed to the transformative powers of poetry.
+
+
+
+<!-- Remember to assign the day -->
+{% assign day=42 %}
+{% for project in site.data.projects limit:1 offset:day %}
+<p>Link: <a href="{{ project.link }}">{{ project.link }}</a></p>
+<p>Selected by: {{ project.editor }}</p>
+<p>Text by: {{ project.writer }}</p>
+{% endfor %}

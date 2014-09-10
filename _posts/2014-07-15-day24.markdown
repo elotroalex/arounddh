@@ -1,0 +1,22 @@
+---
+layout: post
+title:  "Day 24: Interactive Quixote | Quijote interactivo"
+date:   2014-07-15 04:00:00
+categories: jekyll update
+---
+
+The Quijote interactivo represents an innovative approach to the first editions of the first (1605) and second (1615) parts of this work, housed in the [Biblioteca Nacional de España](http://www.bne.es/es/Inicio/index.html). The project is heavily based on high quality digital images of the books specially captured for this editions. In many ways, it follows the codex model, pioneered by The British Library’s [Turning the Pages](http://www.bl.uk/onlinegallery/virtualbooks/), in which the user actively changes the pages of the book in order to continue reading.
+ 
+The images alone are astonishly beautiful and their resolution is high enough to allow many types of bibliographical research. The text has been transcribed to make it fully searchable and easier to read. Through its many features, the Quijote interactivo invites the user to explore not only the book and its text, but also its contexts, the history of its reception and the many works derived from it.
+
+With its many resources, this work allows the reader to immerse herself into the renaissance world by contextualizing the Quijote within the wider frame of chivalric literature, providing references to musical works of the time, presenting an interactive map to follow the different sections of the novel and by offering galeries of videos and images related to the text. More than 30 scholars and 5000 hours of work were dedicated to create this  higly sophisticated project and, although it is primarily intended for the general public, it also of use to bibliographers and other advanced scholars studying Cervantes’ work. 
+
+
+
+<!-- Remember to assign the day -->
+{% assign day=24 %}
+{% for project in site.data.projects limit:1 offset:day %}
+<p>Link: <a href="{{ project.link }}">{{ project.link }}</a></p>
+<p>Edited by: {{ project.editor }}</p>
+<p>Text by: {{ project.writer }}</p>
+{% endfor %}

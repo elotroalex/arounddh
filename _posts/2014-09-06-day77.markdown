@@ -1,0 +1,25 @@
+---
+layout: post
+title:  "Day 77: The Digital Library of the Caribbean (dLOC)"
+date:   2014-09-06 04:00:00
+categories: jekyll update
+---
+
+<!-- Remember to change the date above -->
+
+The Digital Library of the Caribbean (dLOC) is a cooperative digital library for resources from and about the Caribbean and circum-Caribbean. dLOC provides access to digitized versions of Caribbean cultural, historical and research materials currently held in archives, libraries, and private collections. dLOC's diverse partners serve an international community of scholars, students, and citizens by working together to preserve and to provide enhanced electronic access to cultural, historical, legal, governmental, and research materials in a common web space with a multilingual interface. The amount of open access content available through dLOC surpasses many commercial Caribbean collections and includes newspapers, official documents, ecological and economic data, maps, histories, travel accounts, literature, poetry, musical expressions, and artifacts. dLOC now provides access to 2,033,881 pages of content related to the Caribbean. dLOC registered a cumulative total of 39,831,281 hits from April 2006-March 2014. 
+
+dLOC runs many innovative programs, and research initiatives. Programs include a [digitization training program for international partners](http://dloc.com/training) and a [Caribbean Studies K-12 Educational Outreach](http://dloc.com/outre) program. Projects include the [Haiti: An Island Luminous](http://dloc.com/exhibits/islandluminous) and the [Protecting Haitian Patrimony Initiative](http://dloc.com/haitianlibhelp). In addition to its wonderful work in generating new research, dLOC has also begun to play a role in the preservation of Caribbean digital humanities. Such is the case of our feature on Day 40, [About Face](http://www.arounddh.org/jekyll/update/2014/07/31/day40/).
+
+
+ 
+ 
+
+
+<!-- Remember to assign the day -->
+{% assign day=77 %}
+{% for project in site.data.projects limit:1 offset:day %}
+<p>Link: <a href="{{ project.link }}">{{ project.link }}</a></p>
+<p>Selected by: {{ project.editor }}</p>
+<p>Text by: {{ project.writer }}</p>
+{% endfor %}

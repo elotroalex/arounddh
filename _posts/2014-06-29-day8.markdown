@@ -1,0 +1,20 @@
+---
+layout: post
+title:  "Day 8: Arab Image Foundation"
+date:   2014-06-29 04:00:00
+categories: jekyll update
+---
+
+Established in Beirut in 1997, the Foundation holds a collection of more than 600,000 photographs from the mid-19th century to the present day. The Foundation has produced fifteen exhibitions and eight publications in partnership with international museums, galleries and cultural institutions. The collection has also provided an invaluable resource for artists’ projects, curatorial initiatives and academic research.
+
+The contents of the AIF’s collection reflect both the general preservation mandate of the foundation and the specific research interests of its members. The artists, writers, filmmakers and historians affiliated with the AIF have, to date, initiated research projects in Lebanon, Syria, Palestine, Jordan, Egypt, Morocco, Iraq, Iran, Mexico, Argentina and Senegal. The result is a dynamic and at times idiosyncratic collection that does not merely illustrate the history of photography in the region but rather situates a wealth of different photographic practices in a complex field of social, economic, political and cultural factors.
+ 
+
+
+<!-- Remember to assign the day -->
+{% assign day=8 %}
+{% for project in site.data.projects limit:1 offset:day %}
+<p>Link: <a href="{{ project.link }}">{{ project.link }}</a></p>
+<p>Edited by: {{ project.editor }}</p>
+<p>Text by: {{ project.writer }}</p>
+{% endfor %}

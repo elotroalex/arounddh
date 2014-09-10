@@ -1,0 +1,17 @@
+---
+layout: post
+title:  "Day 20: Sefaria"
+date:   2014-07-11 04:00:00
+categories: jekyll update
+---
+
+The goal of the crowdsourced Sefaria Project is to make a "free living library" of all texts in the Jewish canon in their original languages (mostly Hebrew or Aramaic), with translations to English.  The project aims to include "Torah [i.e. the Hebrew Bible] in its broadest sense," including commentaries up to the modern era.  One major aspect of this project is its "interconnectedness."  One can easily click from a Biblical verse to a commentary citing the Talmud, and from the commentary to the Talmudic text in a matter of seconds.  A user is thus enabled to view all of the sources in their contexts with just a few clicks.  Nearly 800 people have logged into the site to add or edit the texts, which hopefully serves to increase levels of accuracy.  Users can also create "source sheets," showing all the citations for a particular lecture or study session, and almost 3500 source sheets have been created thus far.
+
+
+<!-- Remember to assign the day -->
+{% assign day=20 %}
+{% for project in site.data.projects limit:1 offset:day %}
+<p>Link: <a href="{{ project.link }}">{{ project.link }}</a></p>
+<p>Edited by: {{ project.editor }}</p>
+<p>Text by: {{ project.writer }}</p>
+{% endfor %}

@@ -1,0 +1,23 @@
+---
+layout: post
+title:  "Day 19: All of Tolstoy in One Click | Весь Толстой в один клик"
+date:   2014-07-10 04:00:00
+categories: jekyll update
+---
+
+This is an exemplary crowd-sourced collaboration between the L.N. Tolstoy Museum (in Moscow, Russia); the software company ABBYY (also in Moscow, but well-known to digital humanists and others around the world); and -- most importantly -- about 3,250 volunteer proofreaders (also around the world).  
+
+The purpose of the project is to create a digital version of the 90-volume Полное собрание сочинений Льва Николаевича Толстого (Complete Collected Works of Lev Nikolaevich Tolstoy, Moscow, 1935-1964), one of the great scholarly editing and print publication projects of mid-twentieth century Russian literary studies.  ABBYY provides each of the project volunteers with a free copy of its famous FineReader OCR program.  Volunteers then receive 20-page packets of uncorrected OCR text, which they correct using FineReader, and return to the project for further proofreading and inclusion in the final digital version.  This e-book edition is then offered for free download (in PDF, ePUB, FB2, and MOBI formats) at the project's [companion site](http://tolstoy.ru/).
+
+Non-Russophones can read press accounts of the project in many languages of the world, linked from the press page (click "[Пресса](http://project.readingtolstoy.ru/press)" in the navigation bar).  The volunteers maintain an active presence on social media, and have contributed moving testimonials about their work as citizen-editors of Tolstoy.
+
+It is both fitting and curious that this most protean and anarchic of world writers, who famously renounced copyright of all his prior work in 1900 and yet became an industry unto himself, should be the object of a collaboration such as this.  The state, commercial, and journalistic support of the project, great as they are, are dwarfed by the devotion and enthusiasm of its volunteers, and of course by the great writer's voluminous words themselves, now available for free to the world.
+
+
+<!-- Remember to assign the day -->
+{% assign day=19 %}
+{% for project in site.data.projects limit:1 offset:day %}
+<p>Link: <a href="{{ project.link }}">{{ project.link }}</a></p>
+<p>Edited by: {{ project.editor }}</p>
+<p>Text by: {{ project.writer }}</p>
+{% endfor %}

@@ -1,0 +1,26 @@
+---
+layout: post
+title:  "Day 35: Digital Harlem"
+date:   2014-07-26 04:00:00
+categories: jekyll update
+---
+
+<!-- Remember to change the date above -->
+
+Digital Harlem forms one part of a collaborative research project on everyday life in Harlem between 1915 and 1930 undertaken by four historians in the Department of History at the University of Sydney, in Australia: Shane White, Stephen Garton, Graham White and Stephen Robertson. The site was built by Damien Evans, Ian Johnson and Andrew Wilson of the Arts eResearch unit at the University of Sydney.
+
+Unlike most studies of Harlem in the early twentieth century, this project focuses not on black artists and the black middle class, but on the lives of ordinary residents. It does so primarily by using legal records, which encompass not only hardened criminals but also first offenders, ordinary residents acting out of desperation, poverty or anger, and which reveal all manner of things that would not ordinarily be labelled "criminal" street life, black language, music, family life—as well as evidence of the role of gambling, violence and confidence men in the black community.
+
+To date, the project has produced a book about numbers gambling, and articles on con men, night life and undercover investigators, family life, and sexuality and private spaces.
+
+
+
+
+
+<!-- Remember to assign the day -->
+{% assign day=35 %}
+{% for project in site.data.projects limit:1 offset:day %}
+<p>Link: <a href="{{ project.link }}">{{ project.link }}</a></p>
+<p>Edited by: {{ project.editor }}</p>
+<p>Text by: {{ project.writer }}</p>
+{% endfor %}
