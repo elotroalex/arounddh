@@ -30,7 +30,7 @@ Kasra Ghorbaninejad,
 Maria Clara Paixão de Sousa,
 Amy Earhart,
 Jennifer Serventi and 
-Rachel Hendery
+Rachel Hendery.
 
 *Texts by*:
 
@@ -59,5 +59,5 @@ Yong Li Lan,
 Padmini Ray Murray,
 Corina Moldovan,
 Christopher Thomson and
-Rachel Hendery
+Rachel Hendery.
 
